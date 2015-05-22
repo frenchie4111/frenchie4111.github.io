@@ -1,5 +1,5 @@
 ---
-title: Home Page
+title: Mike Lyons - Home Page
 layout: home
 ---
 
