@@ -6,18 +6,10 @@ layout: home
 <div id="image_area"></div>
 <div id="content_area">
     <div class="full_width">
-        <div class="column left two_thirds_width">
-            <h2>Posts</h2>
-            {% assign featured_posts = site.posts | where: "featured" , true %}
-            {% for featured_post in featured_posts %}
-                {% include post_description.html post=featured_post %}
-            {% endfor %}
-        </div>
-        <div class="column right one_third_width">
-            <h2>Post Catagories</h2>
-            <ul class="square_list">
-                {% include categories_li.html categories=site.tags %}
-            </ul>
-        </div>
+        <h2>Posts</h2>
+        {% assign featured_posts = site.posts | where: "featured" , true %}
+        {% for featured_post in featured_posts %}
+            {% include post_description.html post=featured_post %}
+        {% endfor %}
     </div>
 </div>
