@@ -1,8 +1,7 @@
 ---
+title: Work Experience
 layout: post
 ---
-
-## Work Experience
 
 *Mark One Lifestyle* - Software Developer - 2014 - Current - Responsibilities included:
 
