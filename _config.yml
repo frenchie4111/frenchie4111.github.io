@@ -1,2 +1,3 @@
 sass:
     sass_dir: _scss
+keep_files: [ 'resume.pdf' ]
