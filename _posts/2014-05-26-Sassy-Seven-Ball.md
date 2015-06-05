@@ -1,0 +1,19 @@
+---
+title: Sassy Seven iPhone App
+subject: App created for 2013 Apple iOS Challenge
+layout: post
+tags: Project, iPhone
+post_image: /images/sassysevenicon.png
+featured: true
+---
+
+I created the Sassy Seven ball iPhone application along with the Serpent Software team during the iOS Hackathon at RIT hosted by the SSE. Unfortunately the app did not win the competition but during the process I learned a lot about developing for iOS devices as well as the Objective C programming language. 
+
+The app is a spin off of the popular Magic Eight ball toy. When the user shakes the phone they are presented with a sassy response, voiced by a sassy man. The app uses the Core Motion API to detect if the phone is being shook, and sell as the current orientation of the phone. There is other effects that make the experience more pleasant for the user such as custom menu animations and a bubble that floats to the top of the eight ball.
+
+Some of my responsibilities while working on Sassy Seven were leading the project by setting deadlines in order to make sure we could get the app finished by the end of the week, programming a majority of the code and working with the design team to improve the app's user experience.
+
+<center>
+    <img src="/images/sassyseven1.png" width="150px" class="galleryimage" style="padding: 5px;">
+    <img src="/images/sassyseven2.png" width="150px" class="galleryimage" style="padding: 5px;">
+</center>
