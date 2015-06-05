@@ -121,3 +121,4 @@ crashlytics.properties
 crashlytics-build.properties
 
 *.tmp.*
+node_modules
