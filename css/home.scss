@@ -192,14 +192,14 @@ body
     margin: 0 10px 0 0;
 }
 
-.square_list
+.square_list, ul
 {
     color: black;
     list-style-type: square;
     padding: 0px 0px 0px 25px;
 }
 
-.square_list b
+.square_list b, ul b
 {
     font-weight: 400;
     text-decoration: none;
@@ -256,3 +256,11 @@ body {
 
 .colorchanger { color: black; }
 .color1 { color: #8D3131; border-color: black; }
+
+em {
+    font-weight: normal;
+}
+
+p {
+    margin-top: 20px;
+}
