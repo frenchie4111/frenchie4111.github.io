@@ -3,7 +3,7 @@
         {% if include.post.post_image %}
             <img src="{{ include.post.post_image }}" />
         {% endif %}
-        <b style="color:black;">{{ include.post.title }}</b>
+        <a href="{{ include.post.url }}"><b style="color:black;">{{ include.post.title }}</b></a>
         {{ include.post.subject }}
         <div class="clear"></div>
     </div>
