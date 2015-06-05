@@ -19,10 +19,9 @@ layout: home
         </div>
         <div class="column left one_third_width">
             <h2 class="colorchanger">Recent Posts</h2>
-            
-            {% assign featured_posts = site.posts %}
-            {% for featured_post in featured_posts %}
-                {% include post_description.html post=featured_post %}
+
+            {% for recent_post in site.posts | limit:5 %}
+                {% include post_description.html post=recent_post %}
             {% endfor %}
 
             <h3 class="more_info_link"><a style="font-size:16px" href="/posts.html">See More Posts</a></h3>
