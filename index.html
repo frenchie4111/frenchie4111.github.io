@@ -20,7 +20,7 @@ layout: home
         <div class="column left one_third_width">
             <h2 class="colorchanger">Recent Posts</h2>
             
-            {% assign featured_posts = site.posts | where: "featured" , true %}
+            {% assign featured_posts = site.posts %}
             {% for featured_post in featured_posts %}
                 {% include post_description.html post=featured_post %}
             {% endfor %}
