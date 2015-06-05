@@ -7,7 +7,56 @@ layout: home
 <div id="content_area">
     <div class="full_width">
 
-        Text
+        <div class="column left one_third_width">
+            <h2 class="colorchanger">Featured Posts</h2>
+
+            {% assign featured_posts = site.posts | where: "featured" , true %}
+            {% for featured_post in featured_posts %}
+                {% include post_description.html post=featured_post %}
+            {% endfor %}
+
+            <div class="clear"></div>
+        </div>
+        <div class="column left one_third_width">
+            <h2 class="colorchanger">Recent Posts</h2>
+            
+            {% assign featured_posts = site.posts | where: "featured" , true %}
+            {% for featured_post in featured_posts %}
+                {% include post_description.html post=featured_post %}
+            {% endfor %}
+
+            <h3 class="more_info_link"><a style="font-size:16px" href="/posts">See More Posts</a></h3>
+            <div class="clear"></div>
+        </div>
+        <div class="column right one_third_width">
+            <h2 class="colorchanger">About Me</h2>
+            <div class="column_post">
+                <b>My name is Mike Lyons</b>
+                , and I am a Software Engineering student at Rochester Institute of Technology. I am a dedicated and brilliant programmer who enjoys applying his programing knowledge to solve a variety of problems. I am currently looking for Co-ops or Internships as a software engineer.
+                <br/><br/>
+                <a style="color: black;" href="https://s3.amazonaws.com/mikelyons-blog/MikeLyonsResume.pdf">Click Here to view my Resume</a>
+            </div>
+            <div class="column_spacer"></div>
+            <h2 class="colorchanger">Work Experience</h2>
+            <div class="column_post">
+              <ul class="square_list">
+                <li><a href="http://www.apple.com/"><b>Apple</b> 2013-2014</a></li>
+                <li><a href="http://www.rit.edu/"><b>RIT</b> 2012-2013</a></li>
+                <li><a href="https://www.aertight.com/"><b>Aertight Systems</b> 2011-2012</a></li>
+                <li><a href="http://www.installnet.com/"><b>InstallNet</b> 2011</a></li>
+              </ul>
+              <h3 class="more_info_link"><a style="font-size:16px" href="/posts/work">More Information</a></h3>
+            </div>
+            <div class="column_spacer"></div>
+            <h2 class="colorchanger">Find Me Elsewhere</h2>
+            <div class="recent_post social_media">
+                <div><a href="mailto:mdl0394@gmail.com"><b><span class="social_media_link"><span class="icons2">M</span>Email:</span></b></a> The fastest way to contact me</div>
+                <div><a href="https://www.linkedin.com/profile/view?id=219693399"><b><span class="social_media_link"><span class="icons1">I</span>LinkedIn:</span></b></a> Professional listing page</div>
+                <div><a href="https://github.com/frenchie4111"><b><span class="social_media_link"><span class="icons2">Z</span>Github:</span></b></a> A majority of my projects</div>
+                <div><a href="https://www.facebook.com/michael.lyons4111"><b><span class="social_media_link"><span class="icons1">F</span>Facebook:</span></b></a> Personal everyday updates</div>
+            </div>
+            <div class="clear"></div>
+        </div>
 
     </div>
 </div>

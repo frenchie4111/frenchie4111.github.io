@@ -1,0 +1,8 @@
+{% if include.categories %}
+    {% for category in include.categories %}
+        {{ category }}
+    {% endfor %}
+{% else %}
+    None
+{% endif %}
+
