@@ -17,15 +17,20 @@ function changeColor() {
     // $("body").addClass("color1");
 }
 
-$(document).ready(function() {
+Turbolinks.enableProgressBar();
+
+var ready = function() {
     setupGallery();
     changeColor();
     $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
-});
+}
 
-$(document).on('page:change',  function() {
+$( document ).ready( ready );
+$( document ).on( 'page:load', ready );
+
+$( document ).on( 'page:change',  function() {
   $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
-});
-$(document).on('page:restore', function() {
+} );
+$( document ).on( 'page:restore', function() {
   $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
-});
+} );

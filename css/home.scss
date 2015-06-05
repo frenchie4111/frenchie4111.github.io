@@ -264,3 +264,8 @@ em {
 p {
     margin-top: 20px;
 }
+
+html.turbolinks-progress-bar::before {
+  background-color: black !important;
+  height: 3px !important;
+}
