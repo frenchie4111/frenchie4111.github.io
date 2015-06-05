@@ -1,0 +1,68 @@
+---
+title: One-to-Many Relationships in CouchDB
+subject: How to best create One-to-Many relationships in CouchDB
+tags: Web CouchDB
+layout: post
+---
+
+
+
+                
+
+Recently I have been playing around a lot with CouchDB, and one of the more challenging aspects of it is understanding the map/reduce functions on views.<br>
+<br>
+This is how I handle a  One-to-Many foreign key between different types of objects.<br>
+<br>
+The data is set up as follows:<br>
+<pre><code class="javascript">{
+    &quot;_id&quot;:1,
+    &quot;type&quot;:&quot;person&quot;,
+    &quot;name&quot;:&quot;mike&quot;
+    ...
+},
+{
+    &quot;_id&quot;:2,
+    &quot;type&quot;:&quot;pet&quot;,
+    &quot;name&quot;:&quot;barky&quot;,
+    &quot;owner&quot;:1
+    ...
+},
+{
+    &quot;_id&quot;:3,
+    &quot;type&quot;:&quot;pet&quot;,
+    &quot;name&quot;:&quot;chirpy&quot;,
+    &quot;owner&quot;:1
+    ...
+}
+</code></pre>
+And here is the map/reduce function that I use to retrieve a person and their pets:<br>
+Map:<br>
+<pre><code class="javascript">function( doc ) {
+    if( doc.type === &quot;person&quot; )
+        emit( [doc._id, 0], doc );
+    if( doc.type === &quot;pet&quot; )
+        emit( [owner, 1], doc );
+}
+</code></pre>
+Reduce:<br>
+<pre><code class="javascript">function( keys, values ) {
+    var person = { _id: null, pets: [] }
+    for( var value in values ) {
+        var cur = values[ value ];
+        if( cur.type === &quot;user&quot; ) {
+            person._id = cur._id;
+        }
+        if( cur.type === &quot;pet&quot; ) {
+            person.pets.push( cur );
+        }
+    }
+    return person;
+}
+</code></pre>
+<br>
+Now just make sure that you query your view with a group_level of 1, and it should return to you a user object with an array pets.<br>
+<br>
+<br>
+
+
+            

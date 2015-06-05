@@ -1,0 +1,39 @@
+---
+title: Html Code Blocks
+subject: HTML Code Blocks
+tags: Web
+layout: post
+---
+
+
+
+                
+
+In an attempt to make this site look prettier I have added HTML code blocks. The library that I am using to do this is called highlight_js-rails. It was easily added to my rails project by just adding gem &apos;highlight_js-rails&apos; to my Gemfile. Here is an example of it in action:<br>
+<br>
+<pre><code>#include <stdio.h>
+int main() {
+  printf(&quot;Hello World\n&quot;);
+}
+</stdio.h></code></pre><br>
+<br>
+This is my application.css:<br>
+<pre><code>/*
+*= require_self
+ *= require highlight_js/monokai
+*/
+</code></pre><br>
+<br>
+And my application.js:<br>
+<br>
+<pre><code>//= require jquery
+//= require jquery_ujs
+//= require turbolinks
+//= require highlight_js/highlight
+//= require highlight_js/languages/ruby
+//= require highlight_js/languages/cpp
+//= require highlight_js/languages/python
+//= require highlight_js/languages/javascript
+</code></pre><br><br>
+
+            

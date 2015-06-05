@@ -1,0 +1,40 @@
+---
+title: XmlParser for Android
+subject: Parser that creates an Composite XmlObject from a xml file
+post_image: /images/githublogo.jpg
+tags: Projects Android
+layout: post
+---
+
+
+
+                
+
+XmlParser is an XmlParser that utilizes XmlPullParser to read in a generic Xml stream and create a composite XmlObject. This object contains all of the data that was in the xml file. The intention of this library is to simplify any code that used to have to write a bunch of boiler plate code in order to interact with XmlPullParser. Below are some usage examples of XmlParser.<br>
+<br>
+Sample Xml File:<br>
+<pre><code>&lt;array&gt;
+    &lt;item&gt;First Item&lt;/item&gt;
+    &lt;anotheritem&gt;Second Item&lt;/anotheritem&gt;
+&lt;/array&gt;</code></pre>
+<br>
+Java code snippet:<br>
+<pre><code>InputStream is = getContext().getResources().openRawFile( R.raw.simple_xml )
+XmlParser parser = new XmlParser( is, null );
+try {
+    XmlObject obj = parser.getXmlObject();
+    Log.v( &quot;Xml Parser&quot;, &quot;Array with name: &quot; + child.getTagName() );
+    for( XmlObject child : obj.getChildren() ) {
+        Log.v( &quot;Xml Parser&quot;, &quot;Child Tag Name: &quot; + child.getTagName() +
+                                     &quot; Value: &quot; + child.getValue() );
+    }
+} catch ( XmlParserException e ) {
+    e.printStackTrace(); // Something went wrong.  Xml is formated incorrectly
+}</code></pre>
+<br>
+Expected logcat output:<br>
+<pre><code>Array with name: array
+Child Tag Name: item Value: First Item
+Child Tag Name: anotheritem Value: Second Item</code></pre><br><br>
+
+            

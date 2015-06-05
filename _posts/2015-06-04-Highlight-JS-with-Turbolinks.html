@@ -1,0 +1,26 @@
+---
+title: Highlight JS with Turbolinks
+subject: How to use highlight js with turbolinks gem
+tags: Web Rails
+layout: post
+---
+
+
+
+                
+
+The Turbolinks gem doesn&apos;t let you use the $(document).ready() calls that highlight_js requires to highlight your code. Instead include the following at the bottom of your application.js:<br>
+<br>
+<pre><code class="javascript">$(document).on(&apos;page:change&apos;,  function() {
+  $(&apos;pre code&apos;).each(function(i, e) {hljs.highlightBlock(e)});
+});
+$(document).on(&apos;page:restore&apos;, function() {
+  $(&apos;pre code&apos;).each(function(i, e) {hljs.highlightBlock(e)});
+});
+</code></pre>
+<br>
+This runs the text highlighting when the page is changed or restored using Turbolinks.<br>
+<br>
+Source: <a href="http://kingori.co/minutae/2014/02/highlightjs-on-turbolinks/">http://kingori.co/minutae/2014/02/highlightjs-on-turbolinks/</a>
+
+            
