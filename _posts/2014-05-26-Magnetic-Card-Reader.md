@@ -1,21 +1,13 @@
 ---
-title: Shake To Shuffle Android App
-subject: App created for 2013 Apple iOS Challenge
+title: Magnetic Card Reader
+subject: Turned my Arduino into a magnetic card reader
 layout: post
-tags: Projects Android
-post_image: /images/stsicon.png
+tags: Projects Arduino
 featured: true
 ---
 
-Shake to shuffle was created by myself and 2 other members of the Serpent Software team for our high school senior capstone project. During the process of creating the application I learned a lot about what it takes to produce a full piece of software under a very strict timeline. I also learned a lot about programming Java for the Android device, as well as mobile development in general.
-
-This app is a port of the well known functionality of iOS devices to Android. It allows the user to shake the phone in order to skip their music player to the next song.
-
-We faced many challenges while trying to create this app. Mainly the fact that every music player application has it's own way of skipping music, and because we wanted this to be a universal application we had to come up with a way that most music applications would accept. Our solution was, we found a way to imitate the hardware button on some commercial headphones that skip the song by sending a certain broadcast to the system. One major problem we ran into was keeping the app active while the phone was asleep, without wasting too much battery.
-
-My major responsibilities in the creation of this app was keeping the team on task because we had a very strict deadline, as well as documenting every twist and turn we encountered during the development of this app.
+This project was done using an Arduino Microcontroller hooked up to a magnetic stripe reader that I ripped out of an old hotel phone. When someone swipes a card in the reader it reads the stripe and outputs the results to the LCD screen.
 
 <center>
-    <img src="/images/sts1.png" width="150px" class="galleryimage" style="padding: 5px;">
-    <img src="/images/s2s2.png" width="150px" class="galleryimage" style="padding: 5px;">
+    <iframe width="480" height="360" src="http://www.youtube.com/embed/TZFEuNIuSyY" frameborder="0" allowfullscreen></iframe>
 </center>
