@@ -6,9 +6,9 @@ layout: home
 <div id="image_area"></div>
 <div id="content_area">
     <div class="full_width">
-        <h2>Posts</h2>
-        {% assign featured_posts = site.posts %}
-        {% for featured_post in featured_posts %}
+        <h2>Projects</h2>
+        {% assign project_posts = site.tags.projects %}
+        {% for featured_post in project_posts %}
             {% include post_description.html post=featured_post %}
         {% endfor %}
     </div>
