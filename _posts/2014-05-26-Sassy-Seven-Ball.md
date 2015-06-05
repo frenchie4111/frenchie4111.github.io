@@ -2,7 +2,7 @@
 title: Sassy Seven iPhone App
 subject: App created for 2013 Apple iOS Challenge
 layout: post
-tags: Project, iPhone
+tags: Project iPhone
 post_image: /images/sassysevenicon.png
 featured: true
 ---
