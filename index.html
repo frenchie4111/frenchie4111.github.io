@@ -20,7 +20,8 @@ layout: home
         <div class="column left one_third_width">
             <h2 class="colorchanger">Recent Posts</h2>
 
-            {% for recent_post in site.posts | limit:5 %}
+            {% assign recent_posts = site.posts | sort: 'date' %}
+            {% for recent_post in recent_posts | limit:5 %}
                 {% include post_description.html post=recent_post %}
             {% endfor %}
 
