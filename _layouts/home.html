@@ -1,6 +1,63 @@
-{% include header.html style="/css/home.css" javascript="/js/home.js" %}
-<body>
-    Before
-    {{ content }}
-    After
-</body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            @font-face
+            {
+                font-family: "iconsfont1";
+                src: url("https://s3.amazonaws.com/mikelyons-blog/Socialico.ttf") format(truetype);
+            };
+        </style>
+
+        <style type="text/css">
+            @font-face
+            {
+                font-family: "iconsfont2";
+                src: url("https://s3.amazonaws.com/mikelyons-blog/SocialicoPlus.ttf") format(truetype);
+            };
+
+        </style>
+
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.14.1/build/cssreset/cssreset-min.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+        {% include header.html style="/css/home.css" javascript="/js/home.js" %}
+
+        <title>Mike Lyons - Software Engineer</title>
+    </head>
+    <body>
+        <div class="overlay">
+            <img id="overlay_image" class="gallery_fullscreen" /><br/>
+            Click anywhere to close
+        </div>
+        <div id="header">
+            <div class="full_width">
+                <a href="/">
+                    <div id="name" class="hover colorchanger">
+                        Mike Lyons
+                    </div>
+                </a>
+                <div id="menu">
+                    <div class="left">
+                        <a class="hover colorchanger" href="/">Home</a>
+                        <a class="hover colorchanger" href="/posts/category/1">Projects</a>
+                        <a class="hover colorchanger" href="/posts/">Posts</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div id="image_area"></div>
+        <div id="content_area">
+            <div class="full_width">
+
+                {{ content }}
+
+            </div>
+        </div>
+    </body>
+</html>
