@@ -1,8 +1,5 @@
 {% if include.categories %}
-    {% for category in include.categories %}
-        {{ category }}
-    {% endfor %}
+    {{ include.categories | join: ", " }}
 {% else %}
     None
 {% endif %}
-
