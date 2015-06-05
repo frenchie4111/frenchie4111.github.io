@@ -7,9 +7,9 @@ layout: home
 <div id="content_area">
     <div class="full_width">
         <h2>Posts</h2>
-        {% assign featured_posts = site.posts %}
-        {% for featured_post in featured_posts %}
-            {% include post_description.html post=featured_post %}
+        {% assign all_posts = site.posts | order "date" %}
+        {% for all_post in all_posts %}
+            {% include post_description.html post=all_post %}
         {% endfor %}
     </div>
 </div>
