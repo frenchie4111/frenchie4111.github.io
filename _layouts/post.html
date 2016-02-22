@@ -1,10 +1,22 @@
 ---
 layout: home
 ---
-<div id="image_area"></div>
 <div id="content_area">
     <div class="full_width">
-        <h2>{{ page.title }}</h2>
-        {{ content }}
+        <div
+            class="two_thirds_width left">
+            <h2 id="post_title">{{ page.title }}</h2>
+            {{ content }}
+        </div>
+        <div
+            class="column one_third_width right">
+            <h2>
+                Recent Other Posts
+            </h2>
+            {% assign featured_posts = site.posts | where: "featured" , true %}
+            {% for featured_post in featured_posts %}
+                {% include post_description.html post=featured_post show_image=false %}
+            {% endfor %}
+        </div>
     </div>
 </div>
