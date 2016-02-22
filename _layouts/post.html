@@ -15,7 +15,7 @@ layout: home
             </h2>
             {% assign featured_posts = site.posts | where: "featured" , true %}
             {% for featured_post in featured_posts %}
-                {% include post_description.html post=featured_post show_image=false %}
+                {% include post_description.html post=featured_post hide_image=false %}
             {% endfor %}
         </div>
     </div>
