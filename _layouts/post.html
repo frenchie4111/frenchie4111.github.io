@@ -15,7 +15,7 @@ layout: home
             </h2>
             {% assign recent_posts = site.posts | sort: 'date' | reverse %}
             {% for recent_post in recent_posts | limit:5 %}
-                {% include post_description.html post=recent_post %}
+                {% include post_description.html post=recent_post hide_image=true %}
             {% endfor %}
         </div>
     </div>
