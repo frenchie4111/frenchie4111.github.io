@@ -1,0 +1,173 @@
+---
+title: Thoughts on web scraping
+subject: I hate writing web scrapers
+tags: Projects Web Scraping
+layout: post
+---
+
+I have been writing web scrapers for some time now. They are fairly simple things,
+but extremely tedious to write.<br/>
+<br/>
+This is a simple scraper that pulls the frontpage of hackernews.
+<br/>
+<pre><code class="javascript">var _ = require( 'underscore' ),
+    q = require( 'q' ),
+    cheerio = require( 'cheerio' );
+
+var get = function( url ) {
+    // ... returns promise that has response to GET url
+};
+
+q
+    .async( function *() {
+        var page_html = yield get( 'http://news.ycombinator.com' );
+        var $ = cheerio.load( page_html );
+
+        // Yes, their css class is actually "athing"
+        var results = $( '.athing' ).find( '.title>a' );
+
+        return _
+            .map( results, ( elm ) => {
+                return {
+                    text: $( elm ).text(),
+                    href: $( elm ).attr( 'href' )
+                };
+            } )
+    } )()
+    .then( ( results ) => {
+        console.log( results );
+        process.exit( 0 );
+    } )
+    .catch( ( err ) => {
+        console.error( err );
+        process.exit( 2 );
+    } );</code></pre>
+Output:<br/>
+<code><pre class="javascript">[ { text: 'Introducing React Storybook',
+    href: 'https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2' },
+  { text: 'How to Build Your Own Rogue GSM BTS for Fun and Profit',
+    href: 'https://www.evilsocket.net/2016/03/31/how-to-build-your-own-rogue-gsm-bts-for-fun-and-profit/' },
+// ... More posts
+]</code></pre>
+Full code can be found <a href="https://gist.github.com/frenchie4111/12f8a43afec264a1efd5f755e29aaeb6">here</a><br/>
+<br/>
+This code gets the job done, but it <b>sucks</b>:
+<ul>
+    <li><b>Code duplication</b> If you count the unqiue lines in that
+    snippet, only 3 of them are actually specific to the page that I am scraping.
+    The two querystrings, and the two $( elm ) calls. That means that the other 17
+    lines of code could have been abstracted into a reusable function.</li>
+    <li><b>Unscalable</b> This code runs fine if it's just the first page we
+    want. But the code starts getting complicated and unweildly the moment you
+    start trying to page through HN, pull the comments from each individual page,
+    or visit the linked pages and pull body content.</li>
+    <li><b>Single Threaded</b> No, I don't mean NodeJS is single threaded. I mean
+    we are only downloading and processing one result at at time. When our small
+    scraping project turns from 1 small page, to thousands of pages accross an
+    entire website, it would be nice for our script to be easily horizontally
+    scalable, such that we can add more processes, and increase our speed.
+    <li><b>No robots.txt support</b> This one pretty much goes without explaining.
+    Sites don't like it when your web scraper doesn't follow their rules. That
+    is a quick way to get IP banned.</li>
+</ul>
+<br/>
+I love writing a list of complaints like this, because it is directly translatable
+into a list of requirements. And <b>all successful projects start from a list of product
+requirements.</b><br/>
+<br/>
+<b>Requirements:</b></br>
+<ul>
+    <li><b>Consise code</b> Writing a web scraper/crawlers should only require
+    you to write lines of code that couple directly to the site you are scraping</li>
+    <li><b>Scalable</b> The scraper should be as easy to use for a single page,
+    as it is for a site containing many pages of varying types.</li>
+    <li><b>Multi threaded</b> The scaper should allow you to "throw more
+    PCs at the problem". Workers should get their jobs from a queue (local or remote)
+    and perform their tasks independent of eachother</li>
+    <li><b>Automatic robots.txt support</b> The developer shouldn't even have to
+    know what a robots.txt file is, to write a compliant web crawler</li>
+</ul>
+<br/>
+<b>Proposition:</b><br/>
+A scraper/crawler that runs on definition files.<br/>
+<br/>
+A definition file for Hacker News would look something like this: <br/>
+<code><pre>page:post_listing
+    dom:.athing
+        dom:.title>a
+            eval:this.text();
+                result:posts.title
+            eval:this.attr( 'href' )
+                result:posts.href
+</code></pre>
+<br/>
+The results of this config file would look exactly like the ones for our code
+snippet above. This may look more complicated now, but let me show you how easy
+it is for us to follow the "More" link on the page, to get every post on hackernews.<br/>
+<br/>
+<pre><code>page:post_listing
+    dom:.athing
+        dom:.title>a
+            eval:this.text();
+                result:posts.title
+            eval:this.attr( 'href' )
+                result:posts.href
+    dom:a[text=More]
+        eval:this.attr( 'href' )
+            page:post_listing
+</code></pre>
+<br/>
+This would tell the scraper, that any links who's text match "More" should be
+added to the post_listing queue, and processed the way defined in the post_listing
+definition. If your still not convinced, it's super easy for us to pull the
+comments of every post too.<br/>
+<br/>
+<pre><code>page:post_listing
+    dom:.athing
+        dom:.title>a
+            eval:this.text();
+                result:posts.title
+            eval:this.attr( 'href' )
+                result:posts.href
+                result:comments.post_href
+        dom:.subtext>a:last-child
+            eval:this.attr( 'href' )
+                page: comments_page
+    dom:a[text=More]
+        eval:this.attr( 'href' )
+            page:post_listing
+page:comments_page
+    dom:.athing
+        dom:.comhead a:first-child
+            eval:this.text()
+                result:comments.username
+        dom:.comment .c00
+            eval:this.text()
+                result:comments.body
+</code></pre>
+<br/>
+Since there is now two types of data (posts, comments) it would output it's results
+into two separate files/locations. It would follow a standard relational format,
+where comments reference posts using the comments.post_href -> posts.href foreign
+key.
+<br/>
+If the results were output to CSV, they would look something like:
+<br/>
+<br/>
+<b>posts.csv</b>
+<pre><code class="csv">title,href
+Introducing React Storybook,https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2
+How to Build Your Own Rogue GSM BTS for Fun and Profit,https://www.evilsocket.net/2016/03/31/how-to-build-your-own-rogue-gsm-bts-for-fun-and-profit/
+// ... the rest of the posts
+</code></pre>
+<b>comments.csv</b>
+<pre><code class="csv">post_href,username,body
+https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2,exampleuser,This is so cool!
+// ... the rest of the comments on all of the posts
+</code></pre>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
