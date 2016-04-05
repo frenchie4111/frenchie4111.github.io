@@ -1,6 +1,6 @@
 ---
-title: Thoughts on web scraping
-subject: I hate writing web scrapers
+title: I hate writing web scrapers
+subject: Proposition for a better way to scrape`
 tags: Projects Web Scraping
 layout: post
 ---
@@ -56,7 +56,7 @@ This code gets the job done, but it <b>sucks</b>:
     <li><b>Code duplication</b> If you count the unqiue lines in that
     snippet, only 3 of them are actually specific to the page that I am scraping.
     The two querystrings, and the two $( elm ) calls. That means that the other 17
-    lines of code could have been abstracted into a reusable function.</li>
+    lines of code should have been abstracted, and reusable.</li>
     <li><b>Unscalable</b> This code runs fine if it's just the first page we
     want. But the code starts getting complicated and unweildly the moment you
     start trying to page through HN, pull the comments from each individual page,
@@ -149,7 +149,9 @@ page:comments_page
 Since there is now two types of data (posts, comments) it would output it's results
 into two separate files/locations. It would follow a standard relational format,
 where comments reference posts using the comments.post_href -> posts.href foreign
-key.
+key.<br/>
+This shows how the scraper can easily be used for single sites, or large websites
+with many types of pages.<br/>
 <br/>
 If the results were output to CSV, they would look something like:
 <br/>
@@ -165,6 +167,17 @@ How to Build Your Own Rogue GSM BTS for Fun and Profit,https://www.evilsocket.ne
 https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2,exampleuser,This is so cool!
 // ... the rest of the comments on all of the posts
 </code></pre>
+<br/>
+Given the correct adapter this data could easily also be output to a relational
+database, or any datastore.<br/>
+<br/>
+This syntax is interpretted and ran by the scraper. Internally the scraper keeps
+a queue of pages it has yet to visit. Each page is worked on by a worker, and
+the results are output to a results tree. This results tree is processed and
+individual data entries are streamed out.<br/>
+<br/>
+Because each of these workers are separate, individual processes, it is possible
+to run them in parallel, making the scraper easily horizontally scalable.<br/>
 <br/>
 <br/>
 <br/>
