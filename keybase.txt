@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/mlyons
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mikelyons.org
+  * I am mlyons (https://keybase.io/mlyons) on keybase.
+  * I have a public key with fingerprint 4848 FDD8 FD10 F021 8200  199E 6772 A937 763E E02A
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101220361603b9a352262829f05d87841830b5fc4425a049551257fb8779c5863c10a",
+      "fingerprint": "4848fdd8fd10f0218200199e6772a937763ee02a",
+      "host": "keybase.io",
+      "key_id": "6772a937763ee02a",
+      "kid": "01018202238c1122fe527f70180b314636b805d90a603223d0036e089bf79e7f99f30a",
+      "uid": "3165cac417d437728c0dcc3044a01219",
+      "username": "mlyons"
+    },
+    "merkle_root": {
+      "ctime": 1526400790,
+      "hash_meta": "8f3ccead3c02fe1dda06dee64d81864d2ad8b373a0d443bbc8082491a53717ec",
+      "seqno": 2741056
+    },
+    "revoke": {
+      "sig_ids": [
+        "ae04d38129c955142d74b5030296e0cb85c91f7e602de48cca2df8d5f5943d270f"
+      ]
+    },
+    "service": {
+      "hostname": "mikelyons.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1526400793,
+  "expire_in": 157680000,
+  "prev": "38c463206a6324fada21696ec52e1d30f7eaca5707f3904f533f425cd1621f28",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMP/AnicbVMJbBVVFP1llfrZRQGB6gQRmoJvm3lvWlurZa0xtorGQutnlje/Q9s/
+Zf5vSxd2KJRA0bJUqlhkEVkEVBaLlbIKCg0xEBBsKRhiK6ACxkSsQd80EhLjJDOT
+eXPuueec+96xnp190VFBdystTLoSG3XqSEGBb0p790Glku6YxVJ8qZTDO1481+Th
+SCDHNqV4CUAAEQJYgQrAuqphGSEFMaRaQDYZZQQyDHTZMghBsgaIKssQydTSGaWq
+ITMFGxBoUpxk2aEgd/NdOxQRtIQRZpmmuCGwAIIMAQBVlSuUIk3FlCqYc4C8wmwn
+7FUIcboW5mNsR6yJj0CHvP/BP9AtSBHCzIDCgcVlRC0qFoGOIVGwojPhQAWa8CVQ
+JhAeOWCqblGVU0tVLdyhu6CDDkNFNjSDQGoS0Q0xA5iGgQEhmsgHqh4wzN2QlscF
+Oi+32AmFpVlxUh53c3J5wHWciBetEbE9AJSRQgCgKhD2tHB2II9HNFHHLGwYXDOx
+AYRgaJoaUEzOFWIyyMQTaSbTMcUaMAnBum4wwBBRoSZjCik3hIownxFypHhECQSy
+IhS4vNDJ4V7zsB0UoYWl+KmSxgExMYNINbyBEWRSossAA6SKEAydyYYKLcoVgExO
+mGFoyLSYKVuySrCJKLCkrFleM7fQNjrIvSndd2/n8I4AxjhuUEjKd52IYzi54ld2
+JJIfjveCiRTne9girgf+ZQnodsgUm0RUFHI3bDshEZRA/jczHCfxmfm2ywO2h5Cp
+woC4vD680BsVM8R4EVA08SSWZmoIKsKWISMRKQbClmZoMgXUwiogloyxJfauYUIF
+QQuxByFCInRqQcEpogtpkQKXS7OOHM7s4ouK9nXr2sk7Pb7oHn3un6ms/n188+aN
+iJ24YmPS/IGNj+/xp/pik7Z0eeLi3Lbqey+d6H1gnbJOPXatZhnfnJEdd+XVxO71
+67udLOm5ZNrY/c0jk5f5q4bHnqh49Ebbved2VJRM+PBiemld8c5tQ62pQ9v3Zr7b
+8scjyY1VWa07+j09LOO40u8pUkYCBaklfQc2Z3yc4C+w/T0Phi4eLiu/9+fy5fxn
+9Kx9psd5u2/dipRf396XHnOwJmbx6CEtp9PSa6aVrziSbM/WTWdU7C668uul1Z/W
+Xvpxfkpr5cQDXUfuHLTx/S230uOGtO9Fk79vXp6y8lCP471DQx5KLmm4dOPu3fpT
+Z4rH7nc2JX4+bFXVonNvWJ2CF3J7j/j2etruhQynVI75YnYff+3L6eueGVy6ufqx
+D355+EmQORg2tg2/uqquZfrOhjb/Jwk1E44mf9fUq37SgMtHR15ZsFC6nYlrW16c
+svrL5L+2Xqvo/MOeos9SB75zLdL0DU84ub7s+vi/J1l9I+MPJVlpfOOd8qrnb87Y
+ffN8/dXJN8a1brpwiZaMe+ujVXduVR4PZiw7kzVnUKUdfzahNhQ14vfZOyrS9r0X
+vUivGzC9+cQrv6Gmlp9Wx7Q2Xz4wc0NRqDHxhazbb849Nuz1tqL15xvaRi1p6gW2
+V89Ze3rLrkOJteVLs7Zv+Gpx2d1NC/a+1i81Y+xVaXT72paDJxvyGs6tWUr7T487
+W+pvnbZk1xp71La8fwATkfsM
+=j+xD
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mlyons
+
+==================================================================
