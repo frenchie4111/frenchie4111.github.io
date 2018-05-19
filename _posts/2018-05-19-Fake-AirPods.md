@@ -8,7 +8,7 @@ layout: post_plain
 ![AirPods Side by Side Comparison](/images/airpods/side_by_side.jpg)
 
 I recently bought AirPods on [Walmart.com](Walmart.com). I would normally only ever
-shop on Amazon, but Amazon famously doesn't sell Apple products, so I had to look elsewhere.
+shop on Amazon, but Amazon famously doesn't sell Apple products so I had to look elsewhere.
 An independent reseller on Walmart (Xgears) was selling them for a (in hindsight, suspiciously)
 much lower price than retail ($135 at the time, down from $160). So I thought I would give
 Walmart a try.
@@ -19,7 +19,7 @@ of effort went into making the fake "AirPods" passable physical recreations, but
 them with my phone so I can't tell you how they compare on the audio side.
 
 Although Walmart.com is trying to sell itself as the new Amazon, it still has a long
-way to come, and a lot of lessons to learn before posing any threat Amazon.
+way to come, and a lot of lessons to learn before posing any threat.
 <br/>
 <br/>
 Related links:
