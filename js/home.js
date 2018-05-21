@@ -5,7 +5,6 @@
 hljs.configure( { tabReplace: '    ' } );
 
 function runHighlight() {
-    console.log( hljs );
     $( 'pre code' ).each( function( i, e ) { hljs.highlightBlock( e ) } );
 }
 
