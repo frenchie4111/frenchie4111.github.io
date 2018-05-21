@@ -17,7 +17,7 @@ More information available here [https://contest.openai.com/](https://contest.op
 
 #### Why This?
 
-Sonic is a very visually intense game, with a parallax background, several animated 
+Sonic is a very visually complex game with a parallax background, several animated 
 foreground elements, animated enemies, and a ton of different worlds with different 
 textures. This much noise makes it hard for an agent to gain a good understanding 
 about the underlying game mechanics. In order to increase the signal I wanted to 
@@ -35,7 +35,7 @@ is solid.
 Sonic levels are built as a series of square chunks strung together to create the 
 foreground. These chunks are place on top of a background image. Each chunk has 
 an associated collision map that determines whether or not Sonic can pass through 
-the pixel. The collision map will be our models target.
+the pixel. The collision map will be our model's output target.
 
 The network structure allows for any image size, so it's up to us what size we 
 train with. I chose 256x256 as it allows the image to contain 2-3 chunks, and 
@@ -56,7 +56,7 @@ This is an image translation problem, so a u-net will do nicely.
 The basic structure of the network starts with several **down** convolutional layers, 
 that reduce the image size while adding depth. These are followed by several **up** 
 layers, up sampling the previous layer applying convolutions, and concatenating 
-the output with the **down** convolutional output of the same size. Optionally 
+the output with the **down** convolutional output of the same size. Optionally, 
 **straight** convolutional layers can be added between image resizes for more model 
 depth.
 
@@ -162,7 +162,7 @@ middle row correct, last row predicted)
 ![Results](/images/openai_retro/results.png)
 
 As you can see, it still has a bit of a problem with background noise in some
-places, but the output is definitelly a cleaner signal of where it's safe to 
+places, but the output is certainly a cleaner indication of where it's safe to 
 stand.
 
 #### Next Steps
@@ -170,4 +170,6 @@ stand.
 Now that I have a cleaner input, I need to try feeding that information to my
 DQN, and see if it helps the RL agent.
 
-Next post: Feeding the detected collision map to a DQN (Blog post coming 5/20/2018)
+Next post: Feeding the detected collision map to a DQN (Blog post coming 5/28/2018)
+
+_Special thanks to  ◱ PixelyIon for proof reading and other inspiration_ 

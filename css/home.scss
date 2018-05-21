@@ -280,7 +280,8 @@ body {
 .color1 { color: #8D3131; border-color: black; }
 
 em {
-    font-weight: normal;
+    font-weight: inherit;
+    font-style: italic;
 }
 
 p {
