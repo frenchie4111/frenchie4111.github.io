@@ -13,6 +13,10 @@ body
     font-weight: 300;
 }
 
+code {
+    font-family: 'Roboto Mono', monospace;
+}
+
 .full_width
 {
     margin: 0px auto;
@@ -239,7 +243,7 @@ a:link, a:visited {
 h4 {
     font-size: 20px;
     padding: 0 0 2px 0;
-    margin: 0 0 15px 0;
+    margin: 25px 0 15px 0;
     text-align: center;
 }
 
@@ -286,4 +290,34 @@ p {
 html.turbolinks-progress-bar::before {
   background-color: black !important;
   height: 3px !important;
+}
+
+.post {
+    margin-bottom: 100px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.expand_facet {
+    cursor: pointer;
+    padding: 5px;
+    background-color: #ccc;
+}
+
+.expand_block {
+    display: none;
+}
+
+.expand {
+    display: block;
 }
