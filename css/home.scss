@@ -4,6 +4,10 @@
 
 @import "_main";
 
+a:link, a:visited {
+    color: blue;
+}
+
 body
 {
     font-family: 'Lato', sans-serif;
@@ -11,6 +15,10 @@ body
     min-height: 100%;
     color: black;
     font-weight: 300;
+}
+
+pre {
+    margin-top: 20px;
 }
 
 code {
@@ -86,7 +94,7 @@ code {
 .hover:link, .hover:visited
 {
     text-decoration: none;
-    // color: black;
+    color: black;
 }
 
 .hover:hover
@@ -149,6 +157,7 @@ h2#post_title {
     font-size: 15px;
     margin: 0 0 5px 5px;
     text-decoration: none;
+    color: black;
 }
 
 .more_info_link
