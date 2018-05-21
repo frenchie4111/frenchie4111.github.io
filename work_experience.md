@@ -12,6 +12,12 @@ First software engineer at Dor, a company dedicated to helping retail succeed th
  - A React frontend that displays analytics to business owners, empowering them to make data driven business decisions
  - A low power computer vision algorithm that runs on battery powered IoT devices to track customer foot traffic
 
+*CareerLabs* – Lead Software Engineer / Cofounder – 2015 - 2016
+
+
+ - Lead CareerLabs’ team of software engineers to build a scalable and future-proof job search platform
+ - Launched [https://careerlabs.com](https://careerlabs.com) in October 2015
+
 
 *Mark One Lifestyle* - Software Developer - 2014 - 2015
 
