@@ -1,6 +1,6 @@
 ---
 title: OpenAI Retro - Collision Maps
-subject: Detecting collision maps from sonic using a UNet model
+subject: Detecting collision maps from sonic frames using a U-Net
 post_image: /images/openai_retro/icon.png
 tags: Projects AI/ML
 layout: post_plain
