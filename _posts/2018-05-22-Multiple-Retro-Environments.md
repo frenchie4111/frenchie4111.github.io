@@ -1,6 +1,6 @@
 ---
 title: Running Multiple Retro Environments
-subject: Using retrowrapper to easily run more than one env in a processpng
+subject: Using retrowrapper to easily run environments as subprocesses
 tags: [ AI/ML, Retro ]
 layout: post
 ---
