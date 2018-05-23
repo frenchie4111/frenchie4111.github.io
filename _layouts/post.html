@@ -11,11 +11,11 @@ layout: home
         <div
             class="column one_third_width right">
             <h2>
-                Recent Other Posts
+                Recent Posts
             </h2>
             {% assign recent_posts = site.posts | sort: 'date' | reverse %}
             {% for recent_post in recent_posts | limit:5 %}
-                {% include post_description.html post=recent_post hide_image=true %}
+                {% include post_description.html post=recent_post %}
             {% endfor %}
         </div>
     </div>

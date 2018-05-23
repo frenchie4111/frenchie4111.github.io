@@ -23,6 +23,12 @@ pre {
 
 code {
     font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+}
+
+.language-error {
+    background-color: hsla(220, 13%, 95%, 1);
+    color: hsl(0, 85%, 36%);
 }
 
 .full_width
@@ -143,12 +149,13 @@ code {
     font-size: 20px;
     border-bottom: solid 1px;
     padding: 0 0 2px 0;
-    margin: 0 0 15px 0;
+    margin: 10px 0 15px 0;
 }
 
 h2#post_title {
     font-size: 35px;
-    padding: 20px 0 20px 0;
+    padding: 0px 0 20px 0;
+    margin-top: 10px;
     border-bottom: 0;
 }
 

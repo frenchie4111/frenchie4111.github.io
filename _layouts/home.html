@@ -41,6 +41,20 @@
         <script src="/js/highlight.pack.js"></script>
         <script>
             hljs.configure( { tabReplace: '    ' } );
+            hljs.registerLanguage( 'error', function() {
+                return {
+                    case_insensitive: true,
+                    keywords: '',
+                    contains: []
+                }
+            } );
+            hljs.registerLanguage( 'none', function() {
+                return {
+                    case_insensitive: true,
+                    keywords: '',
+                    contains: []
+                }
+            } );
             hljs.initHighlightingOnLoad();
         </script>
 
