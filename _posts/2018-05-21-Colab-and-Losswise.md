@@ -1,7 +1,7 @@
 ---
 title: Google Colab + Losswise
 subject: Using Losswise as a replacement for Tensorboard on Colab
-post_image: /images/losswise/colab-icon.png
+post_image: /images/losswise/logo-small.svg
 tags: [ AI/ML, Colab ]
 layout: post
 ---

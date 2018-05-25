@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.9138 0.5302 39.0708 0.5302 39.0708 66 0.9138 66"></polygon>
+        <polygon id="path-3" points="0.4583 0.866 38.6143 0.866 38.6143 66.3357 0.4583 66.3357"></polygon>
+    </defs>
+    <g id="Group-16" transform="translate(12.500000, 25.000000)">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Clip-15"></g>
+        <polygon id="Fill-14" fill="#6692FD" mask="url(#mask-2)" points="39.0708 0.5302 28.0718 0.5302 11.8188 47.1272 7.8058 42.9152 0.9138 49.4822 16.6528 66.0002"></polygon>
+    </g>
+    <g id="Group-19" transform="translate(39.500000, 0.000000)">
+        <mask id="mask-4" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <g id="Clip-18"></g>
+        <polygon id="Fill-17" fill="#FDA266" mask="url(#mask-4)" points="38.6143 17.3837 22.8753 0.8657 0.4583 66.3357 11.4563 66.3357 27.7093 19.7387 31.7223 23.9507"></polygon>
+    </g>
+</svg>
