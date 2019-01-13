@@ -42,3 +42,18 @@ Full Example:
 ```bash
 curl https://complicated.mikelyons.org/complicated/set/1234abcd/utilitarianLarge?value=NewValue
 ```
+
+Tips:
+
+
+ - The value must be URL encoded, I suggest using a library for this, but some simple encoding is:
+    - `%20` is a space
+    - `%0A` is a newline (For multi-lined complications)
+    - `%24` is a dollar sign
+    - Example: `https://complicated.mikelyons.org/complicated/set/1234abcd/modularLarge?value=Stocks%0AAAPL%20%24152.29`
+    sets Modular Large to "Stocks\n AAPL $152.29"
+ - If you want to see the current value of your complications, change `set` to `get` in the url, and remove the complication type
+    - Example `https://complicated.mikelyons.org/complicated/get/1234abcd/`
+ - Watch OS Only lets you change a complication ~15 times and hour. More than that and you likely will get rate limited.
+
+If you have any other questions please feel free to reach out. My email is **<a href="mailto:mdl0394@gmail.com">mdl0394@gmail.com</a>**
