@@ -12,10 +12,9 @@ In order to initialize complicated, you need to add a complicated complication
 to your active watch face. This can be done either through the Watch app on
 your phone, or from the watch itself.
 
-### From the phone
 
-### From the watch
 
+Once you have installed the complication, open the Complicated app to initialize.
 
 ## Step 2: Choose a complication
 
@@ -37,9 +36,9 @@ paste
 curl <Your update link>NewValue
 ```
 
-Example
+Example:
 
 ```bash
-curl https://customcomplication.mikelyons.org/complicated/set/1234abcd/utilitarianLarge?value=NewValue
+curl https://complicated.mikelyons.org/complicated/set/1234abcd/utilitarianLarge?value=NewValue
 ```
 
