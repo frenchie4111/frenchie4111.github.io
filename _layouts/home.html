@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <style type="text/css">
             @font-face
             {
@@ -68,11 +70,18 @@
             <img id="overlay_image" class="gallery_fullscreen" /><br/>
             Click anywhere to close
         </div>
-        <div id="header">
+        {% if page.sticky_title %}
+            <div id="header_placeholder"></div>
+        {% endif %}
+        <div id="header" class="{% if page.sticky_title %}sticky{% endif %}">
             <div class="full_width">
                 <a href="/">
                     <div id="name" class="hover colorchanger">
-                        Mike Lyons
+                        {% if page.custom_title %}
+                            M | {{ page.custom_title }}
+                        {% else %}
+                            Mike Lyons
+                        {% endif %}
                     </div>
                 </a>
                 <div id="menu">
@@ -80,6 +89,11 @@
                         <a class="hover colorchanger" href="/">Home</a>
                         <a class="hover colorchanger" href="/projects.html">Projects</a>
                         <a class="hover colorchanger" href="/posts.html">Posts</a>
+                    </div>
+                </div>
+                <div id="menu_mobile">
+                    <div class="left">
+                        <a class="hover colorchanger" href="/">More</a>
                     </div>
                 </div>
                 <div class="clear"></div>

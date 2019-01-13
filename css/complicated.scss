@@ -1,0 +1,14 @@
+---
+# Front matter required to get loaded in jekyll
+---
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#content_area {
+    background-color: #1f1f1f;
+    color: white;
+    flex: 1;
+}
