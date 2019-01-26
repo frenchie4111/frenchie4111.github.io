@@ -109,6 +109,8 @@ on, they were done and ready for the party.
 {: .center}
 ![Magnet on the fridge](/images/minis/fridge.jpeg){: width="80%"}
 
+<br/>
+
 ## More information about the silicone molding process
 
 I was able to figure this out thanks to some great free resources on the internet. I

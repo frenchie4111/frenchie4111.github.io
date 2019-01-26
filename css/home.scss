@@ -296,8 +296,14 @@ h2#post_title {
 }
 
 a:link, a:visited {
-    // text-decoration: none;
+    text-decoration: none;
     color: inherit;
+}
+
+.post {
+    a:link {
+        text-decoration: underline;
+    }
 }
 
 .social_media a:link, .social_media a:visited {
