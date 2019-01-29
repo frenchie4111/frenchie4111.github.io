@@ -3,6 +3,35 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+        {% if page.custom_title %}
+            {% if page.title %}
+                <title>{{ page.custom_title }} - {{ page.title }}</title><!-- page.custom_title + page.title -->
+                <meta property="og:title" content="{{ page.custom_title }} - {{ page.title }}">
+            {% else %}
+                <title>{{ page.custom_title }}</title><!-- page.custom_title -->
+                <meta property="og:title" content="{{ page.custom_title }}">
+            {% endif %}
+        {% elsif page.title %}
+            <title>Mike Lyons - {{ page.title }}</title><!-- page.title -->
+            <meta property="og:title" content="Mike Lyons - {{ page.title }}">
+        {% else %}
+            <title>Mike Lyons</title><!-- default title -->
+            <meta property="og:title" content="Mike Lyons">
+        {% endif %}
+
+        {% if page.subject %}
+            <meta property="og:description" content="{{ page.subject }}">
+        {% else %}
+            <meta property="og:description" content="My name is Mike Lyons, and I am a Engineer / Entrepreneur living in San Francisco. I love working with smart people to solve hard problems. ">
+        {% endif %}
+
+        {% if page.post_image %}
+            <meta property="og:image" content="{{ page.post_image }}">
+        {% else %}
+            <meta property="og:image" content="/images/street.jpg">
+        {% endif %}
+
         <style type="text/css">
             @font-face
             {
@@ -62,8 +91,6 @@
 
         <link rel="stylesheet" type="text/css" href="/css/home.css">
         <script type="text/javascript" src="/js/home.js"></script>
-
-        <title>Mike Lyons - Software Engineer</title>
     </head>
     <body>
         <div class="overlay">
@@ -78,7 +105,7 @@
                 <a href="/">
                     <div id="name" class="hover colorchanger">
                         {% if page.custom_title %}
-                            M | {{ page.custom_title }}
+                            Mike Lyons | {{ page.custom_title }}
                         {% else %}
                             Mike Lyons
                         {% endif %}
