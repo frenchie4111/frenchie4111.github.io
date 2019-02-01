@@ -9,7 +9,7 @@ featured: true
 
 ## What, huh, why?
 
-Recently I have been really interested in leaning about different types of 
+Recently I have been really interested in learning about different types of 
 mechanical manufacturing technologies, and I realized that silicone moulding is
 actually super easy to get started with at home. So, like I often do, I started
 looking for a project to justify learning/buying a bunch of new stuff.
