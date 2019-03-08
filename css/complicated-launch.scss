@@ -1,0 +1,120 @@
+---
+# Front matter required to get loaded in jekyll
+---
+
+#content_area {
+    background-image: url( '/images/complicated/wavies.png' );
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+}
+
+h2#post_title {
+    font-size: 70px;
+    text-align: center;
+    margin: 40px;
+}
+
+#content_area {
+    text-align: center;
+}
+
+#slogan {
+    font-size: 22px;
+    text-align: center;
+}
+
+#watch_your_message {
+    width: 300px;
+    margin: 50px 50px 0px 50px;
+}
+
+#works_with {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#integrations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#integrations>img {
+    width: 100px;
+    margin: 5px 20px;
+}
+
+#download {
+    width: 200px;
+    margin-top: 40px;
+}
+
+#how_it_works_header {
+    font-size: 30px;   
+    margin: 200px 0 0 0;
+}
+
+#how_it_works {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.how_it_works_arrow {
+    height: 20px;
+}
+
+.how_it_works_section {
+    max-width: 200px;
+    padding: 30px;
+}
+
+.how_it_works_image {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.how_it_works_text {
+    height: 70px;
+}
+
+#idea_header {
+    font-size: 30px;
+    margin: 150px 0 60px 0;
+}
+
+.ideas_watch {
+    width: 200px;
+}
+
+.ideas_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ideas_watch_wrapper {
+    width: 200px;
+    margin: 0px 20px;
+}
+
+.ideas_text {
+    width: 200px;
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+.ideas_text_left {
+    text-align: right;
+}
+
+.ideas_text_right {
+    text-align: left;
+}

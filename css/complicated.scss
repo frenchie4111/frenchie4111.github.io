@@ -3,13 +3,28 @@
 ---
 
 body {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     background-color: #1f1f1f;
 }
 
+#header {
+    background: #1f1f1f;
+    color: white;
+}
+
+#name {
+    color: white;
+}
+
+.hover:link, .hover:visited {
+    color: white !important;
+}
+
 #content_area {
-    background-color: #1f1f1f;
+    // background-color: #1f1f1f;
+    background-color: black;
     color: white;
     flex: 1;
 }

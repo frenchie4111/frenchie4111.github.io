@@ -104,10 +104,13 @@
             <div class="full_width">
                 <a href="/">
                     <div id="name" class="hover colorchanger">
-                        {% if page.custom_title %}
-                            Mike Lyons | {{ page.custom_title }}
+                        {% if page.hide_title %}
                         {% else %}
-                            Mike Lyons
+                            {% if page.custom_title %}
+                                {{ page.custom_title }}
+                            {% else %}
+                                Mike Lyons
+                            {% endif %}
                         {% endif %}
                     </div>
                 </a>
