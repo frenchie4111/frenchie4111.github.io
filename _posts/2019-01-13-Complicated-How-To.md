@@ -14,6 +14,14 @@ custom_menu: complicated
 
 Complicated is an iOS app that makes it easy to create custom apple watch complications with WebHooks.
 
+## Step 0: Download Complicated
+
+Complicated is available on the app store, to get started download it here:
+
+<a href="https://itunes.apple.com/us/app/complicated/id1444561091?ls=1&mt=8">
+    <img id="download" src="/images/complicated/download.png" />
+</a>
+
 ## Step 1: Intialize Complicated
 
 In order to initialize complicated, you need to add a complicated complication to your active watch face. This can be done either through the Watch app on your phone, or from the watch itself.
