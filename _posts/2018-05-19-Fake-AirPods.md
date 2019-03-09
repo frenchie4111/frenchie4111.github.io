@@ -2,7 +2,7 @@
 title: Walmart.com - Fake "AirPods"
 subject: I just can't believe that Walmart is allowing these on the marketplace 
 tags: Random
-layout: post_plain
+layout: post
 ---
 
 ![AirPods Side by Side Comparison](/images/airpods/side_by_side.jpg)

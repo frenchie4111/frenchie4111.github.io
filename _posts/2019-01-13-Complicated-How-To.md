@@ -6,7 +6,6 @@ post_image: /images/complicated/icon.png
 subject: Simple Apple Watch Complications via Webhooks
 layout: complicated
 tags: Projects iOS
-featured: true
 custom_menu: complicated
 ---
 
