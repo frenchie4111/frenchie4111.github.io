@@ -86,3 +86,8 @@ AAPL $152.29
 <i>Note: Watch OS Only lets you change a complication ~15 times and hour. More than that and you likely will get rate limited.</i>
 
 If you have any other questions please feel free to reach out. My email is **<a href="mailto:mdl0394@gmail.com">mdl0394@gmail.com</a>**
+
+## Other Tutorials
+
+Here are some other resources you may find interesting once you have Complicated running:
+ - [Update your Apple Watch from IFTTT](/2019/03/07/Complicated-Apple-Watch-IFTT.html)
