@@ -102,7 +102,11 @@
         {% endif %}
         <div id="header" class="{% if page.sticky_title %}sticky{% endif %}">
             <div class="full_width">
+                {% if page.custom_menu == "complicated" %}
+                <a href="/complicated/">
+                {% else %}
                 <a href="/">
+                {% endif %}
                     <div id="name" class="hover colorchanger">
                         {% if page.hide_title %}
                         {% else %}
@@ -115,11 +119,18 @@
                     </div>
                 </a>
                 <div id="menu">
-                    <div class="left">
-                        <a class="hover colorchanger" href="/">Home</a>
-                        <a class="hover colorchanger" href="/projects.html">Projects</a>
-                        <a class="hover colorchanger" href="/posts.html">Posts</a>
-                    </div>
+                    {% if page.custom_menu == "complicated" %}
+                        <div class="left">
+                            <a class="hover colorchanger" href="/2019/01/13/Complicated-How-To.html">Get Started</a>
+                            <a class="hover colorchanger" href="/2019/03/08/Complicated-Documentation.html">Documentation</a>
+                        </div>
+                    {% else %}
+                        <div class="left">
+                            <a class="hover colorchanger" href="/">Home</a>
+                            <a class="hover colorchanger" href="/projects.html">Projects</a>
+                            <a class="hover colorchanger" href="/posts.html">Posts</a>
+                        </div>
+                    {% endif %}
                 </div>
                 <div id="menu_mobile">
                     <div class="left">
