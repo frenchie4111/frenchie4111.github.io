@@ -6,7 +6,6 @@ post_image: /images/complicated/icon.png
 subject: Use IFTTT and Complicated to update your Apple Watch
 layout: complicated
 tags: Projects iOS
-featured: true
 custom_menu: complicated
 ---
 
@@ -22,7 +21,7 @@ Download, and configure Complicated. For instructions on how to do this, see [th
 
 ## Step 1: Set up Google Sheets on IFTTT
 
-Go to your applets, a https://ifttt.com/my_applets and create a new applet. Select
+Go to your applets, a [https://ifttt.com/my_applets](https://ifttt.com/my_applets) and create a new applet. Select
 the "This" section, search and select for Google Sheets.
 
 {: .center}
