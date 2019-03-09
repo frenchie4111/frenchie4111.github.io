@@ -1,0 +1,12 @@
+<br/>
+<h2>Other Tutorials</h2>
+<p>
+Here are some other resources to help you use Complicated:
+</p>
+
+<ul>
+{% assign other_tutorials = site.tags.Complicated-Tutorial %}
+{% for other_tutorial in other_tutorials %}{% if other_tutorial.url != page.url %}
+<li><a href="{{other_tutorial.url}}">{{other_tutorial.title}}</a>: {{other_tutorial.subject}}</li>
+{% endif %}{% endfor %}
+</ul>

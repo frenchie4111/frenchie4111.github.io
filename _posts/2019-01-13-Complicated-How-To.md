@@ -5,7 +5,7 @@ sticky_title: true
 post_image: /images/complicated/icon.png
 subject: Simple Apple Watch Complications via Webhooks
 layout: complicated
-tags: Projects iOS
+tags: Projects iOS Complicated-Tutorial
 custom_menu: complicated
 ---
 
@@ -70,3 +70,5 @@ Tips:
 For more details see the <a href="/2019/03/08/Complicated-Documentation.html">API Documentation</a>
 
 If you have any other questions please feel free to reach out. My email is **<a href="mailto:mdl0394@gmail.com">mdl0394@gmail.com</a>**
+
+{% include complicated_other_tutorials.html %}

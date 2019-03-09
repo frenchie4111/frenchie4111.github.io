@@ -5,7 +5,7 @@ sticky_title: true
 post_image: /images/complicated/icon.png
 subject: Use IFTTT and Complicated to update your Apple Watch
 layout: complicated
-tags: Projects iOS
+tags: Projects iOS Complicated-Tutorial
 custom_menu: complicated
 ---
 
@@ -75,3 +75,5 @@ If you have any other questions please feel free to reach out. My email is **<a 
 <div id="footer">
     Made with &#9829; by <a href="/">Mike Lyons</a>
 </div>
+
+{% include complicated_other_tutorials.html %}

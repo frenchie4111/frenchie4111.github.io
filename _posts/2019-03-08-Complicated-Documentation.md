@@ -5,7 +5,7 @@ sticky_title: true
 post_image: /images/complicated/icon.png
 subject: API Documentation
 layout: complicated
-tags: Projects iOS
+tags: Projects iOS Complicated-Tutorial
 custom_menu: complicated
 ---
 
@@ -86,7 +86,4 @@ AAPL $152.29
 
 If you have any other questions please feel free to reach out. My email is **<a href="mailto:mdl0394@gmail.com">mdl0394@gmail.com</a>**
 
-## Other Tutorials
-
-Here are some other resources you may find interesting once you have Complicated running:
- - [Update your Apple Watch from IFTTT](/2019/03/07/Complicated-Apple-Watch-IFTTT.html)
+{% include complicated_other_tutorials.html %}
