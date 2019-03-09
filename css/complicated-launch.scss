@@ -41,9 +41,21 @@ h2#post_title {
     margin-top: 25px;
 }
 
-#integrations>img {
+#integrations img {
     width: 100px;
     margin: 5px 20px;
+}
+
+#integrations a {
+    font-size: 12px;
+}
+
+.integration_image_wrapper {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #download {
