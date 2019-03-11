@@ -28,6 +28,17 @@ h2#post_title {
     margin: 50px 50px 0px 50px;
 }
 
+@media (max-width: 500px) {
+    h2#post_title {
+        font-size: 40px;
+    }
+
+    #watch_your_message {
+        width: 200px;
+        margin: 50px 50px 0px 50px;
+    }
+}
+
 #works_with {
     font-size: 20px;
     margin-top: 20px;
@@ -99,6 +110,7 @@ h2#post_title {
 #idea_header {
     font-size: 30px;
     margin: 150px 0 60px 0;
+    line-height: 1.2;
 }
 
 .ideas_watch {
@@ -129,4 +141,33 @@ h2#post_title {
 
 .ideas_text_right {
     text-align: left;
+}
+
+@media (max-width: 850px) {
+    #how_it_works_header {
+        font-size: 30px;   
+        margin: 75px 0 25px 0;
+    }
+
+    #how_it_works {
+        flex-direction: column;
+    }
+
+    .how_it_works_section {
+        max-width: 300px;
+        padding: 10px;
+    }
+
+    .how_it_works_text {
+        height: auto;
+    }
+
+    .how_it_works_arrow {
+        padding: 10px 0px;
+        transform: rotate(90deg)
+    }
+
+    #idea_header {
+        margin-top: 50px;
+    }
 }

@@ -133,9 +133,15 @@
                     {% endif %}
                 </div>
                 <div id="menu_mobile">
-                    <div class="left">
-                        <a class="hover colorchanger" href="/">More</a>
-                    </div>
+                    {% if page.custom_menu == "complicated" %}
+                        <div class="left">
+                            <a class="hover colorchanger" href="/2019/03/08/Complicated-Documentation.html">Documentation</a>
+                        </div>
+                    {% else %}
+                        <div class="left">
+                            <a class="hover colorchanger" href="/">More</a>
+                        </div>
+                    {% endif %}
                 </div>
                 <div class="clear"></div>
             </div>
