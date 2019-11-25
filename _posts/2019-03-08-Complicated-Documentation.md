@@ -43,6 +43,12 @@ You can use this new endpoint to update any complication in the app. If you want
 to copy a pre-prepared link, you can do so from the update link part of the app 
 after selecting a complication.
 
+<b>Note: </b> due to restrictions set by Apple, I can only update a complication every
+5-10 minutes. The exact rate varries based on a variety of factors (battery life,
+cellular connectivity, etc). For this reason, you may not see updates as soon as
+they are sent. If you need updates immedietely please use the 
+[Push Notifications](#sending-push-notifications)
+
 All requests are **GET** requests
 
 The endpoint structure is as follows:
@@ -85,5 +91,32 @@ AAPL $152.29
 <i>Note: Watch OS Only lets you change a complication ~15 times and hour. More than that and you likely will get rate limited.</i>
 
 If you have any other questions please feel free to reach out. My email is **<a href="mailto:mdl0394@gmail.com">mdl0394@gmail.com</a>**
+
+<br/>
+
+## Sending Push Notifications
+
+If you hae a <b>Pro</b> subscription you can send notifications as well as complication
+updates using a simple addition to your request.
+
+Just include one the the following parameters in the URL:
+
+ - `push=True` this will send you a push notification containing whatever data
+was available in the value field of your update. 
+ - `push_changed=True` this will notify you only if the value that you sent is
+different than the previous value on the complicated server.
+
+### Example Request With Notification
+
+```
+curl https://customcomplication.mikelyons.org/complicated/set/1234abcd/modularLarge?value=Print%20Progress%100%%&push=True
+```
+
+This will set the modularLarge complication, and notify your phone & watch with
+a push notification that contains:
+
+```
+Print Progress 100%
+```
 
 {% include complicated_other_tutorials.html %}
