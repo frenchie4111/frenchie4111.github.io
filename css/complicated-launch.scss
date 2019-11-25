@@ -18,14 +18,23 @@ h2#post_title {
     text-align: center;
 }
 
-#slogan {
+.slogan {
     font-size: 22px;
     text-align: center;
 }
 
 #watch_your_message {
+    
+}
+
+.watch_promo {
     width: 300px;
-    margin: 50px 50px 0px 50px;
+    margin: 35px 0px 35px 0px;
+    vertical-align: middle;
+}
+
+.watch_promo_additional {
+    width: 250px;
 }
 
 @media (max-width: 500px) {
@@ -35,7 +44,11 @@ h2#post_title {
 
     #watch_your_message {
         width: 200px;
-        margin: 50px 50px 0px 50px;
+        margin: 50px 50px 35px 50px;
+    }
+
+    .watch_promo_additional {
+        display: none;
     }
 }
 
@@ -76,7 +89,7 @@ h2#post_title {
 
 #how_it_works_header {
     font-size: 30px;   
-    margin: 200px 0 0 0;
+    margin: 150px 0 0 0;
 }
 
 #how_it_works {
@@ -109,7 +122,7 @@ h2#post_title {
 
 #idea_header {
     font-size: 30px;
-    margin: 150px 0 60px 0;
+    margin: 100px 0 60px 0;
     line-height: 1.2;
 }
 
@@ -169,5 +182,13 @@ h2#post_title {
 
     #idea_header {
         margin-top: 50px;
+    }
+}
+
+.feature {
+    background-color: #747474;
+
+    .feature_header {
+        font-size: 30px;
     }
 }
