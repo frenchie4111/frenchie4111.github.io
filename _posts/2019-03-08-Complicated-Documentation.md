@@ -96,7 +96,7 @@ If you have any other questions please feel free to reach out. My email is **<a 
 
 ## Sending Push Notifications
 
-If you hae a <b>Pro</b> subscription you can send notifications as well as complication
+If you have a <b>Pro</b> subscription you can send notifications as well as complication
 updates using a simple addition to your request.
 
 Just include one the the following parameters in the URL:
