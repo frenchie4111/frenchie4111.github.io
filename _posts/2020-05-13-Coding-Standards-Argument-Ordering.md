@@ -58,10 +58,10 @@ function setEmail(email, user_id) {}
 In languages that support optional arguments or arguments with default values. The optional argument should always come last. Ideally, the more likely an argument is to be omitted, the later it should appear in the option list.
 
 ```js
-// ✅ Good
+// ✅ Good:
 function setName(user_id, first_name, last_name, middle_name='') {}
 
-// ❌ Bad
+// ❌ Bad:
 function setName(user_id, first_name, middle_name='', last_name) {}
 function setName(user_id, first_name, middle_name, last_name) {
     if(!middle_name) middle_name = 'None';
