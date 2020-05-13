@@ -15,18 +15,18 @@ When defining methods and functions, how do we choose what order the arguments a
 
 ## Common Arguments First
 
-A large number of the codebases have had standard arguments you need to pass to a large percentage of functions. Often this is something like `database_connection` or `transaction` or `user_id`. If you find that more than a handful of functions have the same argument, standardize your codebase to put that argument first.
+In most codebases there are standard arguments passed to many of the functions. Often this is something like `database_connection` or `transaction` or `user_id`. If you find that more than a handful of functions have the same argument, standardize your codebase to put that argument first.
 
 ```js
-// Bad:
-function setName(user_id, name, transaction) {}
-function createOrder(user_id, transaction, order_details) {}
-function installDevice(device_serial, transaction) {}
-
-// Good:
+// ✅ Good:
 function setName(transaction, user_id, name) {}
 function createOrder(transaction, user_id, order_details) {}
 function installDevice(transaction, device_serial) {}
+
+// ❌ Bad:
+function setName(user_id, name, transaction) {}
+function createOrder(user_id, transaction, order_details) {}
+function installDevice(device_serial, transaction) {}
 ```
 
 **Justification** In order to maintain consistency, the only two options are to put the common argument first, or last. Putting the common argument last causes issues with the requirements scalability of your codebase. As a codebase grows, the behaviors and arguments of any function will get more and more nuanced. Often leading to a need to add more optional arguments to a function. If we standardize our common arguments to the end, it becomes harder to change the arguments of a function.
@@ -38,12 +38,12 @@ function installDevice(transaction, device_serial) {}
 A large amount of functions boil down to "do something, to something". This could be the `setName` example from above, or things like `downloadFile`, `createOrder`, etc. When a function follows this pattern, the target should always be before the values.
 
 ```js
-// Good:
+// ✅ Good:
 function setName(user_id, first_name, last_name) {}
 function setPassword(user_id, password) {}
 function setEmail(user_id, email) {}
 
-// Bad:
+// ❌ Bad:
 function setName(first_name, last_name, user_id) {}
 function setPassword(password, user_id) {}
 function setEmail(email, user_id) {}
@@ -58,10 +58,10 @@ function setEmail(email, user_id) {}
 In languages that support optional arguments or arguments with default values. The optional argument should always come last. Ideally, the more likely an argument is to be omitted, the later it should appear in the option list.
 
 ```js
-// Good
+// ✅ Good
 function setName(user_id, first_name, last_name, middle_name='') {}
 
-// Bad
+// ❌ Bad
 function setName(user_id, first_name, middle_name='', last_name) {}
 function setName(user_id, first_name, middle_name, last_name) {
     if(!middle_name) middle_name = 'None';
@@ -69,7 +69,7 @@ function setName(user_id, first_name, middle_name, last_name) {
 }
 ```
 
-**Justification** In Javascript this specification makes it easier to call any given function. It makes it so that you can pass only the minimally required arguments to a function to perform the operation you are requesting. If the code that interacts with your function is simpler, it makes it easier to refactor later.
+**Justification** This has the effect of reducing the number of arguments required to call the default version of a function. Code that doesn't need the optional arguments, doesn't have to worry about including them, and when the function is inevitably refactored there will be less calls to fix.
 
 #### Thanks
 
