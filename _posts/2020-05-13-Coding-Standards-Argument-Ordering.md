@@ -1,6 +1,6 @@
 ---
-title: Argument Ordering
-subject: How should you order your functions arguments?
+title: "Unwritten Coding Standards: Parameter Ordering"
+subject: A few words on how you should order parameters to maximize codebase consistency and scalability
 tags: Coding mike8
 layout: post_plain
 ---
