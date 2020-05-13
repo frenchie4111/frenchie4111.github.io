@@ -7,9 +7,9 @@ layout: post_plain
 
 When defining methods and functions, how do we choose what order the arguments are in? This is the first of a series of posts where I attempt to put words and rules to the subtle programming decisions we make every day. A majority of the examples will be given in Javascript, as this is my home language. But they likely can and should be extended to other languages as well.
 
-**Pillar 1: Consistency** A common theme throughout these posts is that maintaining consistency of code is key. Ideally your arguments will be so consistent that an engineer working on your codebase can guess the ordering of a functions variables, just from the name. As such the rules laid out here will be focussed on allowing as much consistency as possible.
+**Pillar 1: Consistency** A common theme throughout these posts is that maintaining consistency of code is key. Ideally your arguments will be so consistent that an engineer working on your codebase can guess the ordering of a functions variables, just from the name. As such, the rules laid out here will be focused on allowing as much consistency as possible.
 
-**Pillar 2: Scalability** The second most important thing to consider when creating a coding standard, is the scalability of your code. How will this codebase grow in the future, and how how can we define our standard in a way that makes that as easy as possible.
+**Pillar 2: Scalability** The second most important thing to consider when creating a coding standard is the scalability of your code. When designing a standard you must ask: "How will this codebase grow in the future?" and "How how can we define our standard in a way that makes that as easy as possible?". These standards will attempt to lay out a strategy that best answers those questions.
 
 <br/>
 
@@ -73,4 +73,4 @@ function setName(user_id, first_name, middle_name, last_name) {
 
 #### Thanks
 
-If you have any feedback, email me at mdl0349 at gmail.com. I'd love to chat about these or anything else really :^)
+If you have any feedback you can leave a comment in the HN thread https://news.ycombinator.com/item?id=23171018 or email me at mdl0349 at gmail.com. I'd love to chat about these or anything else really :^)
