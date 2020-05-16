@@ -74,3 +74,5 @@ function setName(user_id, first_name, middle_name, last_name) {
 #### Thanks
 
 If you have any feedback you can leave a comment in the [HN thread](https://news.ycombinator.com/item?id=23171018) or email me at mdl0349 at gmail.com. I'd love to chat about these or anything else really :^)
+
+The best way to get updated about new posts is to follow the [RSS feed here](https://mikelyons.org/feed)
