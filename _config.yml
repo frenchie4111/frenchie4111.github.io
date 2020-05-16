@@ -3,3 +3,7 @@ sass:
 keep_files: [ 'resume.pdf', 'keybase.txt', 'complication.txt' ]
 plugins:
 - jekyll-sitemap
+- jekyll-feed
+title: Mike Lyons' Blog
+description: Writing to hear
+author: Mike Lyons
