@@ -33,18 +33,18 @@ Examples of Requirements Scalability include:
 
 <br/>
 
-## Employee Count Scalability
+## Contributor Scalability
 
 Can my system be maintained by more than one person? Where does the design break down as we begin to add more maintainers. A system should be designed with clear separations of concerns to allow for maintainers to make changes independently of one another. This allows for more maintainers to be added without creating bottlenecks.
 
-Examples of Employee Count Scalability Include:
+Examples of Contributor Scalability Include:
 
 - Separating your frontend and backend with a clearly defined API, allowing for separate teams to execute.
 - Splitting your sales team geographically to allow each sales person to execute independently of one another.
 
 <br/>
 
-## Cost/Charge Scalability
+## Cost/Value Scalability
 
 Can we charge the most active customers the most money? This concept of scalability is less about systems design, and more about business model design. Does your business model scale such that the customers who are getting the most value out of your product also pay the most for it?
 
@@ -54,8 +54,6 @@ Examples of Cost/Charge Scalability:
 
 <br/>
 
-### Thanks
-
-Thanks :^)
+#### Thanks :^)
 
 The best way to get updated about new posts is to follow the [RSS feed here](https://mikelyons.org/feed.xml)
