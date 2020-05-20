@@ -1,11 +1,11 @@
 ---
-title: Scalability Vectors
+title: Scalability Dimensions
 subject: A few words on how you should order parameters to maximize codebase consistency and scalability
 tags: Coding mike8
 layout: post_plain
 ---
 
-My job is to design systems and one of the major considerations when designing a system the scalability of that system. Here I will detail the different vectors of scalability that should be considered when designing a system. For every vector I will try to give a software design example, and a humans system design example.
+A major consideration when designing systems is scalability. Here I will detail the different dimensions of scalability that should be considered when designing a system. For every dimension I will try to give a software design example, and a humans system design example.
 
 I am writing this post now, as it will be referenced heavily in my Unwritten Coding Standard series, the first of which is up [here](/2020/05/13/Coding-Standards-Argument-Ordering.html)
 
