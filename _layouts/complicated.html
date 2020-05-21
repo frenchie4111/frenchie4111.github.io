@@ -1,8 +1,17 @@
 ---
 custom_title: Complicated
-layout: post_plain
+layout: home
 ---
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/css/complicated.css">
 
-{{ content }}
+<div id="content_area">
+    <div class="full_width center_margin post">
+        {% if page.hide_header %}
+        {% else %}
+            <h2 id="post_title">{{ page.title }}</h2>
+        {% endif %}
+
+        {{ content }}
+    </div>
+</div>
