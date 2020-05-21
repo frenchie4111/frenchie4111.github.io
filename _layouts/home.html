@@ -101,10 +101,10 @@
             <div id="header_placeholder"></div>
         {% endif %}
         <div id="header" class="{% if page.sticky_title %}sticky{% endif %}">
-            {% if page.layout == 'home' or page.layout == 'post' %}
-                <div class="full_width">
-            {% else %}
+            {% if page.layout == 'post_plain' %}
                 <div class="two_thirds_width center_margin">
+            {% else %}
+                <div class="full_width">
             {% endif %}
                 {% if page.custom_menu == "complicated" %}
                 <a href="/complicated/">
