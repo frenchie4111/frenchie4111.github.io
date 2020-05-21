@@ -15,11 +15,18 @@ html {
 
 body
 {
-    font-family: 'Lato', sans-serif;
+    // font-family: 'Lato', sans-serif;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
     line-height: 140%;
     min-height: 100%;
     color: black;
     font-weight: 300;
+    background-color: #f4f4f4;
+}
+
+p {
+    line-height: 1.4;
 }
 
 pre {
@@ -77,7 +84,7 @@ code {
 
 #header
 {
-    background-color: white;
+    // background-color: white;
     font-weight: 400;
     padding: 0 10px;
 }
@@ -162,7 +169,7 @@ code {
 
 #content_area
 {
-    background-color: white;
+    // background-color: white;
     padding: 12px 10px 0 10px;
 }
 
@@ -221,7 +228,7 @@ h2#post_title {
 
 #content_area b
 {
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .column_post
@@ -403,6 +410,7 @@ strong {
 }
 
 pre {
+    margin-top: 0;
     white-space: pre-wrap;
     word-wrap: break-word;
 }

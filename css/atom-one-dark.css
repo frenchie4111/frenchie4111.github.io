@@ -18,6 +18,13 @@ hue-6-2: #e6c07b
 
 */
 
+.highlighter-rouge {
+  overflow-x: auto;
+  padding: 0.1em 0.25em;
+  color: #abb2bf;
+  background: #282c34;
+}
+
 .hljs {
   display: block;
   overflow-x: auto;
