@@ -26,7 +26,7 @@ body
 }
 
 p {
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 pre {
@@ -59,6 +59,11 @@ code {
 {
     width: 640px;
     max-width: 100%;
+}
+
+.center_margin
+{
+    margin: 0px auto;
 }
 
 .left
