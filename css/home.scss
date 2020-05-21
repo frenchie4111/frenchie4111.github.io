@@ -23,10 +23,10 @@ body
     color: black;
     font-weight: 300;
     background-color: #f4f4f4;
+    line-height: 1.6;
 }
 
 p {
-    line-height: 1.6;
 }
 
 pre {
@@ -164,10 +164,10 @@ code {
 
 #image_area
 {
-    background-image: url("/images/street.jpg");
+    background-image: url("/images/hero.png");
     background-size: cover;
-    background-position: 50% 40%;
-    height: 280px;
+    background-position: 50% 50%;
+    height: 400px;
     max-width: 1200px;
     margin: 0px auto;
 }
@@ -214,7 +214,7 @@ code {
 h2#post_title {
     font-size: 35px;
     margin: 10px 0 30px -2px;
-    line-height: 1;
+    line-height: 1.2;
     border-bottom: 0;
 }
 
@@ -292,7 +292,7 @@ h2#post_title {
 .square_list, ul
 {
     color: black;
-    list-style-type: square;
+    list-style-type: circle;
     padding: 0px 0px 0px 25px;
 }
 
@@ -412,6 +412,10 @@ strong {
 
 .expand {
     display: block;
+}
+
+.language-js {
+    margin-top: 20px;
 }
 
 pre {
