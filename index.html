@@ -12,7 +12,7 @@ is_home: true
             <h2 class="colorchanger">Recent Posts</h2>
 
             {% assign recent_posts = site.posts | sort: 'date' | reverse %}
-            {% for recent_post in recent_posts | limit:6 %}
+            {% for recent_post in recent_posts | limit:8 %}
                 {% if recent_post.tags contains 'Complicated-Tutorial' %}
                 {% else %}
                     {% include post_description.html post=recent_post %}
