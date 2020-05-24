@@ -48,13 +48,13 @@ A bit more on the technical side, Quanta publishes articles about Physics, Mathe
 {: style="text-align: center;"}
 ![Speaker For The Dead](/images/things_I_like/speaker.jpg)
 
-Speaker for the Dead is my favorite book. It's a sequel to the much more popular Enders Game, although it does not share much with the original story. Taking place about 3,000 years after the events of Enders Game, the book touches on linguistics, colonization and empathy.
+A sequel to the much more popular Enders Game, although it does not share much with the original story. Taking place about 3,000 years after the events of Enders Game, the book touches on linguistics, colonization and empathy.
 
 {: style="text-align: center;"}
 
 ![Speaker For The Dead](/images/things_I_like/arrival.jpg)
 
-[Arrival](https://www.imdb.com/title/tt2543164/) is by far my favorite movie. Similar to my favorite book, this movie uses the setting of a new Alien race to explore linguistics and empathy. I seriously enjoy a good story that captures the difficulty of communicating with "the other".
+[Arrival](https://www.imdb.com/title/tt2543164/) Similar to Speaker for the Dead, this movie uses the setting of a new Alien race to explore linguistics and empathy. I seriously enjoy a good story that captures the difficulty of communicating with "the other".
 
 <br />
 
@@ -84,4 +84,4 @@ Speaker for the Dead is my favorite book. It's a sequel to the much more popular
 {: .app-container}
 ![Complicated](/images/complicated/icon.png){: .app}
 
-**[Complicated](https://mikelyons.org/complicated/)** Shameless self promotion time. An app I built to make it easier to customize your watch face.
+**[Complicated](https://mikelyons.org/complicated/)** Shameless self promotion time. An app I built to make it easier to customize your Apple watch. The only app that allows you to quickly write code that updates your Apple Watch.
