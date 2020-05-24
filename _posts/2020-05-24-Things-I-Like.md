@@ -48,13 +48,17 @@ A bit more on the technical side, Quanta publishes articles about Physics, Mathe
 {: style="text-align: center;"}
 ![Speaker For The Dead](/images/things_I_like/speaker.jpg)
 
+[Speaker For The Dead](https://en.wikipedia.org/wiki/Speaker_for_the_Dead)
+
 A sequel to the much more popular Enders Game, although it does not share much with the original story. Taking place about 3,000 years after the events of Enders Game, the book touches on linguistics, colonization and empathy.
 
 {: style="text-align: center;"}
 
 ![Speaker For The Dead](/images/things_I_like/arrival.jpg)
 
-[Arrival](https://www.imdb.com/title/tt2543164/) Similar to Speaker for the Dead, this movie uses the setting of a new Alien race to explore linguistics and empathy. I seriously enjoy a good story that captures the difficulty of communicating with "the other".
+[Arrival](https://www.imdb.com/title/tt2543164/) 
+
+Similar to Speaker for the Dead, this movie uses the setting of a new Alien race to explore linguistics and empathy. I seriously enjoy a good story that captures the difficulty of communicating with "the other".
 
 <br />
 
@@ -74,16 +78,22 @@ A sequel to the much more popular Enders Game, although it does not share much w
 {: .app-container}
 ![Firefox](/images/things_I_like/firefox.png){: .app}
 
-**[Firefox](https://firefox.com/)** As a long time Chrome user I am here to tell you: Firefox is finally good again. If you haven't used it recently, download it again and support a freer internet.
+[Firefox](https://firefox.com/) 
+
+As a long time Chrome user I am here to tell you: Firefox is finally good again. If you haven't used it recently, download it again and support a freer internet.
 
 {: .app-container}
 ![Duolingo](/images/things_I_like/duolingo.png){: .app style="border-radius: 5px;"}
 
-**[Duolingo](https://www.duolingo.com)** Seriously the best app you can have on your phone. Delete the Reddit app and use that time to learn a new language the easy way.
+[Duolingo](https://www.duolingo.com) 
+
+Seriously the best app you can have on your phone. Delete the Reddit app and use that time to learn a new language the easy way.
 
 {: .app-container}
 ![Complicated](/images/complicated/icon.png){: .app}
 
-**[Complicated](https://mikelyons.org/complicated/)** Shameless self promotion time. An app I built to make it easier to customize your Apple watch. The only app that allows you to quickly write code that updates your Apple Watch.
+[Complicated](https://mikelyons.org/complicated/)
+
+Shameless self promotion time. An app I built to make it easier to customize your Apple watch. The only app that allows you to quickly write code that updates your Apple Watch.
 
 {% include stay_connected.html %}
