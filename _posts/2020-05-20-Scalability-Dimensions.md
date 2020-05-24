@@ -52,8 +52,4 @@ Examples of Cost/Charge Scalability:
 
 - Charging a customer per-resource. This is often seen in SaaS as "cost per seat"
 
-<br/>
-
-#### Thanks :^)
-
-The best way to get updated about new posts is to follow the [RSS feed here](https://mikelyons.org/feed.xml)
+{% include stay_connected.html %}

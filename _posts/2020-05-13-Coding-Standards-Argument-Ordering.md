@@ -71,8 +71,4 @@ function setName(user_id, first_name, middle_name, last_name) {
 
 **Justification** This has the effect of reducing the number of arguments required to call the default version of a function. Code that doesn't need the optional arguments, doesn't have to worry about including them, and when the function is inevitably refactored there will be less calls to fix.
 
-#### Thanks
-
-If you have any feedback you can leave a comment in the [HN thread](https://news.ycombinator.com/item?id=23171018) or email me at mdl0349 at gmail.com. I'd love to chat about these or anything else really :^)
-
-The best way to get updated about new posts is to follow the [RSS feed here](https://mikelyons.org/feed.xml)
+{% include stay_connected.html %}

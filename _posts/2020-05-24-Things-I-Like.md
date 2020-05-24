@@ -85,3 +85,5 @@ A sequel to the much more popular Enders Game, although it does not share much w
 ![Complicated](/images/complicated/icon.png){: .app}
 
 **[Complicated](https://mikelyons.org/complicated/)** Shameless self promotion time. An app I built to make it easier to customize your Apple watch. The only app that allows you to quickly write code that updates your Apple Watch.
+
+{% include stay_connected.html %}
