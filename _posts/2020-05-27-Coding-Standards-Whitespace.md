@@ -1,6 +1,6 @@
 ---
 title: "Unwritten Coding Standards: Vertical Whitespace"
-subject: Simple Vertical Whitespace rules that will make any code easier to read
+subject: Simple vertical whitespace rules that will make any code easier to read
 tags: Coding mike8
 layout: post_plain
 ---
