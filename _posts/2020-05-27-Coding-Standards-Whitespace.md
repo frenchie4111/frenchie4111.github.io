@@ -233,7 +233,7 @@ be combined together.
 
 ```python
 # ❌ Bad:
-def createAccount(username, password):
+def create_account(username, password):
     validate_username(username)
 
     validate_password(password)
@@ -243,7 +243,7 @@ def createAccount(username, password):
     user.set_password(password)
 
 # ✅ Good:
-def createAccount(username, password):
+def create_account(username, password):
     validate_username(username)
     validate_password(password)
 
