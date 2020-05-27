@@ -14,11 +14,11 @@ code's readability without needing to refactor anything.
 
 {% include coding_standards.html %}
 
-## What is Vertical Whitespace?
+## Vertical Whitespace in Practice
 
 When I say whitespace, I mean the addition of empty lines between sections of code.
 A lot of code I have read does not utilize whitespace at all, maybe because the author
-didn't even realize it could help. It's good to remember that vertical space in code
+didn't even realize it could help. It's good to remember that vertical space
 is free, and can be used to drastically improve the readability of your code.
 
 As an example we will create a function that handles running a specified job with
