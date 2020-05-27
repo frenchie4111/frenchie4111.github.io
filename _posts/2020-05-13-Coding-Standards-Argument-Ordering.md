@@ -11,8 +11,6 @@ When defining methods and functions, how do we choose what order the arguments a
 
 **Pillar 2: Scalability** The second most important thing to consider when creating a coding standard is the scalability of your code. When designing a standard you must ask: "How will this codebase grow in the future?" and "How how can we define our standard in a way that makes that as easy as possible?". These standards will attempt to lay out a strategy that best answers those questions.
 
-<br/>
-
 ## Common Arguments First
 
 In most codebases there are standard arguments passed to many of the functions. Often this is something like `database_connection` or `transaction` or `user_id`. If you find that more than a handful of functions have the same argument, standardize your codebase to put that argument first.
@@ -31,8 +29,6 @@ function installDevice(device_serial, transaction) {}
 
 **Justification** In order to maintain consistency, the only two options are to put the common argument first, or last. Putting the common argument last causes issues with the requirements scalability of your codebase. As a codebase grows, the behaviors and arguments of any function will get more and more nuanced. Often leading to a need to add more optional arguments to a function. If we standardize our common arguments to the end, it becomes harder to change the arguments of a function.
 
-<br/>
-
 ## Targets Before Values
 
 A large amount of functions boil down to "do something, to something". This could be the `setName` example from above, or things like `downloadFile`, `createOrder`, etc. When a function follows this pattern, the target should always be before the values.
@@ -50,8 +46,6 @@ function setEmail(email, user_id) {}
 ```
 
 **Justification** This, like the common argument standard, is designed to support a codebase that will grow over time. If in the future a function needs additional arguments added to it, putting the target first makes it much easier to add additional values. If in the future we added an optional `middle_name` parameter to the `setName` function, we do not need to update every call to this function to re-order the arguments, we only need to update calls that have a middle name to pass.
-
-<br/>
 
 ## Optionals Last
 

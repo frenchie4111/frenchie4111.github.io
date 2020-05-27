@@ -208,7 +208,7 @@ code {
     font-size: 20px;
     border-bottom: solid 1px;
     padding: 0 0 2px 0;
-    margin: 10px 0 15px 0;
+    margin: 40px 0 15px 0;
 }
 
 h2#post_title {
@@ -218,12 +218,18 @@ h2#post_title {
     border-bottom: 0;
 }
 
-#content_area h3, h3 a:visited, h3 a:link
-{
-    font-size: 15px;
-    margin: 0 0 5px 5px;
-    text-decoration: none;
-    color: black;
+// #content_area h3, h3 a:visited, h3 a:link
+// {
+//     font-size: 15px;
+//     margin: 0 0 5px 5px;
+//     text-decoration: none;
+//     color: black;
+// }
+
+#content_area h3 {
+    font-size: 20px;
+    padding: 0 0 2px 0;
+    margin: 40px 0 15px 0;
 }
 
 .more_info_link
@@ -414,7 +420,7 @@ strong {
     display: block;
 }
 
-.language-js {
+.language-js, .language-python {
     margin-top: 20px;
 }
 
