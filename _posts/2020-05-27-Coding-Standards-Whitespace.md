@@ -75,6 +75,9 @@ The two are exactly the same code, but because of the addition of 4 empty lines,
 the second is significantly easier to parse. This post will create rules for
 standardizing and enforcing the use of whitespace in your code.
 
+The Python coding standard pep8 defines a light standard for whitespace [here](https://www.python.org/dev/peps/pep-0008/#blank-lines)
+this post is intended to expand and concrete the rules outlined there.
+
 ## Guiding Principle
 
 The best metaphor for whitespace in code is the usage of paragraphs in language.
