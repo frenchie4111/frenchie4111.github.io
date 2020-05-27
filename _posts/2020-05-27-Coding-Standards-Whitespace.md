@@ -28,42 +28,41 @@ smaller functions :D_
 
 ```python
 # ❌ Bad:
-def runProcessingJob(job_name, input_data_id):
-    session = database_manager.getSession()
-    input_data = lookupInputData(session, input_data_id)
+def run_processing_job(job_name, input_data_id):
+    session = database_manager.get_session()
+    input_data = lookup_input_data(session, input_data_id)
     if input_data is None:
         raise Exception('Bad input data')
-    job = getJobByName(job_name)
-    job_run_status = job.createJobRun()
-    job_run = job.createJobRun(session, 'STARTED')
+    job = get_job_by_name(job_name)
+    job_run = job.create_job_run(session, 'STARTED')
     try:
         job.setup()
         job_return_data = job.process(session, input_data)
-        job_run.updateStatus(session, 'SUCCEEDED', output=job_return_data)
+        job_run.update_status(session, 'SUCCEEDED', output=job_return_data)
     except Exception as e:
-        job_run.updateStatus(session, 'FAILED', exception=e)
+        job_run.update_status(session, 'FAILED', exception=e)
         raise e
     finally:
         session.close()
     return job_return_data
 
 # ✅ Good:
-def runProcessingJob(job_name, input_data_id):
-    session = database_manager.getSession()
+def run_processing_job(job_name, input_data_id):
+    session = database_manager.get_session()
 
-    input_data = lookupInputData(session, input_data_id)
+    input_data = lookup_input_data(session, input_data_id)
     if input_data is None:
         raise Exception('Bad input data')
 
-    job = getJobByName(job_name)
-    job_run = job.createJobRun(session, 'STARTED')
+    job = get_job_by_name(job_name)
+    job_run = job.create_job_run(session, 'STARTED')
 
     try:
         job.setup()
         job_return_data = job.process(session, input_data)
-        job_run.updateStatus(session, 'SUCCEEDED', output=job_return_data)
+        job_run.update_status(session, 'SUCCEEDED', output=job_return_data)
     except Exception as e:
-        job_run.updateStatus(session, 'FAILED', exception=e)
+        job_run.update_status(session, 'FAILED', exception=e)
         raise e
     finally:
         session.close()
@@ -110,16 +109,16 @@ Functions should always be separated from each other.
 
 ```python
 # ❌ Bad:
-def getUser():
+def get_user():
     return user
-def getMoths():
+def get_moths():
     return moths
 
 # ✅ Good:
-def getUser():
+def get_user():
     return user;
 
-def getMoths():
+def get_moths():
     return moths
 ```
 
@@ -131,14 +130,14 @@ from the remainder of the file.
 ```python
 # ❌ Bad:
 import random
-def getRandom():
+def get_random():
     return 4; # Chosen by fair dice roll.
             	# guaranteed to be random
 
 # ✅ Good:
 import random
 
-def getRandom():
+def get_random():
     return 4; # Chosen by fair dice roll.
               # guaranteed to be random
 ```
@@ -152,15 +151,15 @@ returning is returning the user that was just updated:
 
 ```python
 # ❌ Bad:
-def updateUserFirstName(user_id, first_name):
-    user = getUser(user_id)
+def update_user_first_name(user_id, first_name):
+    user = get_user(user_id)
     user.first_name = first_name
     user.save()
     return user
 
 # ✅ Good:
-def updateUserFirstName(user_id, first_name):
-    user = getUser(user_id)
+def update_user_first_name(user_id, first_name):
+    user = get_user(user_id)
 
     user.first_name = first_name
     user.save()
@@ -175,20 +174,20 @@ pulling and validation of data pulled should be separated by source.
 
 ```python
 # ❌ Bad:
-def updateUserAddress(user_id, address_string):
-    user = getUser(user_id)
+def update_user_address(user_id, address_string):
+    user = get_user(user_id)
     if user is None:
         raise RuntimeError('User not found')
-    google_place_id = getGooglePlaceId(address_string)
+    google_place_id = get_google_place_ID(address_string)
     # ... Set user, save, return
 
 # ✅ Good:
-def updateUserAddress(user_id, address_string):
-    user = getUser(user_id)
+def update_user_address(user_id, address_string):
+    user = get_user(user_id)
     if user is None:
         raise RuntimeError('User not found')
 
-    google_place_id = getGooglePlaceId(address_string)
+    google_place_id = get_google_place_ID(address_string)
 
     # ... Set user, save, return
 ```
@@ -207,8 +206,8 @@ Getting a variable should always be combined with the validation of that variabl
 
 ```python
 # ❌ Bad:
-def orderAlcohol(user_id, drink):
-    user = getUser(user_id)
+def order_alcohol(user_id, drink):
+    user = get_user(user_id)
 
     if user.age < 21:
         raise UnderageException()
@@ -216,8 +215,8 @@ def orderAlcohol(user_id, drink):
     # ... Order Alcohol for user
 
 # ✅ Good:
-def orderAlcohol(user_id, drink):
-    user = getUser(user_id)
+def order_alcohol(user_id, drink):
+    user = get_user(user_id)
     if user.age < 21:
         raise UnderageException()
 
@@ -235,21 +234,21 @@ be combined together.
 ```python
 # ❌ Bad:
 def createAccount(username, password):
-    validateUsername(username)
+    validate_username(username)
 
-    validatePassword(password)
+    validate_password(password)
 
     user = User.create({username})
 
-    user.setPassword(password)
+    user.set_password(password)
 
 # ✅ Good:
 def createAccount(username, password):
-    validateUsername(username)
-    validatePassword(password)
+    validate_username(username)
+    validate_password(password)
 
     user = User.create({username})
-    user.setPassword(password)
+    user.set_password(password)
 ```
 
 ## Thanks
