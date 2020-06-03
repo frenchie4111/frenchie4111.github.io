@@ -1,7 +1,7 @@
 ---
 title: Scalability Dimensions
 subject: A few words on how you should order parameters to maximize codebase consistency and scalability
-tags: Coding mike8
+tags: Coding
 layout: post_plain
 ---
 

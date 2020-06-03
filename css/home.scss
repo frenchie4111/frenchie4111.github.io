@@ -314,18 +314,14 @@ h2#post_title {
 }
 
 a:link, a:visited {
-    text-decoration: none;
+    text-decoration: underline;
     color: inherit;
 }
 
-.post {
+.post_description, .social_media {
     a:link {
-        text-decoration: underline;
+        text-decoration: none;
     }
-}
-
-.social_media a:link, .social_media a:visited {
-    color: black;
 }
 
 h4 {

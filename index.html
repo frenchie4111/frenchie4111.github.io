@@ -12,7 +12,7 @@ is_home: true
             <h2 class="colorchanger">Recent Posts</h2>
 
             {% assign recent_posts = site.posts | sort: 'date' | reverse %}
-            {% for recent_post in recent_posts | limit:8 %}
+            {% for recent_post in recent_posts | limit:15 %}
                 {% if recent_post.tags contains 'Complicated-Tutorial' %}
                 {% else %}
                     {% include post_description.html post=recent_post %}
@@ -23,23 +23,18 @@ is_home: true
             <div class="clear"></div>
         </div>
         <div class="column right one_third_width">
-            <h2 class="colorchanger">About Me</h2>
-            <div class="column_post">
-                <b>My name is Mike Lyons</b>, and I am a Software Engineer / Entrepreneur living in San Francisco. I love working with smart people to solve hard problems.
-                <br/><br/>
-                <a style="color: black;" href="https://resume.mikelyons.org/">Click Here to view my Resume</a>
-            </div>
-            <div class="column_spacer"></div>
+            <h2 class="colorchanger">Get Started</h2>
+            <p><b>My name is Mike Lyons</b>, and I am a Software Engineer / Entrepreneur living in San Francisco. I love working with smart people to solve hard problems. I've worked at several startups in the bay area, and I am currently enjoying a long tenure at Dor where I mostly do systems and algorithms design for our AIML enabled foot traffic counting product.</p>
+            <p>This blog will mostly be: system design insights I have won during my time solving hard problems, <a href="/mike8.html">advice to other software engineers about the often unspoken rules of the craft</a>, and longer form research essays about my AIML side projects.</p>
             <h2 class="colorchanger">Let's Get Coffee</h2>
             I would love to buy you coffee, whoever you are, just as long as you are willing to have a conversation with me about whatever random thing is on my mind. Reach out, you won't be sorry.<br/>
             <br/>
-            <div class="recent_post social_media">
-                <div><a href="mailto:mdl0394@gmail.com"><b><span class="social_media_link">Email:</span></b></a> The fastest way to contact me</div>
-                <div><a href="https://www.linkedin.com/profile/view?id=219693399"><b><span class="social_media_link">LinkedIn:</span></b></a> Professional listing page</div>
-                <div><a href="https://github.com/frenchie4111"><b><span class="social_media_link">Github:</span></b></a> A majority of my projects</div>
+            <h2>Links</h2>
+            <div class="social_media">
+                <p><b><a href="mailto:mdl0394@gmail.com">Email</a></b></p>
+                <p><b><a href="resume.mikelyons.org">Resume</a></b></p>
+                <p><b><a href="https://github.com/frenchie4111">GitHub</a></b></p>
             </div>
-            <div class="clear"></div>
         </div>
-
     </div>
 </div>
