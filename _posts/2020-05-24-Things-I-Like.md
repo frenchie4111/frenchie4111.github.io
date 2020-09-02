@@ -1,6 +1,6 @@
 ---
-title: Things I Like
-subject: Bootstrapping our reader/writer relationship by front-loading all the things I love and would inevitably tell you about anyway
+title: Relationship Bootstrap
+subject: Front-loading all the things I love and would inevitably tell you about anyway
 tags: Random
 layout: post_plain
 ---
