@@ -16,6 +16,8 @@ Also I plan to continue to expand this project to have a screen and some buttons
 if you want to hear about that signup to my email list and I'll let you know when
 I do it.
 
+<br/>
+
 ## Figuring out hot to turn on the heat
 
 So I turns out my heater runs on a really simple control protocol. There are just
@@ -26,6 +28,8 @@ switching.
 
 {: .center}
 ![Old Thermostat Closeup showing two pins that need to be connected](/images/homekit_thermostat/old_thermostat_closeup.jpeg){: style="width: 350px"}
+
+<br/>
 
 ## The prototype
 
@@ -40,6 +44,8 @@ so in v2 I will be replacing it with hopefully a more accurate one.
 
 After wiring it all together, and taping it to my wall for a day or two, I was
 satisfied with the components, and wanted to get started on prettying it up a bit.
+
+<br/>
 
 ## The code
 
@@ -137,7 +143,7 @@ library to arduino. There are about 15 different homekit frameworks for arduino,
 so at some point I just had to choose one and start running.
 
 {: .center}
-![Homekit screenshot showing thermostat](/images/homekit_thermostat/homekit.jpeg){: .style="width: 250px;"}
+![Homekit screenshot showing thermostat](/images/homekit_thermostat/homekit.jpeg){: style="width: 250px;"}
 
 After a whole bunch of fucking around I managed to get my esp32 to show up as a thermostat from my phone.
 
@@ -146,6 +152,8 @@ A few gotcha's that I encountered along the way: (some specific to this library,
 - With this HomeKit library if you want to factory reset, you have to do it *after* you initialize. Also be sure to remove the device from homekit on your phone before factory resetting the device
 - Be sure that you have unique id and pairing codes for your device, I have another esp32 on my homekit and they kept colliding
 - Be sure that your device cid matches with the services you are providing, otherwise you will get annoying silent failures from homekit
+
+<br/>
 
 ## Making things pretty
 
@@ -160,6 +168,8 @@ I will go nest style with an internal LiPo and an AC-DC converter.
 ![Soldered together](/images/homekit_thermostat/soldered.jpeg){: style="width: 200px;"}
 ![3d printed enclosure](/images/homekit_thermostat/enclosure.jpeg){: style="width: 200px;"}
 ![Enclosure mounted to wall and plugged in](/images/homekit_thermostat/pretty.jpeg){: style="width: 200px;"}
+
+<br/>
 
 ## What's Next?
 
