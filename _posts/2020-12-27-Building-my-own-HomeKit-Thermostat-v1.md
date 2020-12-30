@@ -17,7 +17,7 @@ if you want to hear about that signup to my email list and I'll let you know whe
 I do it.
 
 I am considering turning this project into something people can buy. If you'd be
-interested in buying a hackable thermostat, register your interest [https://docs.google.com/forms/d/e/1FAIpQLSePJdT7qP9IMAK_TZLCWFs1sodBei73pinnji0GxVe9dMl8Zg/viewform](here)
+interested in buying a hackable thermostat, register your interest [here](https://docs.google.com/forms/d/e/1FAIpQLSePJdT7qP9IMAK_TZLCWFs1sodBei73pinnji0GxVe9dMl8Zg/viewform)
 
 <br/>
 
