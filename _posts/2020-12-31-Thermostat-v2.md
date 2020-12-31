@@ -9,8 +9,8 @@ layout: post_plain
 
 The v1 post did really well, thank you guys for reading about it. I had a few more days in vacation, and wasn't quite satisfied with the v1, so I decided to make some more updates.
 
-{: style="background-color: light-gray;"}
-I am considering taking the steps to make this into something that I can sell to you. If you'd be interested in buying a hackable thermostat, let me know in this form here.
+{: style="background-color: gray; color: white;"}
+I am considering taking the steps to make this into something that I can sell to you. If you'd be interested in buying a hackable thermostat, let me know in this form [here](https://docs.google.com/forms/d/e/1FAIpQLSePJdT7qP9IMAK_TZLCWFs1sodBei73pinnji0GxVe9dMl8Zg/viewform).
 
 <br/>
 
@@ -102,7 +102,8 @@ The only thing left to do was install it. I am honestly a bit disappointed that 
 
 ## Future Plans
 
-I am pretty strongly considering turning this thing into something people can buy. If you'd be interested in buying an open sourced hackable home thermostat, let me know in this form (or reach out to my email directly). 
+{: style="background-color: gray; color: white;"}
+I am pretty strongly considering turning this thing into something people can buy. If you'd be interested in buying an open sourced hackable home thermostat, let me know in this [form](https://docs.google.com/forms/d/e/1FAIpQLSePJdT7qP9IMAK_TZLCWFs1sodBei73pinnji0GxVe9dMl8Zg/viewform) (or reach out to my email directly). 
 
 v3 improvements already planned:
 
@@ -117,4 +118,3 @@ v3 improvements already planned:
 Asside from the parts used in v1, here are the new things used:
  - New thermometer is a [Adafruit MCP9808](https://www.adafruit.com/product/1782)
  - Screen is a: [GeeekPi 5PCS 0.96 Inch OLED Module 12864 128x64 White SSD1306](https://www.amazon.com/gp/product/B0833PF7ML/ref=ppx_yo_dt_b_asin_title_o04_s02?ie=UTF8&psc=1)
-
