@@ -62,8 +62,8 @@ With the new components and display, the case needed to be expanded to comfortab
 ![Me modeling this in fusion 360](/images/homekit_thermostat_v2/modeling_computer.jpg)
 
 {: .center}
-![3d printer printing the front](/images/homekit_thermostat_v2/3d_printer.jpg){: style="float: left; width: 200px"}
-![Image of the printed case on my desk](/images/homekit_thermostat_v2/modeling_desk.jpg){: style="float: right; width: 200px"}
+![3d printer printing the front](/images/homekit_thermostat_v2/3d_printer.jpg){: style="width: 45%;"}
+![Image of the printed case on my desk](/images/homekit_thermostat_v2/modeling_desk.jpg){: style="width: 45%;"}
 
 ![Image of the front of the case test](/images/homekit_thermostat_v2/model_test.jpg)
 
