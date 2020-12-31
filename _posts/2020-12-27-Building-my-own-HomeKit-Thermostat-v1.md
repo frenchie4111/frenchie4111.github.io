@@ -182,9 +182,9 @@ I will go nest style with an internal LiPo and an AC-DC converter.
 
 I have already bought a few parts for a planned v2, so stay tuned. In v2 I will be adding:
 
-- New thermometer board (Going to use this overpriced adafruit breakout here [https://www.amazon.com/gp/product/B00OKCQX96/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1](https://www.amazon.com/gp/product/B00OKCQX96/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1))
-- Adding a small status display OLED screen [https://www.amazon.com/gp/product/B0833PF7ML/ref=ppx_yo_dt_b_asin_title_o01_s03?ie=UTF8&psc=1](https://www.amazon.com/gp/product/B0833PF7ML/ref=ppx_yo_dt_b_asin_title_o01_s03?ie=UTF8&psc=1)
-- Add a few buttons to allow non-phone control of the device [https://www.amazon.com/gp/product/B0722LBKV7/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1](https://www.amazon.com/gp/product/B0722LBKV7/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+- [New thermometer board (Going to use this overpriced adafruit breakout here](https://www.amazon.com/gp/product/B00OKCQX96/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1))
+- Adding a [small status display OLED screen](https://www.amazon.com/gp/product/B0833PF7ML/ref=ppx_yo_dt_b_asin_title_o01_s03?ie=UTF8&psc=1)
+- Add a few [buttons to allow non-phone control of the device](https://www.amazon.com/gp/product/B0722LBKV7/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
 
 I am considering turning this project into something people can buy. If you'd be
 interested in buying a hackable thermostat, register your interest [https://docs.google.com/forms/d/e/1FAIpQLSePJdT7qP9IMAK_TZLCWFs1sodBei73pinnji0GxVe9dMl8Zg/viewform](here)
@@ -193,6 +193,6 @@ interested in buying a hackable thermostat, register your interest [https://docs
 
 ## Parts used / Other references
 
-- Way too big of a relay: [https://www.amazon.com/gp/product/B07KXNCL91/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1](https://www.amazon.com/gp/product/B07KXNCL91/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1)
-- ESP32 Doit Devkit v1 boards: [https://www.amazon.com/gp/product/B07Q576VWZ/ref=ppx_yo_dt_b_asin_title_o08_s01?ie=UTF8&psc=1](https://www.amazon.com/gp/product/B07Q576VWZ/ref=ppx_yo_dt_b_asin_title_o08_s01?ie=UTF8&psc=1)
-- HomeKit framework esp-homekit-arduino-sdk [https://github.com/Brawrdon/esp-homekit-arduino-sdk?utm_source=platformio&utm_medium=piohome](https://github.com/Brawrdon/esp-homekit-arduino-sdk?utm_source=platformio&utm_medium=piohome)
+- Way too big of a relay: [Amazon](https://www.amazon.com/gp/product/B07KXNCL91/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1)
+- ESP32 Doit Devkit v1 boards: [Amazon](https://www.amazon.com/gp/product/B07Q576VWZ/ref=ppx_yo_dt_b_asin_title_o08_s01?ie=UTF8&psc=1)
+- HomeKit framework esp-homekit-arduino-sdk [Github](https://github.com/Brawrdon/esp-homekit-arduino-sdk?utm_source=platformio&utm_medium=piohome)
