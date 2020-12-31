@@ -19,6 +19,8 @@ I do it.
 I am considering turning this project into something people can buy. If you'd be
 interested in buying a hackable thermostat, register your interest [here](https://docs.google.com/forms/d/e/1FAIpQLSePJdT7qP9IMAK_TZLCWFs1sodBei73pinnji0GxVe9dMl8Zg/viewform)
 
+This is part one of a multi-part series, [you can find part 2 here](/2020/12/31/thermostat-v2)
+
 <br/>
 
 ## Figuring out hot to turn on the heat
@@ -175,6 +177,8 @@ I will go nest style with an internal LiPo and an AC-DC converter.
 <br/>
 
 ## What's Next?
+
+[The v2 post is live here, where I added all the things listed in this section](/2020/12/31/thermostat-v2)
 
 I have already bought a few parts for a planned v2, so stay tuned. In v2 I will be adding:
 
