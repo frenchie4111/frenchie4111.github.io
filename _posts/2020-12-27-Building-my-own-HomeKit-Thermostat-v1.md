@@ -16,6 +16,9 @@ Also I plan to continue to expand this project to have a screen and some buttons
 if you want to hear about that signup to my email list and I'll let you know when
 I do it.
 
+I am considering turning this project into something people can buy. If you'd be
+interested in buying a hackable thermostat, register your interest [here](https://docs.google.com/forms/d/e/1FAIpQLSePJdT7qP9IMAK_TZLCWFs1sodBei73pinnji0GxVe9dMl8Zg/viewform)
+
 <br/>
 
 ## Figuring out hot to turn on the heat
@@ -178,6 +181,9 @@ I have already bought a few parts for a planned v2, so stay tuned. In v2 I will 
 - New thermometer board (Going to use this overpriced adafruit breakout here [https://www.amazon.com/gp/product/B00OKCQX96/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1](https://www.amazon.com/gp/product/B00OKCQX96/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1))
 - Adding a small status display OLED screen [https://www.amazon.com/gp/product/B0833PF7ML/ref=ppx_yo_dt_b_asin_title_o01_s03?ie=UTF8&psc=1](https://www.amazon.com/gp/product/B0833PF7ML/ref=ppx_yo_dt_b_asin_title_o01_s03?ie=UTF8&psc=1)
 - Add a few buttons to allow non-phone control of the device [https://www.amazon.com/gp/product/B0722LBKV7/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1](https://www.amazon.com/gp/product/B0722LBKV7/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+
+I am considering turning this project into something people can buy. If you'd be
+interested in buying a hackable thermostat, register your interest [https://docs.google.com/forms/d/e/1FAIpQLSePJdT7qP9IMAK_TZLCWFs1sodBei73pinnji0GxVe9dMl8Zg/viewform](here)
 
 {% include stay_connected.html %}
 
