@@ -9,6 +9,8 @@ layout: post_plain
 
 The v1 post did really well, thank you guys for reading about it. I had a few more days in vacation, and wasn't quite satisfied with the v1, so I decided to make some more updates.
 
+Like I said in the last post. I love talking to people about these sorts of projects. If you are building your own thermostat, or any hardware really, shoot me an email at mdl0394@gmail.com. I will also be in the [HackerNews comments section of this post](https://news.ycombinator.com/item?id=25593736) if you want to chat there.
+
 {: style="background-color: gray; color: white;"}
 I am considering taking the steps to make this into something that I can sell to you. If you'd be interested in buying a hackable thermostat, let me know in this form [here](https://docs.google.com/forms/d/e/1FAIpQLSePJdT7qP9IMAK_TZLCWFs1sodBei73pinnji0GxVe9dMl8Zg/viewform).
 
