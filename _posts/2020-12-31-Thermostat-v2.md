@@ -84,7 +84,7 @@ With the new components and display, the case needed to be expanded to comfortab
 
 One of the new requirements for the v2 was that the heater will stay on for a minimum of 5 minutes, no exceptions, even if you manually turn it off it will still stay on for 5 minutes. In order to support this new mode, I have added the concept of "Waiting" to the state machine. Now instead of going to an off state, if it has been <5 minutes since the thermostat was turned on, the thermostat will go into waiting instead.
 
-![v2 state machine](/images/homekit_thermostat_v2/state_machine_v2.jpg)
+![v2 state machine](/images/homekit_thermostat_v2/state_machine_v2.png)
 
 Some have argued that using a state machine for this problem is overcomplicating the issue. That's pretty valid, this state machine is fairly complex, but I really like that the state machine makes it really easy to code and understand both the current state of the thermostat and the transitions of the thermostat. As I continue to complicate the main control logic (example: adding a cooling mode or adding different stages of heating) it will only get more complicated, so I prioritized a more scalable solution over a simple solution.
 
