@@ -7,6 +7,8 @@ layout: post_plain
 
 This is going to come off like the most champagne of problem, but I get so many recruiter emails, and they are almost all annoying contentless spam. I have been more actively looking for a job lately, so this problem has been on my mind a lot. This is just a quick rant list of things recruiter drip campaign authors should do differently to get me to respond:
 
+<br/>
+
 1. Pitch the company. What is the company doing now, what are they building towards. Too many emails don't even mention what company they are for, let alone why it might be interesting to work there.
 2. Tell me what I will be working on. It's not enough to tell me "You will be a software engineer". Tell me specifically what I will be working on, get me excited to do that job. Good engineers like to solve interesting challenges, I am not going to respond if I don't understand what is interesting or unique about the role.
 3. Know who you are contacting: Every engineer I know has at least something in their job history you can at least attempt to mention. If I feel like this email was written for me, I am much more likely to respond.
