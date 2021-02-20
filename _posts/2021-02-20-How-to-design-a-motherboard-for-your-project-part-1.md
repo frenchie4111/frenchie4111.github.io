@@ -7,7 +7,7 @@ intro: "
 <h2>-1. Overview</h2>
 
 <p>
-    After the prototyping phase of any electronics project, I like to make a \"Motherboard\" PCB. I will continue to use breakout boards for all of the individual components, but link them together using a PCB. This allows the PCB design to stay simple and flexible, and makes them easy to manufacture them in my workshop. This is a great setup if you want to do a small (10ish) beta run of your project before designing a full product. I have shipped many hardware products using this stage, it's a great way to validate your MVP before putting money into tooling and CM bring up.
+    After the prototyping phase of any electronics project, I like to make a \"Motherboard\" PCB. For this phase I will continue to use breakout boards for all of the individual components, but link them together using a PCB. This allows the PCB design to stay simple and flexible, and makes them easy to hand manufacture them in my workshop. This is a great setup if you want to do a small (10ish) beta run of your project before designing a full product. I have shipped many hardware products using this stage, it's a great way to validate your MVP before putting money into tooling and CM bring up.
 </p>
 <p>
     This tutorial will walk through the process that I follow to create a motherboard. The intended audience is someone who has already wired up a prototype on a breadboard, and wants to get started bundling them together into a motherboard. This will be the guide I wish existed when I got started doing this.
@@ -18,7 +18,7 @@ intro: "
 <p class=\"caption\">Here is an example of the motherboard I designed for my <a href=\"/2020/12/31/Thermostat-v2.html\">Thermostat</a> project </p>
 
 <p>
-    If you have any questions about any of this stuff, or want a PCB design for your project, feel free to reach out to me: mdl0394@gmail.com
+    This is just the process I figured out for myself, it's by no means perfect. If you have any feedback or questions about any of this stuff, or want a PCB design for your project, feel free to reach out to me: mdl0394@gmail.com
 </p>
 
 <p>
