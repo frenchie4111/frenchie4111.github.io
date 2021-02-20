@@ -1,5 +1,5 @@
 ---
-title: "v2 Updates to my HomeKit Thermostat - Making it into something i can u"
+title: "v2 Updates to my HomeKit Thermostat - Making it into something i can use"
 subject: More updates to my thermostat project
 tags: Projects
 layout: post_plain
