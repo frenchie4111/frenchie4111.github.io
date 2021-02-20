@@ -1,11 +1,31 @@
 ---
 title: "How to design a motherboard for your project - Part 1"
-subject: 
+subject: Designing a motherboard for your project is a great second step when developing an electronics project. This is the guide I wish existed when I got started doing this.
 tags: Projects
-layout: post_plain
+layout: post_plain_toc
+intro: "
+<h2>-1. Overview</h2>
+
+<p>
+    After the prototyping phase of any electronics project, I like to make a \"Motherboard\" PCB. I will continue to use breakout boards for all of the individual components, but link them together using a PCB. This allows the PCB design to stay simple and flexible, and makes them easy to manufacture them in my workshop. This is a great setup if you want to do a small (10ish) beta run of your project before designing a full product. I have shipped many hardware products using this stage, it's a great way to validate your MVP before putting money into tooling and CM bring up.
+</p>
+<p>
+    This tutorial will walk through the process that I follow to create a motherboard. The intended audience is someone who has already wired up a prototype on a breadboard, and wants to get started bundling them together into a motherboard. This will be the guide I wish existed when I got started doing this.
+</p>
+
+<br/>
+<img src=\"/images/how-to-pcb-part-1/thermostat-motherboard.jpeg\" />
+<p class=\"caption\">Here is an example of the motherboard I designed for my <a href=\"/2020/12/31/Thermostat-v2.html\">Thermostat</a> project </p>
+
+<p>
+    If you have any questions about any of this stuff, or want a PCB design for your project, feel free to reach out to me: mdl0394@gmail.com
+</p>
+
+<p>
+    This is Part 1 of the guide. In this guide we will go through initial setup, component model sourcing and schematic design. In Part 2 we will go through board layout and ordering PCBs. If you want to be notified when Part 2 comes out, sign up for email notifications, or subscribe to the RSS feed.
+</p>
+"
 ---
-
-
 
 ## 0. Before you build a PCB
 
@@ -13,9 +33,12 @@ Before you build a PCB you should already have all of the breakout boards & devk
 
 For this project I will be using my Caffstat (Hackable Smart Home Thermostat) project. If you are interested in a smart home thermostat feel free to check out that project here.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e089acc6-b288-4ee7-a21a-34d162f26e15/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e089acc6-b288-4ee7-a21a-34d162f26e15/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled.png](/images/how-to-pcb-part-1/Untitled.png){: style="width: 32%; display: inline-block; vertical-align: middle;"}
+![/images/how-to-pcb-part-1/Untitled%201.png](/images/how-to-pcb-part-1/Untitled%201.png){: style="width: 32%; display: inline-block; vertical-align: middle;"}
+![/images/how-to-pcb-part-1/Untitled%202.png](/images/how-to-pcb-part-1/Untitled%202.png){: style="width: 32%; display: inline-block; vertical-align: middle;"}
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4486bb1-ecfc-483b-acbe-01278ece51d5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4486bb1-ecfc-483b-acbe-01278ece51d5/Untitled.png)
+<p class="caption">These 3 images represent the stages of any electronics project: Breadboard -> Project Board -> PCB</p>
 
 This project contains 3 different breakout boards and a few through hole components. The brains of the operation are an ESP32 Devkit, there are breakouts for the Thermostat and Screen, and through hold components for the buttons, resistors, and relays.
 
@@ -23,11 +46,13 @@ This project contains 3 different breakout boards and a few through hole compone
 
 A PCB Design contains two main parts, the schematic and the layout. The schematic is an abstract diagram of the connections between components in your project, and the layout is the actual physical layout of those components, and the electrical traces that connect them. The great thing about PCB design software, is that the schematic will be enforced when you are creating the layout, this makes it very straight forward to create the layout after you've created the schematic.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/61d250e9-660a-495e-aadf-8b55b0fc4dae/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/61d250e9-660a-495e-aadf-8b55b0fc4dae/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%203.png](/images/how-to-pcb-part-1/Untitled%203.png)
 
 This is the completed schematic for the caffstat project. You can see all of the breakout boards as individual components (red). The connections between them are mostly being managed by net labels to simplify the schematic (more on this later).
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9d3a49af-d358-48ad-8035-c325d455be82/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9d3a49af-d358-48ad-8035-c325d455be82/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%204.png](/images/how-to-pcb-part-1/Untitled%204.png)
 
 Here is an image of the completed layout. Every component has found a space on the board, and all of the electrical traces have been drawn. Don't worry if it looks complicated/messy now, when we go step by step it will be very easy to create.
 
@@ -43,7 +68,8 @@ The best tool I have found for looking up components and downloading models is [
 
 If octopart has the CAD Model for your part, it will appear like this, you want to download the Eagle format, this will download the library that you can install later. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f182c04-94b5-47a3-a034-a37c02c8a95b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5f182c04-94b5-47a3-a034-a37c02c8a95b/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%205.png](/images/how-to-pcb-part-1/Untitled%205.png)
 
 ### 2.2. Desparate Googling
 
@@ -53,7 +79,8 @@ I have also found quite a few schematics by just googling the part. It can often
 
 Once you have a library it's easy to install, drag the Library (.lbr) file into the `libraries` section of the Eagle Control Panel. **Important:** after dragging the lbr file, make sure you right click and hit "Use" otherwise you won't actually be able to add it to your project. Libraries in use will have a green dot next to them
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/160cb349-5a25-4536-85d8-fecd2f2b8f07/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/160cb349-5a25-4536-85d8-fecd2f2b8f07/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%206.png](/images/how-to-pcb-part-1/Untitled%206.png)
 
 ### 2.4. Creating your own Library
 
@@ -69,13 +96,18 @@ Once you have your components, you can start creating your schematic.
 
 First thing is to make a new Project and new Schematic in eagle. Go into the projects section, right click and hit "New Project". Then right click and hit "New Schematic". Once the schematic opens, you also want to create a layout (We'll use this in Step 4). Do this by hitting the "Generate/Switch to Board" button on the top bar.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/491bb3c5-1435-42a8-be14-befd049b4ae0/Screen_Shot_2021-01-18_at_9.26.13_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/491bb3c5-1435-42a8-be14-befd049b4ae0/Screen_Shot_2021-01-18_at_9.26.13_AM.png)
+{: .center}
+![/images/how-to-pcb-part-1/Screen_Shot_2021-01-18_at_9.26.13_AM.png](/images/how-to-pcb-part-1/Screen_Shot_2021-01-18_at_9.26.13_AM.png)
 
 ### 3.2. Place your components
 
 Once you have a schematic you need to put all of your part symbols on. The add part button is on the left bar, clicking this will bring up a dialogue that lets you choose a component. If you don't see a component you installed here, go back to the control panel and make sure you selected "Use" on the right click menu.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e8edf2a-77de-44ce-b5fc-d705b6b8ca07/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e8edf2a-77de-44ce-b5fc-d705b6b8ca07/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%207.png](/images/how-to-pcb-part-1/Untitled%207.png)
+
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%208.png](/images/how-to-pcb-part-1/Untitled%208.png)
 
 Add all of your components to your schematic. Make sure you give yourself a bunch of room around components to create connections. I also try to keep things in logical groupings because the simpler the diagram the less likely-hood of design bugs. 
 
@@ -83,13 +115,15 @@ While placing components there are a few useful tools at your disposal. The Move
 
 Here is what my schematic looks like after I have placed all of my parts.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13ab785e-7531-4afc-8bb5-6a9408029ebd/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13ab785e-7531-4afc-8bb5-6a9408029ebd/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%209.png](/images/how-to-pcb-part-1/Untitled%209.png)
 
 ### 3.3. Placing the Ground Label
 
 The standard for schematics is to use a specialty component to label the shared ground. You can find this by searching "gnd" in the Add Part menu.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b1ac252b-5551-4195-b81c-3e48b8609107/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b1ac252b-5551-4195-b81c-3e48b8609107/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%2010.png](/images/how-to-pcb-part-1/Untitled%2010.png)
 
 I will usually place one of these per component, just off the bottom of the component, and wire them to the ground pin.
 
@@ -99,23 +133,31 @@ You can directly connect parts together using the "Net" tool (Green line) howeve
 
 For every node that I want to connect, I will first draw a one or two unit Net. Like so:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/deab75c8-b41e-4ca0-9d2f-1d7b326cd2a1/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/deab75c8-b41e-4ca0-9d2f-1d7b326cd2a1/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%2011.png](/images/how-to-pcb-part-1/Untitled%2011.png)
 
 Then using the "Name" tool I will name all of the new nets something that makes them easier to trace. To name a net, select the tool, then select the green line for the net, a text dialogue should pop up asking you for a name, you can then give the net a unique name, make sure that "Place Label" is checked, and click OK.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/89b9a9ee-9c5c-4cff-ae9c-6eb7678ede74/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/89b9a9ee-9c5c-4cff-ae9c-6eb7678ede74/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%2012.png](/images/how-to-pcb-part-1/Untitled%2012.png)
 
 Name Tool
 
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%2013.png](/images/how-to-pcb-part-1/Untitled%2013.png)
+
 The first label you make probably won't have the "Xref On" option selected (looks like a little tag symbol on the toolbar). Selecting this will clean up your diagram a bit. I also prefer to set my size to 0.05 so that tags can be neatly stacked on top of each other. You can also use the mirror options to make a left or right side label.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4cb9bba1-82dd-42bd-89c5-b4e9975fa615/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4cb9bba1-82dd-42bd-89c5-b4e9975fa615/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%2014.png](/images/how-to-pcb-part-1/Untitled%2014.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0030981c-a0a3-44ea-8b3b-f7eb45c265c5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0030981c-a0a3-44ea-8b3b-f7eb45c265c5/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%2015.png](/images/how-to-pcb-part-1/Untitled%2015.png)
 
 If you want to connect two different nodes together then you should label them the same thing. When you do this Eagle will pop up and ask you if you want to connect the two nets together. Click yes and Eagle will now know that you want those two pins to be on the same net (they will be electrically connected on your layout) .
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/758f1a35-7633-4337-bac9-2486d7ad91cb/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/758f1a35-7633-4337-bac9-2486d7ad91cb/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%2016.png](/images/how-to-pcb-part-1/Untitled%2016.png)
 
 Once you have all of your components connected properly on the schematic, it's time to do a final review before moving on to
 
@@ -123,4 +165,11 @@ Once you have all of your components connected properly on the schematic, it's t
 
 After wiring all of the components together, I will take a moment to review. Here is the completed schematic diagram for my thermostat motherboard. Before moving on to layout I like to rubber-duck (literally say out loud) the different connections to make sure I didn't make any stupid mistakes.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/61d250e9-660a-495e-aadf-8b55b0fc4dae/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/61d250e9-660a-495e-aadf-8b55b0fc4dae/Untitled.png)
+{: .center}
+![/images/how-to-pcb-part-1/Untitled%203.png](/images/how-to-pcb-part-1/Untitled%203.png)
+
+## 4.0 Part 2 - Coming Soon
+
+In Part 2 I will cover: Board layout, design rules, PCB ordering, and 3d model export. Part 2 will be available in a couple of weeks, subscribe to be notified when it's posted.
+
+{% include stay_connected.html %}

@@ -210,7 +210,7 @@ code {
     margin: 40px 0 15px 0;
 }
 
-h2#post_title {
+h1#post_title {
     font-size: 35px;
     margin: 10px 0 30px -2px;
     line-height: 1.2;
@@ -461,4 +461,11 @@ code {
             cursor: pointer;
         }
     }
+}
+
+.caption {
+    color: grey;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
 }
