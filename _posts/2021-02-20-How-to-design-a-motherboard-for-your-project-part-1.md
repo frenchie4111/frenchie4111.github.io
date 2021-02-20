@@ -18,7 +18,7 @@ intro: "
 <p class=\"caption\">Here is an example of the motherboard I designed for my <a href=\"/2020/12/31/Thermostat-v2.html\">Thermostat</a> project </p>
 
 <p>
-    This is just the process I figured out for myself, it's by no means perfect. If you have any feedback or questions about any of this stuff, or want a PCB design for your project, feel free to reach out to me: mdl0394@gmail.com
+    This is just the process I figured out for myself, it's by no means perfect. If you have any feedback or questions about any of this stuff, want a PCB design for your project, or just want to chat, feel free to reach out to me: mdl0394@gmail.com
 </p>
 
 <p>
