@@ -44,7 +44,7 @@ This project contains 3 different breakout boards and a few through hole compone
 
 ### 0.1 Installing Eagle
 
-For this tutorial I will we be using Eagle. It's got a free free tier tool that, and it integrates well into the Autodesk suite. Eagle is free for up to two layer boards, which should be all you need for most electronics projects. The information here will be pretty generally applicable to any tool, although the screenshots will be of eagle specifically.
+For this tutorial I will we be using Eagle. It's got a free tier tool that, and it integrates well into the Autodesk suite. Eagle is free for up to two layer boards, which should be all you need for most electronics projects. The information here will be pretty generally applicable to any tool, although the screenshots will be of eagle specifically.
 
 You can download eagle for free [here](https://www.autodesk.com/products/eagle/overview)
 
