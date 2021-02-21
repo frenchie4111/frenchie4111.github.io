@@ -15,7 +15,7 @@ intro: "
 
 <br/>
 <img src=\"/images/how-to-pcb-part-1/thermostat-motherboard.jpeg\" />
-<p class=\"caption\">Here is an example of the motherboard I designed for my <a href=\"/2020/12/31/Thermostat-v2.html\">Thermostat</a> project </p>
+<p class=\"caption\">Here is an example of the motherboard I designed for my <a href=\"/caffstat_beta\">Thermostat</a> project </p>
 
 <p>
     This is just the process I figured out for myself, it's by no means perfect. If you have any feedback or questions about any of this stuff, want a PCB design for your project, or just want to chat, feel free to reach out to me: mdl0394@gmail.com
@@ -31,7 +31,7 @@ intro: "
 
 Before you build a PCB you should already have all of the breakout boards & devkits you want to use for the project. When designing the motherboard you should already have a good understanding of how the electronics components are wired together, if you don't it's easy to make costly mistakes.
 
-For this project I will be using my Caffstat (Hackable Smart Home Thermostat) project. If you are interested in a smart home thermostat feel free to check out that project here.
+For this project I will be using my Caffstat (Hackable Smart Home Thermostat) project. If you are interested in a smart home thermostat feel free to check out that [project here](/caffstat_beta).
 
 {: .center}
 ![/images/how-to-pcb-part-1/Untitled.png](/images/how-to-pcb-part-1/Untitled.png){: style="width: 32%; display: inline-block; vertical-align: middle;"}
@@ -41,6 +41,12 @@ For this project I will be using my Caffstat (Hackable Smart Home Thermostat) pr
 <p class="caption">These 3 images represent the stages of any electronics project: Breadboard -> Project Board -> PCB</p>
 
 This project contains 3 different breakout boards and a few through hole components. The brains of the operation are an ESP32 Devkit, there are breakouts for the Thermostat and Screen, and through hold components for the buttons, resistors, and relays.
+
+### 0.1 Installing Eagle
+
+For this tutorial I will we be using Eagle. It's a free tool that integrates well into the Autodesk suite. The information here will be pretty generally applicable to any tool, although the screenshots will be of eagle specifically.
+
+You can download eagle for free [here](https://www.autodesk.com/products/eagle/overview)
 
 ## 1. Anatomy of a PCB Design
 
@@ -60,7 +66,7 @@ Here is an image of the completed layout. Every component has found a space on t
 
 Before you can begin drawing a schematic and layout, you need to find or create models for each and every one of your components. A device model contains both a **symbol** for part (goes in the schematic) and a **footprint** of the part (for the layout). I will list out some great resources for finding or creating these here. I can create a full tutorial for creating your own component models if you are interested, let me know at mdl0394@gmail.com
 
-One thing to not is that Eagle comes pre-packaged with a bunch of common components. These are mostly things like standard resistors/capacitors. It's worth checking the pre-installed library before spending too much time scouring the internet. The easiest way to check the library is to use the "Add Part" button discussed in section 3.2 of this tutorial.
+One thing to note is that Eagle comes pre-packaged with a bunch of common components. These are mostly things like standard resistors/capacitors. It's worth checking the pre-installed library before spending too much time scouring the internet. The easiest way to check the library is to use the "Add Part" button discussed in section 3.2 of this tutorial.
 
 ### 2.1. Octopart
 
@@ -109,7 +115,7 @@ Once you have a schematic you need to put all of your part symbols on. The add p
 {: .center}
 ![/images/how-to-pcb-part-1/Untitled%208.png](/images/how-to-pcb-part-1/Untitled%208.png)
 
-Add all of your components to your schematic. Make sure you give yourself a bunch of room around components to create connections. I also try to keep things in logical groupings because the simpler the diagram the less likely-hood of design bugs. 
+Add all of your components to your schematic. Make sure you give yourself a bunch of room around components to create connections. You should also try to sort the parts in logical groupings, the simpler your schematic, the less likely-hood of bugs.
 
 While placing components there are a few useful tools at your disposal. The Move, Rotate and Copy tools at the top of the left panel are all useful for organizing your schematic. When you want to select an object, the easiest thing to do is to click the + symbol (probably either at the center, or the origin of the part).
 
@@ -136,7 +142,7 @@ For every node that I want to connect, I will first draw a one or two unit Net. 
 {: .center}
 ![/images/how-to-pcb-part-1/Untitled%2011.png](/images/how-to-pcb-part-1/Untitled%2011.png)
 
-Then using the "Name" tool I will name all of the new nets something that makes them easier to trace. To name a net, select the tool, then select the green line for the net, a text dialogue should pop up asking you for a name, you can then give the net a unique name, make sure that "Place Label" is checked, and click OK.
+Then using the "Name" tool I will name all of the new nets something that makes them easier to keep track of. To name a net, select the tool, then select the green line for the net, a text dialogue should pop up asking you for a name, you can then give the net a unique name, make sure that "Place Label" is checked, and click OK.
 
 {: .center}
 ![/images/how-to-pcb-part-1/Untitled%2012.png](/images/how-to-pcb-part-1/Untitled%2012.png)
@@ -168,7 +174,7 @@ After wiring all of the components together, I will take a moment to review. Her
 {: .center}
 ![/images/how-to-pcb-part-1/Untitled%203.png](/images/how-to-pcb-part-1/Untitled%203.png)
 
-## 4.0 Part 2 - Coming Soon
+## 4.0 Part 2 (Board Layout) - Coming Soon
 
 In Part 2 I will cover: Board layout, design rules, PCB ordering, and 3d model export. Part 2 will be available in a couple of weeks, subscribe to be notified when it's posted.
 
