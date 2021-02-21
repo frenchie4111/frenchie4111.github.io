@@ -1,5 +1,5 @@
 ---
-title: "How to design a motherboard for your project - Part 1"
+title: "How to design a motherboard for your electronics project - Part 1"
 subject: Designing a motherboard for your project is a great second step when developing an electronics project. This is the guide I wish existed when I got started doing this.
 tags: Projects
 layout: post_plain_toc
