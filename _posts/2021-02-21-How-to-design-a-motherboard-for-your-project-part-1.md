@@ -77,7 +77,7 @@ If octopart has the CAD Model for your part, it will appear like this, you want 
 {: .center}
 ![/images/how-to-pcb-part-1/Untitled%205.png](/images/how-to-pcb-part-1/Untitled%205.png)
 
-### 2.2. Desparate Googling
+### 2.2. Desperate Googling
 
 I have also found quite a few schematics by just googling the part. It can often be helpful to try different variations on the name, and include the term "Eagle" or ".lbr" (Eagle library file extension) in your query. If you do find a schematic, make sure you do some measurements (you can do this on the layout of your design) to ensure it matches well with your part (sometimes people upload bad designs, or are modeling something slightly different than yours, you don't want to order a PCB with bad footprints)
 
