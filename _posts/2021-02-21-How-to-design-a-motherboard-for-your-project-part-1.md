@@ -72,7 +72,7 @@ One thing to note is that Eagle comes pre-packaged with a bunch of common compon
 
 The best tool I have found for looking up components and downloading models is [Octopart](https://octopart.com/). Their mission is to provide the best search engine for electronics components. Almost every part can be found in the search engine, I always check here first.
 
-If octopart has the CAD Model for your part, it will appear like this, you want to download the Eagle format, this will download the library that you can install later. 
+If octopart has the CAD Model for your part, it will appear like this, you want to download the Eagle format, this will download the library that you can install later.
 
 {: .center}
 ![/images/how-to-pcb-part-1/Untitled%205.png](/images/how-to-pcb-part-1/Untitled%205.png)
@@ -96,7 +96,7 @@ A good tutorial on how to make custom eagle components can be found here: [https
 
 ## 3. Creating your Schematic
 
-Once you have your components, you can start creating your schematic. 
+Once you have your components, you can start creating your schematic.
 
 ### 3.1. Basic Project Setup
 
@@ -174,8 +174,11 @@ After wiring all of the components together, I will take a moment to review. Her
 {: .center}
 ![/images/how-to-pcb-part-1/Untitled%203.png](/images/how-to-pcb-part-1/Untitled%203.png)
 
-## 4.0 Part 2 (Board Layout) - Coming Soon
+## 4.0 Part 2 (Board Layout)
 
 In Part 2 I will cover: Board layout, design rules, PCB ordering, and 3d model export. Part 2 will be available in a couple of weeks, subscribe to be notified when it's posted.
+
+[Click Here For Part 2](/2021/04/25/How-to-design-a-motherboard-for-your-project-part-2.html)
+
 
 {% include stay_connected.html %}
