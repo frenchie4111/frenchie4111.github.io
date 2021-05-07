@@ -4,6 +4,7 @@ subject: I made a custom guitar with hot-swappable pickups
 tags: Projects
 layout: post_plain
 post_image: "/images/guitar/giphy.gif"
+hide_image: true
 ---
 
 ## Overview
