@@ -52,3 +52,10 @@ $( document ).on( 'page:restore', function() {
     setupExpand();
     runHighlight();
 } );
+
+
+document.getImages = () => {
+    let images = $("img").each(function(item) {
+        console.log($(this).attr("src"), $(this).width(), $(this).height());
+    });
+}
