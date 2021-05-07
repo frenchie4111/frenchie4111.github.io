@@ -4,7 +4,6 @@ keep_files: [ 'resume.pdf', 'keybase.txt', 'complication.txt' ]
 plugins:
 - jekyll-sitemap
 - jekyll-feed
-- jekyll-compress-images
 title: Stay Caffeinated
 description: Coffee, Software, AI, and a few Aliens
 author: Mike Lyons
