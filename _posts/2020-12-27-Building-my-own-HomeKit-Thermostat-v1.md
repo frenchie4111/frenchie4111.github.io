@@ -1,7 +1,7 @@
 ---
 title: "Building my own HomeKit Thermostat"
 subject: Holiday 2020 project, building a custom HomeKit enabled thermostat
-tags: Projects
+tags: Projects Products
 layout: post_plain
 ---
 
@@ -11,7 +11,7 @@ because it doesn't work with HomeKit, and I can't use an EcoBee because I don't
 have a neutral wire. So I resolved to build my own.
 
 If you are building your own thermostat, or any hardware really, and want some
-help or just want to show it off, feel free to shoot me an email at mdl0394@gmail.com. 
+help or just want to show it off, feel free to shoot me an email at mdl0394@gmail.com.
 Also I plan to continue to expand this project to have a screen and some buttons,
 if you want to hear about that signup to my email list and I'll let you know when
 I do it.

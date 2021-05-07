@@ -8,7 +8,7 @@ post_image: "/images/guitar/giphy.gif"
 
 ## Overview
 
-Lately I've been learning to play guitar. I wanted to be able to try out a bunch of different pickups on my guitar, to get a feel for what sound I prefer. However, the only guitars on the market with hot swappable pickups are made by [Relish Guitars](https://relish.swiss/) and their cheapest guitar is $4800, a bit out side of my price range. I decided to build my own, because \"how hard could it be™\"
+Lately I've been learning to play guitar. I wanted to be able to try out a bunch of different pickups on my guitar, to get a feel for what sound I prefer. However, the only guitars on the market with hot swappable pickups are made by [Relish Guitars](https://relish.swiss/) and their cheapest guitar is $4800, a bit outside of my price range. I decided to build my own, because \"how hard could it be™\"
 
 {:.center}
 ![/images/guitar/giphy.gif](/images/guitar/giphy.gif)
@@ -40,7 +40,7 @@ The wonderful site GuitarFetish makes a [solderless pickup connect system]([http
 
 ### Pickup Springs
 
-On every electric guitar, the pickups have dampening springs. From trolling online guitar forums, it sounds like these are pretty important for dampening some vibrations from affecting the pickup. In my designs I will be sure incorporate similar springs.
+On every electric guitar, the pickups have dampening springs. From trolling online guitar forums, it sounds like these are pretty important for dampening some vibrations from affecting the pickup. In my design, I will be sure incorporate similar springs.
 
 ## Designing
 
@@ -63,7 +63,7 @@ The wood side of the project is 3 different depths of cut. The front most cut (s
 
 #### Lots and Lots and Lots of prototyping
 
-My favorite part of having a 3d printer is how fast I can prototype parts. For this part I designed and printed 5 iterations of the mechanism before I was satisfied. The biggest challenge here figuring out how big I needed the holes to be, and finding the smallest size magnet that would work.
+My favorite part of having a 3d printer is how fast I can prototype parts. For this part I designed and printed 5 iterations of the mechanism before I was satisfied. The biggest challenge here was figuring out how big I needed the holes to be, and finding the smallest size magnet that would work.
 
 {: .center}
 ![/images/guitar/04A1CF82-A386-4316-A6C5-2966899B3414_1_201_a.jpg](/images/guitar/04A1CF82-A386-4316-A6C5-2966899B3414_1_201_a.jpg)
@@ -123,4 +123,14 @@ There are a few things I will do differently next time I build a guitar:
 
 As with all my projects, if you are interested in any of my design files or want to chat about anything at all, feel free to reach out to me directly at mdl0394@gmail.com. If you want to hear about future projects subscribe to my mailing list or RSS feed.
 
+My next posts will be about my processes for solving problems like these through writing, and building my own custom guitar pedal, so subscribe if you want to read more.
+
 {% include stay_connected.html %}
+
+If you liked this post, you can also check out some other things I made here:
+<br/><br/>
+
+{% assign project_posts = site.tags.Products %}
+{% for featured_post in project_posts %}
+{% include post_description.html post=featured_post %}
+{% endfor %}
