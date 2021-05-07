@@ -1,6 +1,6 @@
 ---
 title: "Building my own HomeKit Thermostat"
-subject: Holiday 2020 project, building a custom HomeKit enabled thermostat
+subject: Built a custom HomeKit enabled thermostat, because I was fed up with the walled gardens of Nest
 tags: Projects Products
 layout: post_plain
 ---
