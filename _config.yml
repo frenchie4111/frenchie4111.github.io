@@ -10,4 +10,4 @@ description: Coffee, Software, AI, and a few Aliens
 author: Mike Lyons
 url: https://staycaffeinated.com
 compress_images:
-  images_path: "images/**/*.{gif,png,jpg,jpeg,svg}"
+  images_path: "images/guitar/*.{gif,png,jpg,jpeg,svg}"
