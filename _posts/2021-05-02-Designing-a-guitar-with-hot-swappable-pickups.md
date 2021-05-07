@@ -36,7 +36,7 @@ The relish guitar system uses 4 magnets to attach the pickups to the guitar body
 {: .center}
 ![/images/guitar/KKPBAN.jpg](/images/guitar/KKPBAN.jpg)
 
-The wonderful site GuitarFetish makes a [solderless pickup connect system]([https://www.guitarfetish.com/Introducing-the-Kwikplug-Quick-Change-Pickup-System_c_636.html](https://www.guitarfetish.com/Introducing-the-Kwikplug-Quick-Change-Pickup-System_c_636.html)). This will be the simplest way to plug the pickups into my guitar electronics. I'd like to avoid making my own connection system on top of everything else.
+The wonderful site GuitarFetish makes a [solderless pickup connect system]([https://www.guitarfetish.com/Introducing-the-Kwikplug-Quick-Change-Pickup-System_c_636.html)). This will be the simplest way to plug the pickups into my guitar electronics. I'd like to avoid making my own connection system on top of everything else.
 
 ### Pickup Springs
 
