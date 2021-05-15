@@ -48,6 +48,7 @@ myfile.js
 │  ├─ B
 │  ├─ D
 │  │  ├─ C
+│
 ├─ E
 ```
 
@@ -62,11 +63,13 @@ As an aside. My personal preference, and the preference of a lot of developers, 
 The reverse tree of the above code would look like this. All functions are defined before they are used:
 
 ```jsx
-E
+myfile.js
+├─ E
+│
+│  ├─ B
+│  │  ├─ C
 │  ├─ D
-├─ B
-├─ C
-A
+├─ A
 ```
 
 **Fun fact:** This is a hold-over from the days of single pass compilers, where the compiler would only read a file once, and you were required to define a function before it was called.
@@ -116,9 +119,12 @@ function C() {}
 The function call tree would be flat, because they are all root nodes:
 
 ```jsx
-A
-B
-C
+myfile.js
+├─ A
+│
+├─ B
+│
+├─ C
 ```
 
 ## Feedback?
