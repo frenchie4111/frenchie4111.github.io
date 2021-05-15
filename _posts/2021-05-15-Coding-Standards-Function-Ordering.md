@@ -15,7 +15,7 @@ Whenever we break some functionality out into its own method or function, we nee
 
 There are several ways to stop files from becoming organized, this post will focus on how we can order the functions within a file to make that file easier to grok. I plan to write a few more posts on the issue of file organization, specifically around the questions of "What should be a function" and "What should be a file", if you are interested in those, subscribe to be notified when they are published.
 
-So, How do we order the functions in our files to maintain the core pillars of consistency and scalability? Like with most standards, the rules almost don't matter, it's the having of rules and standards that matters. In this post I will lay out my personal preferences, and the rules that I have found to be the most logically valid (as in, they break under the least cases allowing you to maintain consistency when possible).
+So, how do we order the functions in our files to maintain the core pillars of consistency and scalability? Like with most standards, the rules almost don't matter, it's the having of rules and standards that matters. In this post I will lay out my personal preferences, and the rules that I have found to be the most logically valid (as in, they break under the least cases allowing you to maintain consistency when possible).
 
 ## Rule 1: Functions should be laid out using the call tree
 
@@ -98,7 +98,7 @@ Even in the reverse-tree discussed above. Functions of the same tree depth shoul
 
 ## Rule 3: Functions shared in multiple places are their own root nodes
 
-One very common that easily breaks the above rules, is if a function is being used by multiple functions in the file. In this scenario, I prefer to make shared functions their own tree root, and sort them after (or before when reversed) they are called.
+One common case that easily breaks the above rules, is if a function is being used by multiple functions in the file. In this scenario, I prefer to make shared functions their own tree root, and sort them after (or before when reversed) they are called.
 
 ```jsx
 function A() {
