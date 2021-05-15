@@ -10,7 +10,10 @@ layout: home
 
         {% if page.intro %}
             {{ page.intro }}
+            {% if page.hide_intro_cta %}
+            {% else %}
             {% include stay_connected.html %}
+            {% endif %}
         {% endif %}
 
         <h2>Table of Contents</h2>
