@@ -1,6 +1,6 @@
 ---
 title: "Unwritten Coding Standards: Function Ordering"
-subject: A few words on how you should order parameters to maximize codebase consistency and scalability
+subject: A standard for how you should order functions in files to increase the consistency of your code bases
 tags: Coding mike8
 layout: post_plain_toc
 hide_intro_cta: true
