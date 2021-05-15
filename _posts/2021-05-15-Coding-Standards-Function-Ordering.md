@@ -11,7 +11,7 @@ A subtle choice we have to make every day as software engineers, is how to order
 
 ## What is function ordering, and why should I care?
 
-Whenever we break some functionality out into it's own method or function, we need to decide, where in the file will that method or function be placed. For small projects it often doesn't really matter, but as a codebase grows, unorganized files can become difficult for new team members to grok. Unwieldy files can really slow down new developers onboarding when they are trying to become accustomed to your project.
+Whenever we break some functionality out into its own method or function, we need to decide where in the file will that method or function be placed. For small projects it often doesn't really matter, but as a codebase grows, unorganized files can become difficult for new team members to grok. Unwieldy files can really slow down new developers onboarding when they are trying to become accustomed to your project.
 
 There are several ways to stop files from becoming organized, this post will focus on how we can order the functions within a file to make that file easier to grok. I plan to write a few more posts on the issue of file organization, specifically around the questions of "What should be a function" and "What should be a file", if you are interested in those, subscribe to be notified when they are published.
 
