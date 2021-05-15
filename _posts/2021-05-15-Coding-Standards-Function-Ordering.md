@@ -43,11 +43,12 @@ function E() {}
 Could be loosely represented as this tree:
 
 ```jsx
-A
-├─ B
+myfile.js
+├─ A
+│  ├─ B
 │  ├─ D
-├─ C
-E
+│  │  ├─ C
+├─ E
 ```
 
 This tree structure represents the first rule. **Functions should always be ordered according to the function call tree.**
