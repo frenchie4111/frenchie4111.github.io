@@ -133,6 +133,8 @@ If you have any feedback on the rules I laid out here, I would love to hear it. 
 
 I have more UCS posts in the works, planned for the coming months. If you are interested in getting notified sign up to my mailing list or RSS feeds.
 
+{% include hiring.html %}
+
 {% include stay_connected.html %}
 
 <br/>
