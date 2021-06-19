@@ -48,6 +48,7 @@ myfile.js
 │  ├─ B
 │  ├─ D
 │  │  ├─ C
+│
 ├─ E
 ```
 
@@ -62,11 +63,13 @@ As an aside. My personal preference, and the preference of a lot of developers, 
 The reverse tree of the above code would look like this. All functions are defined before they are used:
 
 ```jsx
-E
+myfile.js
+├─ E
+│
+│  ├─ B
+│  │  ├─ C
 │  ├─ D
-├─ B
-├─ C
-A
+├─ A
 ```
 
 **Fun fact:** This is a hold-over from the days of single pass compilers, where the compiler would only read a file once, and you were required to define a function before it was called.
@@ -116,9 +119,12 @@ function C() {}
 The function call tree would be flat, because they are all root nodes:
 
 ```jsx
-A
-B
-C
+myfile.js
+├─ A
+│
+├─ B
+│
+├─ C
 ```
 
 ## Feedback?
@@ -126,6 +132,8 @@ C
 If you have any feedback on the rules I laid out here, I would love to hear it. What has worked for you in the past? Do you know of any linters that can verify these rules so I don't have to complain about them in PR? Feel free to reach out directly to me: mdl0394@gmail.com
 
 I have more UCS posts in the works, planned for the coming months. If you are interested in getting notified sign up to my mailing list or RSS feeds.
+
+{% include hiring.html %}
 
 {% include stay_connected.html %}
 
