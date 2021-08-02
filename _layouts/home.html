@@ -104,48 +104,51 @@
         {% if page.sticky_title %}
             <div id="header_placeholder"></div>
         {% endif %}
-        <div id="header" class="{% if page.sticky_title %}sticky{% endif %}">
-            {% if page.layout == 'post_plain' %}
-                <div class="full_width center_margin">
-            {% else %}
-                <div class="full_width">
-            {% endif %}
-                {% if page.custom_menu == "complicated" %}
-                <a href="/complicated/">
+        {% if page.hide_header %}
+        {% else %}
+            <div id="header" class="{% if page.sticky_title %}sticky{% endif %}">
+                {% if page.layout == 'post_plain' %}
+                    <div class="full_width center_margin">
                 {% else %}
-                <a href="/">
+                    <div class="full_width">
                 {% endif %}
-                    <div id="name" class="hover colorchanger">
-                        {% if page.hide_title %}
-                        {% else %}
-                            {% if page.custom_title %}
-                                {{ page.custom_title }}
+                    {% if page.custom_menu == "complicated" %}
+                    <a href="/complicated/">
+                    {% else %}
+                    <a href="/">
+                    {% endif %}
+                        <div id="name" class="hover colorchanger">
+                            {% if page.hide_title %}
                             {% else %}
-                                ☕ Stay Caffeinated
+                                {% if page.custom_title %}
+                                    {{ page.custom_title }}
+                                {% else %}
+                                    ☕ Stay Caffeinated
+                                {% endif %}
                             {% endif %}
+                        </div>
+                    </a>
+                    <div id="menu">
+                        {% if page.custom_menu == "complicated" %}
+                            <div class="left">
+                                <a class="hover colorchanger" href="/2019/01/13/Complicated-How-To.html">Get Started</a>
+                                <a class="hover colorchanger" href="/2019/03/08/Complicated-Documentation.html">Documentation</a>
+                            </div>
+                        {% else %}
                         {% endif %}
                     </div>
-                </a>
-                <div id="menu">
-                    {% if page.custom_menu == "complicated" %}
-                        <div class="left">
-                            <a class="hover colorchanger" href="/2019/01/13/Complicated-How-To.html">Get Started</a>
-                            <a class="hover colorchanger" href="/2019/03/08/Complicated-Documentation.html">Documentation</a>
-                        </div>
-                    {% else %}
-                    {% endif %}
+                    <div id="menu_mobile">
+                        {% if page.custom_menu == "complicated" %}
+                            <div class="left">
+                                <a class="hover colorchanger" href="/2019/03/08/Complicated-Documentation.html">Documentation</a>
+                            </div>
+                        {% else %}
+                        {% endif %}
+                    </div>
+                    <div class="clear"></div>
                 </div>
-                <div id="menu_mobile">
-                    {% if page.custom_menu == "complicated" %}
-                        <div class="left">
-                            <a class="hover colorchanger" href="/2019/03/08/Complicated-Documentation.html">Documentation</a>
-                        </div>
-                    {% else %}
-                    {% endif %}
-                </div>
-                <div class="clear"></div>
             </div>
-        </div>
+        {% endif %}
 
         {{ content }}
 

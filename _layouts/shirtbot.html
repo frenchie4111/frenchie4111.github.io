@@ -1,17 +1,9 @@
 ---
 custom_title: Shirtbot
 layout: home
+hide_header: true
 ---
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/css/shirtbot.css">
 
-<div id="content_area">
-    <div class="full_width center_margin post" id="sb">
-        {% if page.hide_header %}
-        {% else %}
-            <h2 id="post_title">{{ page.title }}</h2>
-        {% endif %}
-
-        {{ content }}
-    </div>
-</div>
+{{ content }}
