@@ -61,7 +61,7 @@ Printed a couple different versions to see what size I wanted:
 ![Dors new sensor, actual size](/images/minis/3d_prints.jpeg){: width="80%"}
 
 In order to get the highest possible quality master print, I sent away for it
-from [3dHubs](https://3dHubs.com/) to get printed on an SLA style 3d printer with 25μm
+from [Hubs](https://www.hubs.com/) to get printed on an SLA style 3d printer with 25μm
 layers heights. 3 days later my print arrived in the mail, you can barely make
 out the layers on this thing.
 
