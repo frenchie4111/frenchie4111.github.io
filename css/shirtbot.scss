@@ -15,6 +15,10 @@ body {
     color: white;
 }
 
+li, ul {
+    color: white;
+}
+
 header {
     border-bottom: white 3px solid;
     font-size: 40px;
@@ -264,4 +268,39 @@ header {
     text-align: center;
     font-size: 12px;
     margin-bottom: 10px;
+}
+
+#faq {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .faq_row {
+        margin-bottom: 20px;
+
+        border-top: 1px solid white;
+
+        &:last-child {
+            border-bottom: 1px solid white;
+        }
+
+        padding: 20px;
+
+        .question {
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        .answer {
+            font-size: 16px;
+            margin-left: 20px;
+        }
+    }
 }

@@ -294,7 +294,11 @@ h1#post_title {
     padding: 0px 0px 0px 25px;
 }
 
-.square_list b, ul b
+ol {
+    list-style: decimal;
+}
+
+.square_list b, ul b, li b
 {
     font-weight: 400;
     text-decoration: none;
@@ -307,6 +311,7 @@ h1#post_title {
 
 ol {
     list-style: decimal;
+    padding: 0px 0px 0px 25px;
 }
 
 a:link, a:visited {

@@ -35,9 +35,9 @@ permalink: /shirtbot/
             <div class="subtitle">
                 It's a slackbot that makes shirts
             </div>
-            <div class="cta" href="https://slack.com/oauth/v2/authorize?client_id=16510296833.2022109359747&scope=commands&user_scope=">
+            <div class="cta" href="https://slack.com/oauth/v2/authorize?client_id=16510296833.2022109359747&scope=commands,team:read&user_scope=">
                 <img src="/images/shirtbot/pill.png" class="pill" />
-                <a href="https://slack.com/oauth/v2/authorize?client_id=16510296833.2022109359747&scope=commands&user_scope=">
+                <a href="https://slack.com/oauth/v2/authorize?client_id=16510296833.2022109359747&scope=commands,team:read&user_scope=">
                     <img src="/images/shirtbot/slackblack.png" class="slack" />
                     <span>INSTALL NOW</span>
                 </a>
@@ -75,7 +75,7 @@ permalink: /shirtbot/
                 <img src="/images/shirtbot/slackblack.png" class="one" />
                 <img src="/images/shirtbot/slackblack.png" class="two" />
             </div>
-            <a href="https://slack.com/oauth/v2/authorize?client_id=16510296833.2022109359747&scope=commands&user_scope=">Install In Slack</a>
+            <a href="https://slack.com/oauth/v2/authorize?client_id=16510296833.2022109359747&scope=commands,team:read&user_scope=">Install In Slack</a>
         </div>
         <div class="step">
             <div class="img">
@@ -93,7 +93,44 @@ permalink: /shirtbot/
         </div>
     </div>
 
+    <div id="faq">
+        <h1>FAQ</h1>
+        <div class="faq_row">
+            <div class="question">How do I use the ShirtBot?</div>
+            <div class="answer">
+            Steps to use the ShirtBot:
+            <ol>
+                <li>Install the bot into slack by clicking <a href="https://slack.com/oauth/v2/authorize?client_id=16510296833.2022109359747&scope=commands,team:read&user_scope=">this link</a>, and pressing Allow</li>
+                <li>Type `/shirt Very Cool Shirt` in any slack channel</li>
+                <li>?????</li>
+                <li>Profit</li>
+            </ol>
+            </div>
+        </div>
+        <div class="faq_row">
+            <div class="question">Is ShirtBot going to steal my Slack Data??</div>
+            <div class="answer">
+                No, we're not going to steal your data. We're just going to use it to make shirts.<br/>
+                <br/>
+                ShirtBot only has access to:
+                <ul>
+                    <li>Any information you put after /shirt</li>
+                    <li>Your username, and slack display name</li>
+                    <li>Your Teams name, and teams icon</li>
+                </ul>
+                <br/>
+                If you have any concerns about data usage, or need anything removed feel free to contact the bot overlord: Mike mdl0394@gmail.com
+            </div>
+        </div>
+        <div class="faq_row">
+            <div class="question">Why did you make this weird SlackBot?</div>
+            <div class="answer">
+                We used to make a lot of shirts manually, and wanted to streamline the process. Figured we would share the love.
+            </div>
+        </div>
+    </div>
+
     <div class="footer">
-        Made with ♥ by <a href="https://staycaffeinated.com">Mike Lyons</a> and <a href="https://www.adonismartin.com/">Adonis Martin</a>
+        ShirtBot was made with ♥ by <a href="https://staycaffeinated.com">Mike Lyons</a> and <a href="https://www.adonismartin.com/">Adonis Martin</a>
     </div>
 </body>
