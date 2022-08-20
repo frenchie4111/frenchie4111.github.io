@@ -3,51 +3,58 @@
 ---
 
 body {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    background-color: #1f1f1f;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f1f;
+}
+
+#closed-down-banner {
+  background: #75752f9c;
+  padding: 10px;
+  border: 1px solid #75752f;
 }
 
 #header {
-    background: #1f1f1f;
-    color: white;
+  background: #1f1f1f;
+  color: white;
 }
 
 #name {
-    color: white;
+  color: white;
 }
 
-.hover:link, .hover:visited {
-    color: white !important;
+.hover:link,
+.hover:visited {
+  color: white !important;
 }
 
 #content_area {
-    // background-color: #1f1f1f;
-    background-color: black;
-    color: white;
-    flex: 1;
+  // background-color: #1f1f1f;
+  background-color: black;
+  color: white;
+  flex: 1;
 }
 
 ul {
-    color: white;
+  color: white;
 }
 
 #content_area h3 {
-    color: white;
-    font-size: 18px;
-    margin: 20px 0;
+  color: white;
+  font-size: 18px;
+  margin: 20px 0;
 }
 
 i {
-    font-style: italic;
+  font-style: italic;
 }
 
 #download {
-    width: 200px;
+  width: 200px;
 }
 
 #footer {
-    text-align: center;
-    margin: 50px 0 0 0;
+  text-align: center;
+  margin: 50px 0 0 0;
 }
