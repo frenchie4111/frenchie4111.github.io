@@ -1,6 +1,6 @@
 sass:
     sass_dir: _scss
-keep_files: [ 'resume.pdf', 'keybase.txt', 'complication.txt', '500s.wav', '500s_0dB.wav', '1000s.wav', '250s.wav', '100s.wav' ]
+keep_files: [ 'resume.pdf', 'keybase.txt', 'complication.txt', '500s.wav', '500s_0dB.wav', '1000s.wav', '1000s_0dB.wav', '250s.wav', '100s.wav' ]
 plugins:
 - jekyll-sitemap
 - jekyll-feed
