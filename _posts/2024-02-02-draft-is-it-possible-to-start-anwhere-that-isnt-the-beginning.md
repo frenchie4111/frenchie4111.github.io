@@ -1,5 +1,5 @@
 ---
-title: "Rough draft 1: is it possible to start anywhere that isn’t the beginning?"
+title: "rough draft 1: is it possible to start anywhere that isn’t the beginning?"
 subject: essay 1 - should we even get started?
 layout: post_plain_toc
 intro: "I'm trying a new thing where I actually write the book I have been joking about writing for the last few years. This is a _very_ rough draft of the beginning of the first chapter. Let me know what you think mdl0394@gmail.com<br /><br /><br />Honestly at this point it's basically just a public journal."
@@ -10,7 +10,7 @@ Doing things is hard. By definition, the universe is trying to become disorganiz
 
 There’s way too much to talk about when it comes to doing things (notably, there is a lot to do after the beginning). This essay isn’t going to cover all of that. The only thing I want to talk about today is how to start things. Arguably the hardest part, the moment in time right before doing something when you have to make some sort of conscious decision to turn your attention to it, to actually do it.
 
-### The Toolbox Fallacy and Its Friends
+### the Toolbox Fallacy and its friends
 
 This whole essay started as one of my biggest pet peeves. It drives me absolutely nuts when people tell me they want to do something, but then give some reason why they can’t start quite yet. The Toolbox Fallacy is the classic example of this:
 
@@ -45,13 +45,13 @@ I like to use the metaphor of the line equation, y = mx + b. Every line is made 
 
 Just get started.
 
-### but Like, how do I start?
-
-Honestly, I think today's article isn’t about how to start, but just that you should start.
+### hello my dear readers
 
 My dear readers, thank you for making it this far with me. I hope something about this struck a chord. If it did, I swear to god, please reach out to me, I would love to know. My goal with these essays is to define a generalized process for getting stuff done, for pushing your will into the world, and making a difference. I am going to make a lot of assumptions about you as we go, I never intended to offend (however, sometimes I do try to spin a fine rhyme), my goal is not to tell you who you are, but to use my assumed persona of you as a common point of perspective that I can explain ideas from.
 
-### Related reading
+Here's what I am promising for now. I will keep working on this. This essay will definitely change a lot, more will be added, embarassing things will be cut, new essays will be written. I am going to just start working on this, and eventually it will be finished.
+
+### related reading
 
  1. [Shia LaBeouf "Just Do It" Motivational Speech](https://www.youtube.com/watch?v=ZXsQAXx_ao0)
 
