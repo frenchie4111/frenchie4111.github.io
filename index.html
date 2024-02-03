@@ -23,6 +23,7 @@ is_home: true
         </div>
         <div class="column right one_third_width">
             <script type="text/javascript">
+                <!-- ty https://stackoverflow.com/questions/29590702/how-to-add-last-fm-now-playing-into-my-site-using-api -->
                 $(document).ready(function() {
                     $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=frenchie4111&api_key=bb42b99d33e6bc82308592e207143dba&limit=2&format=json&callback=?", function(data) {
                         var html = '<h2 class="colorchanger">Currently Listening</h2>';
