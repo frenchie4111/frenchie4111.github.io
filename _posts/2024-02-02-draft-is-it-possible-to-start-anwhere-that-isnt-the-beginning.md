@@ -2,7 +2,7 @@
 title: "rough draft 1: is it possible to start anywhere that isn’t the beginning?"
 subject: essay 1 - should we even get started?
 layout: post_plain_toc
-intro: "I'm trying a new thing where I actually write the book I have been joking about writing for the last few years. This is a _very_ rough draft of the beginning of the first chapter. Let me know what you think mdl0394@gmail.com<br /><br /><br />Honestly at this point it's basically just a public journal."
+intro: "I'm trying a new thing where I actually write the book I have been joking about writing for the last few years. This is a _very_ rough draft of the beginning of the first chapter. Let me know what you think mdl0394@gmail.com<br /><br />Honestly at this point it's basically just a public journal."
 hide_intro_cta: true
 ---
 
