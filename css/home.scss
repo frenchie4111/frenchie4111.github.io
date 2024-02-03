@@ -474,3 +474,24 @@ code {
     text-align: center;
     margin-top: 5px;
 }
+
+.music-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 5px;
+    &:first-child {
+        padding-top: -10px;
+    }
+    &:last-child {
+        padding-bottom: 0;
+    }
+
+    img {
+        padding-right: 10px;
+    }
+
+    a {
+
+    }
+}
