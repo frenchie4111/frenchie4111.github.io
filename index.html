@@ -22,20 +22,7 @@ is_home: true
             <div class="clear"></div>
         </div>
         <div class="column right one_third_width">
-            <script type="text/javascript">
-                <!-- ty https://stackoverflow.com/questions/29590702/how-to-add-last-fm-now-playing-into-my-site-using-api -->
-                $(document).ready(function() {
-                    $.getJSON("https://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=frenchie4111&api_key=bb42b99d33e6bc82308592e207143dba&limit=2&format=json&callback=?", function(data) {
-                        var html = '<h2 class="colorchanger">Currently Listening</h2>';
-                        $.each(data.recenttracks.track, function(i, item) {
-                            html += '<div class="music-row">';
-                            html += '<img src="' + item.image[1]["#text"] + '">';
-                            html += '<div><a href="' + item.url + '" target="_blank">' + item.name + '</a> - ' + item.artist['#text'] + '</div></div>';
-                        });
-                        $('.listening-to').append(html);
-                    });
-                });
-            </script>
+            <script src="/js/lastfm.js" type="text/javascript" charset="utf-8"></script>
             <img id="listening-to-img" />
             <div class="listening-to"></div>
             <h2 class="colorchanger">Get Started</h2>
