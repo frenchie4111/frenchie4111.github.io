@@ -1,6 +1,6 @@
 ---
-title: "A quick teardown of the NES Light Gun"
-subject: A quick teardown of the NES Light Gun, mostly as a love letter to the geniuses who built this
+title: "A quick teardown of the NES Zapper Lightgun"
+subject: A quick teardown of the NES Zapper Lightgun, mostly as a love letter to the geniuses who built this and a girl I once loved
 layout: post_plain
 ---
 
