@@ -8,7 +8,7 @@ A couple weeks ago, while I was sitting at a somewhat boring party waiting to ge
 
 ![Full image of lightgun](/images/lightgun/1-full.jpeg)
 
-There are plenty of great resources online about how the gun works, [this youtube video in particular](https://www.youtube.com/watch?v=cu83tZIAzlA), but honestly just watching or reading about the gun just can’t do it justice. This thing was made in an age where digital electronics were brand new to the home. For a lot of families, the NES was the first computer they ever bought. Sure if something like the light gun was built today you wouldn’t bat an eye, but for it’s time it was truly an incredible feat of engineering. In my opinion the light gun represents engineering that even John Carmack would call an impressive feat of optimization. Anyways, this thing is cool, and there’s only one thing to do when you think a piece of hardware is cool. You buy one and take it apart :)
+There are plenty of great resources online about how the gun works, [this youtube video in particular](https://www.youtube.com/watch?v=cu83tZIAzlA), but honestly just watching or reading about the gun just can’t do it justice. This thing was made in an age where digital electronics were brand new to the home. For a lot of families the NES was the first computer they ever bought. Sure if something like the light gun was built today you wouldn’t bat an eye but _for it’s time_ it was truly an incredible feat of engineering. In my opinion the light gun represents engineering that even John Carmack would call an impressive feat of optimization. Anyways, this thing is cool, and there’s only one thing to do when you think a piece of hardware is cool. You buy one and take it apart :)
 
 
 ## How does it work?
