@@ -88,6 +88,6 @@ The final piece is the circuit board of the photodiode and controller output wir
 
 I've already gushed quite a bit about how cool of an invention this gun is, but let me just say one more time how cool it is that something like this was built in 1984. I just absolutely love that this much work, creativity and ingenuity was put into building something that exists only to bring joy into 8 year old boys (and their father's) hearts.
 
-i miss you, but that's okay.
+i miss you my leaf, but that's okay, good luck
 
 <br/><br/><br/><br/><br/><br/><br/>
