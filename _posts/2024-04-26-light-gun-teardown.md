@@ -22,7 +22,7 @@ Quickly, because I need it later in this article and I would never want to suppo
         <img src="/images/lightgun/01-duck-hunt.jpeg">
         <a style="font-style: italic; margin: 0 5px; text-align: center;">fig 1: The duck hunt game screen when you aren't pulling the trigger. Try to shoot the bird!</a>
     </div>
-    <div style="margin: 2px; flex: 1;">
+    <div style="margin: 0 2px; flex: 1;">
         <img src="/images/lightgun/02-duck-hunt-black.jpeg">
         <a style="font-style: italic; margin: 0 5px; text-align: center;">fig 2: first the screen goes all black to calibrate the gun</a>
     </div>
