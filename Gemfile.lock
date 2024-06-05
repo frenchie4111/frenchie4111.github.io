@@ -31,10 +31,10 @@ GEM
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
-    ffi (1.17.0)
+    ffi (1.15.5)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
-    github-pages (231)
+    github-pages (230)
       github-pages-health-check (= 1.18.2)
       jekyll (= 3.9.5)
       jekyll-avatar (= 0.8.0)
@@ -50,7 +50,7 @@ GEM
       jekyll-paginate (= 1.1.0)
       jekyll-readme-index (= 0.3.0)
       jekyll-redirect-from (= 0.16.0)
-      jekyll-relative-links (= 0.6.1)
+      jekyll-relative-links (= 0.7.0)
       jekyll-remote-theme (= 0.4.3)
       jekyll-sass-converter (= 1.5.2)
       jekyll-seo-tag (= 2.8.0)
@@ -137,7 +137,7 @@ GEM
       jekyll (>= 3.0, < 5.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
-    jekyll-relative-links (0.6.1)
+    jekyll-relative-links (0.7.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-remote-theme (0.4.3)
       addressable (~> 2.0)
@@ -256,7 +256,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
+  ffi (~> 1.15.0)
+  github-pages (~> 230)
 
 BUNDLED WITH
    1.17.2
