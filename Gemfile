@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-# gem 'github-pages'
-gem 'ffi', '~> 1.15.0'
+gem 'ffi', '~> 1.16.3'
 gem 'github-pages', '~> 230'
 
