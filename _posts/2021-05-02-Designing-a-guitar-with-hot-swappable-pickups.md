@@ -124,9 +124,16 @@ There are a few things I will do differently next time I build a guitar:
 
 As with all my projects, if you are interested in any of my design files or want to chat about anything at all, feel free to reach out to me directly at mdl0394@gmail.com. If you want to hear about future projects subscribe to my mailing list or RSS feed.
 
-My next posts will be about my processes for solving problems like these through writing, and building my own custom guitar pedal, so subscribe if you want to read more.
+<style>
 
-{% include stay_connected.html %}
+</style>
+
+<div id="guitar-buy-one">
+
+<h1>Selling Guitars</h1>
+
+
+</div>
 
 If you liked this post, you can also check out some other things I made here:
 <br/><br/>
