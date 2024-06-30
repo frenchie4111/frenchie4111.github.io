@@ -20,4 +20,5 @@ When it was all over you held me tight, kept me warm. When I couldn't sleep in o
 I need to move on now and that means letting you go. Like a shared friend caught in the crossfire of a broken relationship. You don't deserve this, but spending time with you brings back haunting memories I can't quite shake. Our relationship never really existed without her in it, and right I don't have the strength to build a new one with you.
 
 Thank you so much, and Good Luck
-Mike
+
+- Mike
