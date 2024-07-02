@@ -3,6 +3,7 @@ title: Relationship Bootstrap
 subject: Front-loading all the things I love and would inevitably tell you about anyway
 tags: Random
 layout: post_plain
+type: Personal
 ---
 
 <style>
@@ -56,7 +57,7 @@ A sequel to the much more popular Enders Game, although it does not share much w
 
 ![Speaker For The Dead](/images/things_I_like/arrival.jpg)
 
-[Arrival](https://www.imdb.com/title/tt2543164/) 
+[Arrival](https://www.imdb.com/title/tt2543164/)
 
 Similar to Speaker for the Dead, this movie uses the setting of a new Alien race to explore linguistics and empathy. I seriously enjoy a good story that captures the difficulty of communicating with "the other".
 
@@ -78,14 +79,14 @@ Similar to Speaker for the Dead, this movie uses the setting of a new Alien race
 {: .app-container}
 ![Firefox](/images/things_I_like/firefox.png){: .app}
 
-[Firefox](https://firefox.com/) 
+[Firefox](https://firefox.com/)
 
 As a long time Chrome user I am here to tell you: Firefox is finally good again. If you haven't used it recently, download it again and support a freer internet.
 
 {: .app-container}
 ![Duolingo](/images/things_I_like/duolingo.png){: .app style="border-radius: 5px;"}
 
-[Duolingo](https://www.duolingo.com) 
+[Duolingo](https://www.duolingo.com)
 
 Seriously the best app you can have on your phone. Delete the Reddit app and use that time to learn a new language the easy way.
 

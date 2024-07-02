@@ -5,11 +5,12 @@ subject: Using silicone moulding to make party favors for my product launch part
 layout: post
 tags: Projects
 featured: true
+type: Project
 ---
 
 ## What, huh, why?
 
-Recently I have been really interested in learning about different types of 
+Recently I have been really interested in learning about different types of
 mechanical manufacturing technologies, and I realized that silicone moulding is
 actually super easy to get started with at home. So, like I often do, I started
 looking for a project to justify learning/buying a bunch of new stuff.
@@ -92,7 +93,7 @@ before pouring the rest of the mold.
 
 ## Making a lot of Minis
 
-Now it was just a matter of buying 2 gallon jugs of white Smooth-Cast 300 resin 
+Now it was just a matter of buying 2 gallon jugs of white Smooth-Cast 300 resin
 from my local craft shop, and making 30 of these things. The resin cures in
 about 10 minutes, so a few evenings of work later and I had 40
 

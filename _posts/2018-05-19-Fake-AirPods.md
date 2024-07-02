@@ -1,8 +1,9 @@
 ---
 title: Walmart.com - Fake "AirPods"
-subject: I just can't believe that Walmart is allowing these on the marketplace 
+subject: I just can't believe that Walmart is allowing these on the marketplace
 tags: Random
 layout: post
+type: Personal
 ---
 
 ![AirPods Side by Side Comparison](/images/airpods/side_by_side.jpg)

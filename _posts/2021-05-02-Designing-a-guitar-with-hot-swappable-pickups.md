@@ -5,6 +5,7 @@ tags: Projects
 layout: post_plain
 post_image: "/images/guitar/giphy.gif"
 hide_image: true
+type: Project
 ---
 
 ## Overview

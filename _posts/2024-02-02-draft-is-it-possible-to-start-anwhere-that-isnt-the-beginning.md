@@ -4,6 +4,7 @@ subject: essay 1 - should we even get started?
 layout: post_plain_toc
 intro: "I'm trying a new thing where I actually write the book I have been joking about writing for the last few years. This is a _very_ rough draft of the beginning of the first chapter. Let me know what you think mdl0394@gmail.com<br /><br />Honestly at this point it's basically just a public journal."
 hide_intro_cta: true
+type: Technology
 ---
 
 Doing things is hard. By definition, the universe is trying to become disorganized; things are constantly falling apart, reverting to their most chaotic state. Possibly the only thing that sets humans apart from beasts is our ability to intentionally find and create order in this insane bag of atoms.

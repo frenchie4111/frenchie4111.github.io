@@ -7,6 +7,7 @@ subject: Simple Apple Watch Complications via Webhooks
 layout: complicated
 tags: Projects iOS Complicated-Tutorial
 custom_menu: complicated
+type: Project
 ---
 
 ## What is Complicated?

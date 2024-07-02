@@ -25,6 +25,7 @@ intro: "
     This is Part 1 of the guide. In this guide we will go through initial setup, component model sourcing and schematic design. In Part 2 we will go through board layout and ordering PCBs. If you want to be notified when Part 2 comes out, sign up for email notifications, or subscribe to the RSS feed.
 </p>
 "
+type: Technology
 ---
 
 ## 0. Before you build a PCB

@@ -3,6 +3,7 @@ title: Scalability Dimensions
 subject: A few words on how you should order parameters to maximize codebase consistency and scalability
 tags: Coding
 layout: post_plain
+type: Technology
 ---
 
 A major consideration when designing systems is scalability. Here I will detail the different dimensions of scalability that should be considered when designing a system. For every dimension I will try to give a software design example, and a humans system design example.

@@ -244,6 +244,42 @@ h1#post_title {
     color: black;
     font-size: 12px;
     font-weight: 300;
+
+    .more_info_spacer {
+        height: 3px;
+    }
+
+    .type-pill {
+        box-sizing: border-box;
+        display: inline;
+        padding: 8px 8px 8px 10px;
+        margin-top: 5px;
+        margin-right: 5px;
+        background-color: #996d39;
+        color: white;
+        border-radius: 100px;
+    }
+
+    .type-pill-Personal {
+        background-color: #996d39;
+        &::before {
+            content: '💝 ';
+        }
+    }
+
+    .type-pill-Technology {
+        background-color: #664a29;
+        &::before {
+            content: '🖥️ ';
+        }
+    }
+
+    .type-pill-Project {
+        background-color: #332514;
+        &::before {
+            content: '🖥️ ';
+        }
+    }
 }
 
 .more_info_link a:link, .more_info_link a:visited
@@ -322,6 +358,10 @@ a:link, a:visited {
 .post_description, .social_media {
     a:link {
         text-decoration: none;
+    }
+
+    div {
+        margin-bottom: 4px;
     }
 }
 

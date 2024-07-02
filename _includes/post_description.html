@@ -7,9 +7,16 @@
         {{ include.post.subject }}
         <div class="clear"></div>
     </div>
+    <div class="more_info_spacer"></div>
     <div class="more_info">
-        <!-- <div class="left">Categories:&nbsp;{% include categories.html categories=include.post.tags %}</div> -->
-        <div class="right">Posted: {{ include.post.date | date: '%B %d, %Y' }}{% if include.post.updated %} (Updated: {{ include.post.updated }}){% endif %}</div>
+        <div class="right">
+            {% if include.post.type %}
+                <div class="type-pill type-pill-{{ include.post.type }}">
+                    {{ include.post.type }}
+                </div>
+            {% endif %}
+            Posted: {{ include.post.date | date: '%B %d, %Y' }}{% if include.post.updated %} (Updated: {{ include.post.updated }}){% endif %}
+        </div>
     </div>
     <div class="clear"></div>
 </div>

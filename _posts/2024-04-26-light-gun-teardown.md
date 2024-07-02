@@ -2,6 +2,7 @@
 title: "A quick teardown of the NES Zapper Lightgun"
 subject: A quick teardown of the NES Zapper Lightgun, mostly as a love letter to the geniuses who built this and a girl I will always love
 layout: post_plain
+type: Technology
 ---
 
 A couple weeks ago, while I was sitting at a somewhat boring party waiting to get back to the woman I love, I realized I actually have no clue how the lightgun from the NES worked. So, as I do, I began wildly speculating about it until finally giving in and looking it up (by then I had already made it back home to her, and seeing as she loves knowing how things work almost as much as I do, we absolutely had to dig in)

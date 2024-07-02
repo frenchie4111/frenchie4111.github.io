@@ -4,12 +4,13 @@ subject: Using Google Colab to run OpenAI's Gym Retro
 post_image: /images/losswise/colab-icon.png
 tags: [ AI/ML, Colab, Retro ]
 layout: post
+type: Technology
 ---
 
 #### Google Colab
 
 I have previously [written]({% post_url 2018-05-21-Colab-and-Losswise %}) about [Google Colab](http://colab.research.google.com/), but if you don't
-know about it yet: Google Colab is a Jupyter Notebook hosting and colaboration platform provided by 
+know about it yet: Google Colab is a Jupyter Notebook hosting and colaboration platform provided by
 Google. It supports Google Docs style interactive sharing, and they provide free shared access to a Nvidia
 K80 GPU. This makes it an excelent choice for Machine Learning Practitioners on a budget. If you haven't
 checked it out I highly suggest doing so.
@@ -28,13 +29,13 @@ agent. This is where Google Colabs free K80 use comes in.
 There are a few steps to get started running retro on Google Colab. The code blocks
 below are intended to be run in their own jupyter notebook cells.
 
-I have created a [public Colab notebook](https://drive.google.com/file/d/11Mxg30mXEvhk8jB0iJ-cFw1k0wICkf8e/view?usp=sharing) 
+I have created a [public Colab notebook](https://drive.google.com/file/d/11Mxg30mXEvhk8jB0iJ-cFw1k0wICkf8e/view?usp=sharing)
 that follows along with these steps. Feel free to clone and play around with it.
 
 ##### Step 1: Install the required dependencies
 
 Colab allows you to run shell commands by prepending them with a `!`. This allows you to
-install the required dependencies and packages through `apt-get` and `pip`. 
+install the required dependencies and packages through `apt-get` and `pip`.
 
 First install some `apt-get` packages that you need to install and run retro.
 
@@ -71,7 +72,7 @@ The second way is to download the rom zipfile from a server. I use this to downl
 my personal fileserver. (If you don't own the games, please don't download them from my server)
 
 ```bash
-!python -m dumbrain.rl.retro_contest.install_games http://aiml.mikelyons.org/datasets/sonic/Sonic%20Roms.zip 
+!python -m dumbrain.rl.retro_contest.install_games http://aiml.mikelyons.org/datasets/sonic/Sonic%20Roms.zip
 ```
 
 This will download the zipfile at that url and install any roms found in the package.
@@ -96,7 +97,7 @@ import retrowrapper
 
 env = retrowrapper.RetroWrapper(
     game='SonicTheHedgehog2-Genesis',
-    state='MetropolisZone.Act1' 
+    state='MetropolisZone.Act1'
 )
 ```
 
@@ -135,5 +136,5 @@ If you are competing in the [OpenAI contest](https://contest.openai.com) conside
 post about using [retrowrapper]({% post_url 2018-05-22-Multiple-Retro-Environments %}) with custom
 make functions.
 
-If you are training a model, and want graphical outuput, take a look at my post about [Colab + Losswise]({% post_url 2018-05-21-Colab-and-Losswise %}). 
+If you are training a model, and want graphical outuput, take a look at my post about [Colab + Losswise]({% post_url 2018-05-21-Colab-and-Losswise %}).
 Losswise is a great (and free!) platform for visualizing your model's training.

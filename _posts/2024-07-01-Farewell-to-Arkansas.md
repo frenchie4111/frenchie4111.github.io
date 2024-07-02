@@ -3,6 +3,7 @@ title: "Farewell to Arkansas St"
 subject: a farewell letter to the best apartment I have ever had
 layout: post_plain
 hide_intro_cta: true
+type: Personal
 ---
 
 Let’s be honest with ourselves for a second, we both know a lot of the reason I chose to live here was proximity to Mariposa. But that didn’t stop you from loving me.

@@ -3,6 +3,7 @@ title: "Building my own HomeKit Thermostat"
 subject: Built a custom HomeKit enabled thermostat, because I was fed up with the walled gardens of Nest
 tags: Projects Products
 layout: post_plain
+type: Project
 ---
 
 I'm pretty obsessed with controlling most of the electronics in my house from my

@@ -3,6 +3,7 @@ title: "v2 Updates to my HomeKit Thermostat"
 subject: Making my thermostat project into something I can actually use every day
 tags: Projects
 layout: post_plain
+type: Project
 ---
 
 ![v2 of thermostat completed, sitting on my desk](/images/homekit_thermostat_v2/completed_desk.jpg)
@@ -105,7 +106,7 @@ The only thing left to do was install it. I am honestly a bit disappointed that 
 ## Future Plans
 
 {: style="background-color: gray; color: white;"}
-I am pretty strongly considering turning this thing into something people can buy. If you'd be interested in buying an open sourced hackable home thermostat, let me know in this [form](https://docs.google.com/forms/d/e/1FAIpQLSePJdT7qP9IMAK_TZLCWFs1sodBei73pinnji0GxVe9dMl8Zg/viewform) (or reach out to my email directly). 
+I am pretty strongly considering turning this thing into something people can buy. If you'd be interested in buying an open sourced hackable home thermostat, let me know in this [form](https://docs.google.com/forms/d/e/1FAIpQLSePJdT7qP9IMAK_TZLCWFs1sodBei73pinnji0GxVe9dMl8Zg/viewform) (or reach out to my email directly).
 
 v3 improvements already planned:
 

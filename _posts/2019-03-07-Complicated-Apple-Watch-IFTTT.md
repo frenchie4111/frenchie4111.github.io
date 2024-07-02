@@ -7,6 +7,7 @@ subject: Use IFTTT and Complicated to update your Apple Watch
 layout: complicated
 tags: Projects iOS Complicated-Tutorial
 custom_menu: complicated
+type: Project
 ---
 
 Let me show you how to use IFTTT and Complicated to integrate Google Sheets with your Apple Watch.

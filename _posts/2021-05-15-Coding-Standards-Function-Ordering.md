@@ -7,6 +7,7 @@ hide_intro_cta: true
 intro: "
 A subtle choice we have to make every day as software engineers, is how to order our functions/methods in a file. I have noticed that a lot of more senior developers have a very specific way we prefer functions to be ordered, but we rarely explicitly discuss these rules. In keeping with the spirit of this Unwritten Coding Standards series, I will try to break down these rules and be overly concrete about something people normally don't care about enough to write down.
 "
+type: Technology
 ---
 
 ## What is function ordering, and why should I care?

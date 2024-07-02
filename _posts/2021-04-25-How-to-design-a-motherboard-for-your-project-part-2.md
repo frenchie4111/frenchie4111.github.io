@@ -22,6 +22,7 @@ intro: "
     If you have any questions at all please feel free to reach out to me directly. If you want to stay up to date on my projects or see other guides like this one, feel free to subscribe to my email list or RSS feed. My next post will be about my experience designing and building a custom guitar from scratch.
 </p>
 "
+type: Technology
 ---
 
 ## 4. Board Layout

@@ -3,6 +3,7 @@ title: "Unwritten Coding Standards: Parameter Ordering"
 subject: A few words on how you should order parameters to maximize codebase consistency and scalability
 tags: Coding mike8
 layout: post_plain
+type: Technology
 ---
 
 When defining methods and functions, how do we choose what order the arguments are in? This is the first of a series of posts where I attempt to put words and rules to the subtle programming decisions we make every day. A majority of the examples will be given in Javascript, as this is my home language. But they likely can and should be extended to other languages as well.

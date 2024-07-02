@@ -3,6 +3,7 @@ title: Running Multiple Retro Environments
 subject: Using retrowrapper to easily run environments as subprocesses
 tags: [ AI/ML, Retro ]
 layout: post
+type: Technology
 ---
 
 Due to constraints on Retro, it is not possible to run multiple retro environments
@@ -38,15 +39,15 @@ import retrowrapper
 
 env1 = retrowrapper.RetroWrapper(
     game='SonicTheHedgehog2-Genesis',
-    state='MetropolisZone.Act1' 
+    state='MetropolisZone.Act1'
 )
-env2 = retrowrapper.RetroWrapper( 
-    game='SonicTheHedgehog2-Genesis', 
-    state='MetropolisZone.Act2' 
+env2 = retrowrapper.RetroWrapper(
+    game='SonicTheHedgehog2-Genesis',
+    state='MetropolisZone.Act2'
 )
 ```
 
-Now you should no longer get the "Cannot create multiple emulator instances per process" 
+Now you should no longer get the "Cannot create multiple emulator instances per process"
 error.
 
 The retrowrapper library also allows you to specify a custom make function, this is
@@ -54,7 +55,7 @@ useful when you want to apply custom wrappers to the environment. It is also use
 during the retro-contest, allowing you to use the retro_contest.local make function
 that applies the contest wrappers.
 
-To use retrowrapper with the retro_contest make function you simply need to set 
+To use retrowrapper with the retro_contest make function you simply need to set
 it before create your environments.
 
 ```
@@ -65,11 +66,11 @@ retrowrapper.set_retro_make( make )
 
 env1 = retrowrapper.RetroWrapper(
     game='SonicTheHedgehog2-Genesis',
-    state='MetropolisZone.Act1' 
+    state='MetropolisZone.Act1'
 )
-env2 = retrowrapper.RetroWrapper( 
-    game='SonicTheHedgehog2-Genesis', 
-    state='MetropolisZone.Act2' 
+env2 = retrowrapper.RetroWrapper(
+    game='SonicTheHedgehog2-Genesis',
+    state='MetropolisZone.Act2'
 )
 ```
 

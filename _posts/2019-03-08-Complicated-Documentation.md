@@ -7,6 +7,7 @@ subject: API Documentation
 layout: complicated
 tags: Projects iOS Complicated-Tutorial
 custom_menu: complicated
+type: Project
 ---
 
 The complicated API is incredibly simple. It's only a single endpoint!
@@ -24,8 +25,8 @@ base_url = 'https://customcomplication.mikelyons.org/complicated/set/'
 
 ## Authentication
 
-The API is authenticated using an API key. You can get your API key from the app 
-once you have initialized it (by installing the app, see 
+The API is authenticated using an API key. You can get your API key from the app
+once you have initialized it (by installing the app, see
 [Complicated How To](/2019/01/13/Complicated-How-To.html)). To use the API, append
 your API key to the base url.
 
@@ -40,13 +41,13 @@ request_url = base_url + api_key
 ## Update complication text
 
 You can use this new endpoint to update any complication in the app. If you want
-to copy a pre-prepared link, you can do so from the update link part of the app 
+to copy a pre-prepared link, you can do so from the update link part of the app
 after selecting a complication.
 
 <b>Note: </b> due to restrictions set by Apple, I can only update a complication every
 5-10 minutes. The exact rate varries based on a variety of factors (battery life,
 cellular connectivity, etc). For this reason, you may not see updates as soon as
-they are sent. If you need updates immedietely please use the 
+they are sent. If you need updates immedietely please use the
 [Push Notifications](#sending-push-notifications)
 
 All requests are **GET** requests
@@ -58,7 +59,7 @@ GET https://customcomplication.mikelyons.org/complicated/set/<api key>/<complica
 ```
 
 The values you need to fill in here are:
- 
+
  - `<api key>` get this from the settings page on the app
  - `<complication type>` Specify one of the following complication types:
    - `modularLarge`
@@ -102,7 +103,7 @@ updates using a simple addition to your request.
 Just include one the the following parameters in the URL:
 
  - `push=True` this will send you a push notification containing whatever data
-was available in the value field of your update. 
+was available in the value field of your update.
  - `push_changed=True` this will notify you only if the value that you sent is
 different than the previous value on the complicated server.
 

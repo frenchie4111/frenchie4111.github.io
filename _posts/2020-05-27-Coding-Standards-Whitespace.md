@@ -3,9 +3,10 @@ title: "Unwritten Coding Standards: Vertical Whitespace"
 subject: Simple vertical whitespace rules that will make any code easier to read
 tags: Coding mike8
 layout: post_plain
+type: Technology
 ---
 
-An often overlooked style element of code is the tactical use of vertical whitespace. 
+An often overlooked style element of code is the tactical use of vertical whitespace.
 Just like in writing, whitespace can be used in code to separate code into related
 chunks and create a better reading experience. In this post I will define a ruleset
 you can use in your style guidelines to help standardize your whitespace usage.
@@ -89,7 +90,7 @@ should be fairly self-explanatory).
 
 ## Rules
 
-In order to cover a majority of cases, these rules will be split into two sections: 
+In order to cover a majority of cases, these rules will be split into two sections:
 
 - **What to Separate** this will detail rules for types of code that should always
 be separated from each other by a single empty line.
