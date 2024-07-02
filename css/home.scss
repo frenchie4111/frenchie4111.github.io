@@ -246,36 +246,47 @@ h1#post_title {
     font-weight: 300;
 
     .more_info_spacer {
-        height: 3px;
+        height: 2px;
     }
 
     .type-pill {
         box-sizing: border-box;
         display: inline;
-        padding: 8px 8px 8px 10px;
-        margin-top: 5px;
-        margin-right: 5px;
-        background-color: #996d39;
-        color: white;
-        border-radius: 100px;
+        font-weight: 900;
+        // padding: 8px 8px 8px 10px;
+        // margin-top: 5px;
+        // margin-right: 5px;
+        // background-color: #996d39;
+        // color: white;
+        // border-radius: 100px;
+        &::before {
+            font-weight: 400;
+            color: black;
+            content: 'This '
+        }
+        &::after {
+            font-weight: 400;
+            color: black;
+            content: ' post was'
+        }
     }
 
     .type-pill-Personal {
-        background-color: #996d39;
+        color: #996d39;
         &::before {
-            content: '💝 ';
+            content: 'This 💝';
         }
     }
 
     .type-pill-Technology {
-        background-color: #664a29;
-        &::before {
-            content: '🖥️ ';
-        }
+        color: #664a29;
+        // &::before {
+        //     content: '🖥️ ';
+        // }
     }
 
     .type-pill-Project {
-        background-color: #332514;
+        color: #332514;
     }
 }
 

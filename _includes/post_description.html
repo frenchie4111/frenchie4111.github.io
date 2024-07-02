@@ -15,7 +15,7 @@
                     {{ include.post.type }}
                 </div>
             {% endif %}
-            Posted: {{ include.post.date | date: '%B %d, %Y' }}{% if include.post.updated %} (Updated: {{ include.post.updated }}){% endif %}
+            posted: {{ include.post.date | date: '%B %d, %Y' }}{% if include.post.updated %} (Updated: {{ include.post.updated }}){% endif %}
         </div>
     </div>
     <div class="clear"></div>
