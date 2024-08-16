@@ -18,7 +18,7 @@ You got to know her almost as well as I did. The grief of a relationship is a di
 
 When it was all over you held me tight, kept me warm. When I couldn't sleep in our bed you laid your floor out for me. When I stumbled home, blacked out again, you didn't judge me. You were the closest friend I had through this. I know I made it through because of your shelter and support, and for that I will always be thankful.
 
-I need to move on now and that means letting you go. Like a shared friend caught in the crossfire of a broken relationship. You don't deserve this, but spending time with you brings back haunting memories I can't quite shake. Our relationship never really existed without her in it, and right I don't have the strength to build a new one with you.
+I need to move on now and that means letting you go. Like a shared friend caught in the crossfire of a broken relationship. You don't deserve this, but spending time with you brings back haunting memories I can't quite shake. Our relationship never really existed without her in it, and right now I don't have the strength to build a new one with you.
 
 Thank you so much, and Good Luck 💝
 
