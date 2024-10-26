@@ -1,6 +1,6 @@
 ---
 title: "rough draft 2: falling in love by being radically honest"
-subject: processing my broken state trying to understand why a past relationship fucked me up so badly
+subject: chapter 2 is where we realize it's not a normal book about productivity
 layout: post_plain
 hide_intro_cta: true
 type: Personal
