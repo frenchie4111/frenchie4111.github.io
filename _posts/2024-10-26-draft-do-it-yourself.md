@@ -15,7 +15,3 @@ It's not that they don't want to help you. It's that they literally can't. At th
 To be clear I am not saying that you shouldn't seek help in achieving your goals. Help is obviously extremely important. I am just trying to point out the reality that even if you get someone to help you do something, you can never relinquish your responsibility to them that it gets done. If you have someone on your team who is building the app, they share the responsibility for the app working well, but they never fully take the responsibility from you.
 
 I'll give you an example. I am an addict. Most recently I was addicted to a person. The thing I have found the hardest about dealing with addiction is the feeling of hopelessness. It takes over your brain and convinces you that you are powerless to resist. You are not powerless. In fact, the only person with power is you. You are the only thing you have control over. If you want something done, you have to do it yourself. Don't just sit there, start at the beginning, then do the second thing, and keep doing things until it's finished.
-
-Anyways happy 2 years, I love you, good luck
-
-![Iceberg](/images/iceberg.jpeg)

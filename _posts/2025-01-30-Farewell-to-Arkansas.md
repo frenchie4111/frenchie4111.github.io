@@ -4,6 +4,8 @@ subject: a farewell letter to the best apartment I have ever had
 layout: post_plain
 hide_intro_cta: true
 type: Personal
+updated: 1/30/2025
+original_date: 1/07/2024
 ---
 
 Let’s be honest with ourselves for a second, we both know a lot of the reason I chose to live here was proximity to Mariposa. But that didn’t stop you from loving me.
@@ -23,3 +25,11 @@ I need to move on now and that means letting you go. Like a shared friend caught
 Thank you so much, and Good Luck 💝
 
 Mikey
+
+Addendum 1 (1/30/2025)
+
+Well I'm back now friend, it's been a while, it's good to see you. My mom once taught me something about old friends. It doesn't matter how long you spend apart, it's so easy to slip back in to knowing someone.
+
+While it's definitely nice to be home, it's obvious to me that these months away did nothing to rid you of the ghosts. Like wine stained hardwood floors there will always be memory of the blood  spilled here. Your walls absolutely reak of her, it almost makes me feel optimistic again.
+
+I guess this is another temporary farewell. I'll be back in a few months and back forever this time. I'll miss you
