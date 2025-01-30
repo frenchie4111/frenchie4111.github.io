@@ -33,3 +33,9 @@ Well I'm back now friend, it's been a while, it's good to see you. My mom once t
 While it's definitely nice to be home, it's obvious to me that these months away did nothing to rid you of the ghosts. Like wine stained hardwood floors there will always be memory of the blood  spilled here. Your walls absolutely reak of her, it almost makes me feel optimistic again.
 
 I guess this is another temporary farewell. I'll be back in a few months and back forever this time. I'll miss you
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
