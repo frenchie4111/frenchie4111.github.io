@@ -10,6 +10,8 @@ okay i've decided to start writing out my definitions of things so that we can a
 
 to be clear: __I believe that a shared definition is significantly more important than having a correct definition.__ To this end, these are not intended to be anything more than very well defined and specific starting points that we can define for these specific words. This will make more sense once you start reading them.
 
+
+
 # Definition 1: Love
 
 Recently I wrote:
