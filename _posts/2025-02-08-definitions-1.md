@@ -35,3 +35,7 @@ And sometimes we love ourselves. We let the soft animal of our body love what it
 I love you, whoever you are. I'll always love you
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+honestly i just wrote this because my horoscope yesterday said: _Dos: Love Letters_ and who am I to argue with the universe. It got me this far
+
+<br/><br/><br/>
