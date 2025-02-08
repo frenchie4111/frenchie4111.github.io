@@ -30,7 +30,7 @@ Some kinds of love are romantic. I am happy to entangle you in the every day of 
 
 Sometimes love is sad. I know that we can't be together anymore, right now, or whatever. That's fine with me. The people that I love the most in life I know that even if I didn't talk to them for years, when I needed them they would come back. They trust me to only reach out when I need them. I should not disrespect that trust. Hashtag should i break no contact dot com.
 
-And sometimes we love ourselves. We let the soft animal of our body love what it loves. Find your place in the family of things. https://www.youtube.com/watch?v=lfayiBoaXE8
+And sometimes we love ourselves. We let the soft animal of our body love what it loves. Find your place in the family of things. [https://www.youtube.com/watch?v=lfayiBoaXE8](https://www.youtube.com/watch?v=lfayiBoaXE8)
 
 I love you, whoever you are. I'll always love you
 
