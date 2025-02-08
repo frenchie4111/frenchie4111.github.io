@@ -4,9 +4,13 @@ subject: important mid-act break to talk about something that seems totally irre
 layout: post_plain
 hide_intro_cta: true
 type: Personal
+updated: 2/8/2025
 ---
 
 I've always thought it be fun to have weed coffee creamer so that you can wake and bake. I realized the other day that I am an inventor, and can just make the things I want. So here I give you: Weed coffee creamer. 💝
+
+__Update 1 (2/8/2025):__ Okay the first batch is definitely too strong. I intended it to be a mellow high, and this is an anxious one. Next batch will be less weed and more indica strain focussed. That said a good clean sativa might hit off with the sativa loving folks, so we should keep that in mind for a future sku.
+
 <br/>
 <br/>
 
