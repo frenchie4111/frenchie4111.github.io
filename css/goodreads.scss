@@ -1,0 +1,16 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+#goodreads>div>div {
+    margin-bottom: -50px;
+}
+
+#goodreads div>h2 {
+    display: none;
+}
+
+#goodreads center {
+    display: none;
+    height: 0px;
+}
