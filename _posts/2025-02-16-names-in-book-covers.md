@@ -7,9 +7,7 @@ type: Personal
 ---
 
 {: .center}
-![Photo of a dusty bookshelf](/images/names-in-book-covers.jpeg)
-
-<br/>
+![Photo of a dusty bookshelf](/images/names-in-book-covers-2.png)
 
 Sometimes you have fine days. You go about your business and find a nice groove. Like going on a nice walk in a park at some point you realize you totally forgot you were walking in a park. You take another beautiful wander through another day of your life. You and I use to take those wanders. But you manage to forget that today
 
