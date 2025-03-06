@@ -4,7 +4,6 @@ subject: wow 3 posts in one day, my dear readers are eating today
 layout: post_plain
 hide_intro_cta: true
 type: Personal
-note: technically i posted this on 03/06 but I can only post one thing a day so I marked it as 03/07
 ---
 
 I've tried to write in the past about [my opinions on getting over something](https://www.staycaffeinated.com/2025/02/15/i-didnt-survive-the-year-i-didnt-survive). About wearing our scars and pushing the boulder back up the hill. But I am not sure I've done a good enough job at specifically defining what I think it means to get over something. My recent fiction has been unsatisfyingly indirect. So I am writing something direct for a change (that's a bit of a joke, if you've been following along to this point dear reader you'd know most of my writing is fairly unambiguous)
