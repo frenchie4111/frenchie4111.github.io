@@ -1,6 +1,6 @@
 ---
 title: "i'll have to think about that"
-subject: back to oklahoma, I guess
+subject: i guess, at least, trying again will give me something new to write about
 layout: post_plain
 hide_intro_cta: true
 type: Personal
