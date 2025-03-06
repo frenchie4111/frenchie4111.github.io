@@ -14,4 +14,20 @@ I am someone who attaches easily. I know that about myself. It makes it hard for
 
 But, to be honest with you dear reader, I am starting to be ready for the last one. I am ready for someone who will be gentle with me. Someone who will ask and not assume. Someone who understands that I attach easily, and that it should not be taken for granted. I am ready to be loved again. I am ready to love again
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 _I do realize how dramatic I am. I like myself this way. Don't ask me to change please._
