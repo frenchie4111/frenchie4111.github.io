@@ -9,9 +9,11 @@ type: Personal
 ![Cycles 2 by Sean Mundy](/images/year-i-didnt-survive/cycles2.png)
 <p class="caption"><a href="https://www.seanmundyphotography.com/cycles-ii-2020">Cycles (II) , 2020 by Sean Mundy</a></p>
 
-The first time I remember trying to tell this story, I was in highschool. My father was already dead, so it must have been highschool. I'd say freshman or sophmore year. I'd had Ms (pronounced Misses) Casler that year. She taught us the scarlet letter so it must have been the second year of highschool. I distinctly remember she taught us the scarlet letter because I remember her telling the class that she had never read the book. She had so little respect for the book that she didn't even read it. She literally told us to read the spark notes. Honestly that made me want to read the book even more.
+> “Now the future is here, and, if I were next to you, I’d be absurdly excited. But you’re the person who has to make the future actually happen.”
 
-Anyways I am getting distracted. I was telling you about this story I wrote for the first time back then. What I had realized, this must have been a few, maybe 3, years after my Dad's death, Is that I would never recover. I realized that some kinds of wounds leave permanent scars.
+The first time I remember trying to tell this story, I was in highschool. My father was already dead, so it must have been highschool. I'd say freshman or sophmore year. I'd had Ms (pronounced Misses) Casler that year. She taught us the scarlet letter so it must have been the second year of highschool. I distinctly remember she taught us the scarlet letter because I remember her telling the class that she had never read the book. She had so little respect for the book that she didn't even read it. She literally told us to read the spark notes. I should have read it. Maybe I would have learned a two or thing about living with the scars of your past
+
+What I had realized, this must have been a few, maybe 3, years after my Dad's death, Is that I would never recover. I realized that some kinds of wounds leave permanent scars.
 
 Actually, honestly, I think to tell you what I mean I need to go back even further than that. Back to the first time I noticed. My sister had childhood brain cancer. I don't remember how old I was, whatever age I was barely able to form memories. This lesson is rooted so far down in my brain stem, I'd bet even my motor cortex learned this. When I say I feel this in my bones, I mean it. She had brain cancer, and my family had a daughter that had brain cancer. Her life was permanently changed, she will never live a normal life. She never healed fully back to the person she would have been, and neither did we.
 
