@@ -3,3 +3,5 @@ source 'https://rubygems.org'
 gem 'ffi', '~> 1.16.3'
 gem 'github-pages', '~> 230'
 
+
+gem "webrick", "~> 1.9"
