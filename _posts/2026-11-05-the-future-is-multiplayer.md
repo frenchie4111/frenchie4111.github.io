@@ -13,7 +13,12 @@ In the future we are going to be checking in all of our conversations, I have st
 
 **the slightly less short story:**
 
-It is inevitable that multiplayer agent chats are the future of software development. **In my private harness I have had multiplayer chats for months**. Being able to jump in to someone's conversation with a question, being able to pick up where they left off, or make slight tweaks to their implementation. These are all huge unlocks, and hard to lose once you get used to them.
+It is inevitable that multiplayer agent chats are the future of software development. In my private harness I have had multiplayer chats for months. It unlocks a few very useful tools:
+
+1. Being able to ask follow up/design questions directly in-context of the original creator (the agent can act as a proxy for the person who implemented it)
+2. Being able to pick up investigations / projects where other people left off
+3. Being able to make slight tweaks to someone's implementation, without needing to involve them (fixing an import path or a styling issue in-context without bothering the original submitter)
+4. Being able to do other things I haven't thought of yet
 
 The more I feel around the edges of this problem, the more it feels like we are going to need a git-like tool for managing conversations. Software has always worked best by building sharp, specialized software at each layer of abstraction (rather than single vertically integrated monoliths)
 
@@ -26,7 +31,7 @@ The tool is going to need to do these basic things:
     1. Conversation participants can be agents or humans
 3. Allow for forking conversations
     1. Two actors should be able to continue a conversation in parallel, without causing any immediate problems
-    2. Conversations will need to be mergable
+    2. Conversations will need to be mergeable
         1. Multiple merging strategies will be supported
 4. Allow for storing file / binary artifacts alongside conversations & tools
     1. _Unclear if git is suitable for this half of the task_
@@ -37,8 +42,7 @@ The tool should not:
     1. The tool exists to manage other chat histories, not to run them itself
     2. The tool is primarily used to handle the business logic of the chat history manipulation, not to be a human based interface on top of that
         1. With the exception that some choices will need to be made in favor of the upstream UX
-2. Have a favoritism or opinion on harness
-    1. There's a chance that outside of a few main harnesses, we can allow anyone to integrate their own harness in to the tool
+2. Have a favoritism or opinion on harness (allow any harness to be used as long as it has a binary log format)
 
 Requirements last edited 11/5/2026
 
