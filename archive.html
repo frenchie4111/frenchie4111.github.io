@@ -1,0 +1,17 @@
+---
+title: Archive
+layout: home
+---
+
+<div id="image_area"></div>
+<div id="content_area">
+    <div class="full_width">
+        <h2>Archive</h2>
+        {% for all_post in site.posts %}
+            {% assign post_day = all_post.date | date: '%Y%m%d' | plus: 0 %}
+            {% if post_day < site.archive_cutoff %}
+                {% include post_description.html post=all_post %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

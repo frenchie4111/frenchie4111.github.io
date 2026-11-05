@@ -9,7 +9,12 @@ layout: home
         <h2>Posts</h2>
         {% assign all_posts = site.posts | order "date" %}
         {% for all_post in all_posts %}
-            {% include post_description.html post=all_post %}
+            {% assign post_day = all_post.date | date: '%Y%m%d' | plus: 0 %}
+            {% if post_day >= site.archive_cutoff %}
+                {% include post_description.html post=all_post %}
+            {% endif %}
         {% endfor %}
+
+        <h3 class="more_info_link"><a style="font-size:16px" href="/archive.html">Archive</a></h3>
     </div>
 </div>

@@ -10,3 +10,5 @@ author: Mike Lyons
 url: https://staycaffeinated.com
 compress_images:
   images_path: "images/guitar/*.{gif,png,jpg,jpeg,svg}"
+# Posts dated before this (YYYYMMDD) are hidden from the main lists and shown on /archive.html
+archive_cutoff: 20260201

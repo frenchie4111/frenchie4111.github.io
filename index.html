@@ -12,13 +12,14 @@ is_home: true
 
             {% assign recent_posts = site.posts | sort: 'date' | reverse %}
             {% for recent_post in recent_posts | limit:20 %}
-                {% if recent_post.tags contains 'Complicated-Tutorial' %}
+                {% assign post_day = recent_post.date | date: '%Y%m%d' | plus: 0 %}
+                {% if recent_post.tags contains 'Complicated-Tutorial' or post_day < site.archive_cutoff %}
                 {% else %}
                     {% include post_description.html post=recent_post %}
                 {% endif %}
             {% endfor %}
 
-            <h3 class="more_info_link"><a style="font-size:16px" href="/posts.html">See More Posts</a></h3>
+            <h3 class="more_info_link"><a style="font-size:16px" href="/posts.html">See More Posts</a> · <a style="font-size:16px" href="/archive.html">Archive</a></h3>
             <div class="clear"></div>
         </div>
         <div class="column right one_third_width">

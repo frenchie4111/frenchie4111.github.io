@@ -15,7 +15,10 @@ layout: home
             </h2>
             {% assign recent_posts = site.posts | sort: 'date' | reverse %}
             {% for recent_post in recent_posts | limit:5 %}
-                {% include post_description.html post=recent_post %}
+                {% assign post_day = recent_post.date | date: '%Y%m%d' | plus: 0 %}
+                {% if post_day >= site.archive_cutoff %}
+                    {% include post_description.html post=recent_post %}
+                {% endif %}
             {% endfor %}
         </div>
     </div>
